@@ -13,7 +13,7 @@ jobs:
   build_latex:
     runs-on: ubuntu-20.04
     env:
-      PACKAGES: "pandoc texlive-latexextra texlive-pictures texlive-core ttf-fira-mono ttf-fira-code noto-fonts-emoji-apple"
+      PACKAGES: "pandoc texlive-latexextra texlive-pictures texlive-core otf-firamath ttf-fira-code noto-fonts-emoji-apple"
     steps:
       - name: Partial Clone
         shell: bash
