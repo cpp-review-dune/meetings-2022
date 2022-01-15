@@ -4,7 +4,7 @@ title:
 author:
   - \large Una organización donde compartir notas acerca de C++ con pdfs escritos en \LaTeX.
 institute:
-  - \normalsize [`https://cpp-review-dune.github.io/webinar/slides.pdf`](https://cpp-review-dune.github.io/webinar/slides.pdf), sesión grabada en [`diode.zone`](https://cpp-review-dune.github.io/introductory-review/videos/zoom/meetings).
+  - \normalsize [`https://cpp-review-dune.github.io/meetings-2022/2022-01-15.pdf`](https://cpp-review-dune.github.io/meetings-2022/2022-01-15.pdf), sesión grabada en [`diode.zone`](https://cpp-review-dune.github.io/introductory-review/videos/zoom/meetings).
 date:
   - \normalsize\today
 lang:
