@@ -6,7 +6,7 @@ author:
 institute:
   - \normalsize [`https://cpp-review-dune.github.io/meetings-2022/2022-01-15.pdf`](https://cpp-review-dune.github.io/meetings-2022/2022-01-15.pdf), sesión grabada en [`diode.zone`](https://cpp-review-dune.github.io/introductory-review/videos/zoom/meetings).
 date:
-  - \normalsize\today
+  - \normalsize 15 de enero del 2022
 lang:
   - es
 indent:
@@ -21,13 +21,23 @@ navigation:
   - frame
 theme:
   - metropolis
+mathfont:
+  - Fira Math
 monofont:
   - Fira Code
+monofontoptions:
+  - Contextuals=Alternate
+  - Scale=MatchLowercase
 mainfont:
   - TeX Gyre Pagella
 header-includes:
-  - \usepackage{emoji}
-  - \hypersetup{colorlinks=true}
+  - |
+    ```{=latex}
+    \usepackage{emoji}
+    \usepackage[hyperrefcolorlinks,os=win,mackeys=text]{menukeys}
+    \renewmenumacro{\keys}[+]{shadowedroundedkeys}
+    \hypersetup{colorlinks=true}
+    ```
 bibliography: bib.bib
 csl: format.csl
 link-citations: true

@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-PDF=2022-01-15.pdf
+DATE=2022-01-16
 
-pandoc src/*.md -t beamer -V lang=es --pdf-engine=lualatex -o $PDF #--bibliography src/bib.bib --toc --toc-depth=2
+pandoc src/$DATE/*.md -t beamer -V lang=es --pdf-engine=lualatex -o $DATE.pdf #--bibliography src/bib.bib --toc --toc-depth=2
+
 if [ -e /etc/debian_version ]; then
-  okular $PDF
+  okular $DATE.pdf
 elif [ -e /etc/arch-release ]; then
-  zathura $PDF
+  zathura $DATE.pdf
 fi
