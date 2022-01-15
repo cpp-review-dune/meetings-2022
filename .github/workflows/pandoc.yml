@@ -1,0 +1,44 @@
+name: Slides overview 2021
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - src/**
+  schedule:
+    - cron: "0 14 * * 5"
+  # workflow_dispatch:
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Partial Clone
+        shell: bash
+        run: |
+          REPO="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          git config --global user.email github-actions@github.com
+          git config --global user.name github-actions
+          git clone -q --filter=blob:none --no-checkout --depth=1  --sparse -b main $REPO .
+          git sparse-checkout init --cone
+          git sparse-checkout set src
+          git checkout
+
+      - uses: addnab/docker-run-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          registry: ghcr.io
+          image: ghcr.io/cpp-review-dune/introductory-review/aur:latest
+          options: -v ${{github.workspace}}:/work
+          shell: bash
+          run: |
+            yay -Syyuq pandoc texlive-latexextra texlive-pictures texlive-core ttf-fira-code noto-fonts-emoji-apple --needed --noconfirm && sudo chown -R builder:builder /work && cd /work && pandoc src/*.md -t beamer -V lang=es --pdf-engine=lualatex -o 2022-01-15.pdf
+            mkdir -p public && mv 2022-01-15.pdf public
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
