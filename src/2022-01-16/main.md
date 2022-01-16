@@ -51,7 +51,7 @@ Más información acerca de Gitpod en
 
 - Administrador de paquetes de Arch Linux.
 - Frontend de ALPM (ArchLinux Package Manager backend library), escrito en C que maneja la base de datos de los paquetes.
-- Manual [`https://man.archlinux.org/man/pacman.8`](https://man.archlinux.org/man/pacman.8)
+- Manual [`https://man.archlinux.org/man/pacman.8`](https://man.archlinux.org/man/pacman.8).
 - [Comparativa con `apt`, `dnf`, `zypper`, `emerge`](<https://wiki.archlinux.org/title/Pacman_(Espa%C3%B1ol)/Rosetta_(Espa%C3%B1ol)>).
 
 ## `/etc/pacman.conf`
@@ -59,24 +59,24 @@ Más información acerca de Gitpod en
 - Archivo perteneciente al usuario root.
 - Habilitar descargar paralelas.
 - Modificar la lista de repositorios.
-- Manual [`https://man.archlinux.org/man/core/pacman/pacman.conf.5`](https://man.archlinux.org/man/core/pacman/pacman.conf.5)
+- Manual [`https://man.archlinux.org/man/core/pacman/pacman.conf.5`](https://man.archlinux.org/man/core/pacman/pacman.conf.5).
 
 ## [`makepkg`](<https://wiki.archlinux.org/title/Makepkg_(Espa%C3%B1ol)>)
 
 - Script para la descarga del código fuente, verificación de integridad, construcción de paquetes.
-- Manual [`https://man.archlinux.org/man/makepkg.8`](https://man.archlinux.org/man/makepkg.8)
+- Manual [`https://man.archlinux.org/man/makepkg.8`](https://man.archlinux.org/man/makepkg.8).
 
 ## `/etc/makepkg.conf`
 
 - Archivo perteneciente al usuario root.
 - Modificar las opciones de compilación, algoritmos de compresión.
-- Manual [`https://man.archlinux.org/man/core/pacman/makepkg.conf.5`](https://man.archlinux.org/man/core/pacman/makepkg.conf.5)
+- Manual [`https://man.archlinux.org/man/core/pacman/makepkg.conf.5`](https://man.archlinux.org/man/core/pacman/makepkg.conf.5).
 
 # [Repositorios oficiales](https://wiki.archlinux.org/title/Official_repositories)
 
 Contamos con los repositorios
 
-- `community(-testing)`: Empaquetado por los usuarios de confianza.
+- `community(-testing)`: Empaquetado por los [usuarios de confianza](https://archlinux.org/people/trusted-users) (61).
 - `core`: Paquetes indispensables para compilar, redes, creación de sistemas de archivos.
 - `extra`: Lenguajes de programación, gestores de ventanas ligeros.
 - `kde-unstable`: Versiones beta o release candidate del framework KDE.

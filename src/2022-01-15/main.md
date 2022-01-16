@@ -55,7 +55,7 @@ Más información en [`https://telegram.org/blog/group-video-calls`](https://tel
 - Soporta resaltado de sintáxis de C++/Python.
 - Debate de ideas.
 - Responder preguntas/votar respuestas.
-- [`https://github.com/cpp-review-dune/introductory-review/discussions`](https://github.com/cpp-review-dune/introductory-review/discussions)
+- [`https://github.com/cpp-review-dune/introductory-review/discussions`](https://github.com/cpp-review-dune/introductory-review/discussions).
 
 :::
 ::: {.column width="30%" align=center}
@@ -115,28 +115,28 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 
 # Aplicaciones
 
-- [Extending DUNE: The dune-xt modules](https://arxiv.org/abs/1602.08991)
-- [Strategies for the vectorized Block Conjugate Gradients method](https://arxiv.org/pdf/1912.11930.pdf)
-- [Hardware-Oriented Krylov Methods for High-Performance Computing](https://arxiv.org/pdf/2104.02494.pdf)
-- [Dune-CurvedGrid – A Dune module for surface parametrization](https://arxiv.org/pdf/2009.04938.pdf)
-- [A Finite-Volume Moving-Mesh Method for Two-phase Flow in Fracturing Porous Media](https://arxiv.org/pdf/2103.13320.pdf)
-- [DuMux 3 – an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling](https://arxiv.org/pdf/1909.05052.pdf)
-- [Extendible and Efficient Python Framework for Solving Evolution Equations with Stabilized Discontinuous Galerkin Methods](https://arxiv.org/pdf/2009.13416.pdf)
-- [Implementation of hp-adaptive discontinuous finite element methods in Dune-Fem](https://arxiv.org/pdf/1604.07242.pdf)
-- [Toward transient finite element simulation of thermal deformation of machine tools in real-time](https://arxiv.org/pdf/1707.03581.pdf)
+- [Extending DUNE: The dune-xt modules](https://arxiv.org/abs/1602.08991).
+- [Strategies for the vectorized Block Conjugate Gradients method](https://arxiv.org/pdf/1912.11930.pdf).
+- [Hardware-Oriented Krylov Methods for High-Performance Computing](https://arxiv.org/pdf/2104.02494.pdf).
+- [Dune-CurvedGrid – A Dune module for surface parametrization](https://arxiv.org/pdf/2009.04938.pdf).
+- [A Finite-Volume Moving-Mesh Method for Two-phase Flow in Fracturing Porous Media](https://arxiv.org/pdf/2103.13320.pdf).
+- [DuMux 3 – an open-source simulator for solving flow and transport problems in porous media with a focus on model coupling](https://arxiv.org/pdf/1909.05052.pdf).
+- [Extendible and Efficient Python Framework for Solving Evolution Equations with Stabilized Discontinuous Galerkin Methods](https://arxiv.org/pdf/2009.13416.pdf).
+- [Implementation of hp-adaptive discontinuous finite element methods in Dune-Fem](https://arxiv.org/pdf/1604.07242.pdf).
+- [Toward transient finite element simulation of thermal deformation of machine tools in real-time](https://arxiv.org/pdf/1707.03581.pdf).
 - y mucho más \ldots
 
 # Objetivos de aprendizaje
 
-- Ser capaces de seguir los ejemplos del curso [`https://dune-pdelab-course.readthedocs.io`](https://dune-pdelab-course.readthedocs.io)
+- Ser capaces de seguir los ejemplos del curso [`https://dune-pdelab-course.readthedocs.io`](https://dune-pdelab-course.readthedocs.io).
 - Son sesiones introductorias en las que nos centraremos en C++, CMake, Python, Git, Markdown, \LaTeX{} (para usarlo en sus presentaciones), documentación (doxygen, sphinx).
 
 # Demo con Gitpod
 
-1. Cree un repositorio llamado `miusuario-gitpod`.
-2. Ingrese a `https://gitpod.io/#/https://github.com/cpp-review-dune/miusuario-gitpod`.
-3. Abra la terminal \keys{\ctrl+j}, cree un archivo \keys{\Alt+\ctrl+n} y suba al servidor remoto con `git add, commit, push` (vea la ayuda).
-4. Actualice el sistema con `sudo pacman -Syyu`, a continuación instale `python` con `sudo pacman -S python`.
+1. Cree un repositorio llamado \alert{\texttt{miusuario-gitpod}}.
+2. Ingrese a \alert{\texttt{https://gitpod.io/\#/https://github.com/cpp-review-dune/miusuario-gitpod}}.
+3. Abra la terminal (\keys{\ctrl+j}), cree un archivo (\keys{\ctrl+\Alt+n}) y empuje al servidor remoto con las opciones de `git`: `add`, `commit`, `push` (vea la ayuda).
+4. Actualice el sistema con \alert{\texttt{sudo pacman -Syyu}}, a continuación instale `python` con \alert{\texttt{sudo pacman -S python}}.
 
 # Referencias
 
