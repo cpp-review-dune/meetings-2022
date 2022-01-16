@@ -101,6 +101,14 @@ Contamos con los repositorios
 
 ## `whoami` [`https://man.archlinux.org/man/whoami.1.es`](https://man.archlinux.org/man/whoami.1.es)
 
+https://man.archlinux.org/man/tar.1
+
+https://man.archlinux.org/man/gzip.1
+
+https://man.archlinux.org/man/chown.1
+
+https://man.archlinux.org/man/chmod.1
+
 ## `tldr` [`https://man.archlinux.org/man/tldr.1`](https://man.archlinux.org/man/tldr.1)
 
 ## python [`https://man.archlinux.org/man/python3.10.1.en`](https://man.archlinux.org/man/python3.10.1.en)
@@ -210,11 +218,3 @@ https://man.archlinux.org/man/diff.1.es
 https://code.visualstudio.com/docs/languages/cpp
 
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
-
-https://man.archlinux.org/man/tar.1
-
-https://man.archlinux.org/man/gzip.1
-
-https://man.archlinux.org/man/chown.1
-
-https://man.archlinux.org/man/chmod.1
