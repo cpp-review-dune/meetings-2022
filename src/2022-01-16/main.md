@@ -39,6 +39,18 @@ Más información acerca de Gitpod en
 - [`https://www.gitpod.io/docs/getting-started`](https://www.gitpod.io/docs/getting-started)
 - [`https://www.gitpod.io/blog/gitpod-launch`](https://www.gitpod.io/blog/gitpod-launch)
 
+\
+
+Acerca de la jerarquía del sistema de archivos de la Fundación Linux (FHS)
+
+- \emoji{notebook} [`https://man.archlinux.org/man/file-hierarchy.7`](https://man.archlinux.org/man/file-hierarchy.7)
+
+<!--
+Acerca de `docker`
+- [`https://docs.docker.com/get-started/overview`](https://docs.docker.com/get-started/overview)
+- \emoji{notebook} [`https://man.archlinux.org/man/docker-run.1`](https://man.archlinux.org/man/docker-run.1)
+  -->
+
 :::
 ::: {.column width="30%" align=center}
 \includegraphics[width=0.3\paperwidth]{src/2022-01-16/gnulinux.png}
@@ -51,35 +63,35 @@ Más información acerca de Gitpod en
 
 - Administrador de paquetes de Arch Linux.
 - Frontend de ALPM (ArchLinux Package Manager backend library), escrito en C que maneja la base de datos de los paquetes.
-- Manual [`https://man.archlinux.org/man/pacman.8`](https://man.archlinux.org/man/pacman.8).
+- \emoji{notebook} [`https://man.archlinux.org/man/pacman.8`](https://man.archlinux.org/man/pacman.8).
 - [Comparativa con `apt`, `dnf`, `zypper`, `emerge`](<https://wiki.archlinux.org/title/Pacman_(Espa%C3%B1ol)/Rosetta_(Espa%C3%B1ol)>).
 
 ## `/etc/pacman.conf`
 
-- Archivo perteneciente al usuario root.
+- Archivo perteneciente al usuario `root` ([UID](https://en.wikipedia.org/wiki/User_identifier) 0).
 - Habilitar descargar paralelas.
 - Modificar la lista de repositorios.
-- Manual [`https://man.archlinux.org/man/core/pacman/pacman.conf.5`](https://man.archlinux.org/man/core/pacman/pacman.conf.5).
+- \emoji{notebook} [`https://man.archlinux.org/man/core/pacman/pacman.conf.5`](https://man.archlinux.org/man/core/pacman/pacman.conf.5).
 
 ## [`makepkg`](<https://wiki.archlinux.org/title/Makepkg_(Espa%C3%B1ol)>)
 
 - Script para la descarga del código fuente, verificación de integridad, construcción de paquetes.
-- Manual [`https://man.archlinux.org/man/makepkg.8`](https://man.archlinux.org/man/makepkg.8).
+- \emoji{notebook} [`https://man.archlinux.org/man/makepkg.8`](https://man.archlinux.org/man/makepkg.8).
 
 ## `/etc/makepkg.conf`
 
-- Archivo perteneciente al usuario root.
+- Archivo perteneciente al usuario `root` ([UID](https://en.wikipedia.org/wiki/User_identifier) 0).
 - Modificar las opciones de compilación, algoritmos de compresión.
-- Manual [`https://man.archlinux.org/man/core/pacman/makepkg.conf.5`](https://man.archlinux.org/man/core/pacman/makepkg.conf.5).
+- \emoji{notebook} [`https://man.archlinux.org/man/core/pacman/makepkg.conf.5`](https://man.archlinux.org/man/core/pacman/makepkg.conf.5).
 
 # [Repositorios oficiales](https://wiki.archlinux.org/title/Official_repositories)
 
 Contamos con los repositorios
 
 - `community(-testing)`: Empaquetado por los [usuarios de confianza](https://archlinux.org/people/trusted-users) (61).
-- `core`: Paquetes indispensables para compilar, redes, creación de sistemas de archivos.
+- `core`: Paquetes indispensables para compilar, redes, creación de [sistemas de archivos](<https://wiki.archlinux.org/title/File_systems_(Espa%C3%B1ol)>).
 - `extra`: Lenguajes de programación, gestores de ventanas ligeros.
-- `kde-unstable`: Versiones beta o release candidate del framework KDE.
+- `kde-unstable`: Versiones beta o release candidate del [framework KDE](https://develop.kde.org/products/frameworks).
 - `multilib(-testing)`: Software de 32-bits que funciona en un sistema de 64-bits.
 - `testing`: Versiones previas de `core` y `extra`.
 
@@ -91,53 +103,52 @@ Contamos con los repositorios
 
 # Comandos esenciales
 
-## `ls` [`https://man.archlinux.org/man/ls.1.es`](https://man.archlinux.org/man/ls.1.es)
+## `pwd` \emoji{notebook} [`https://man.archlinux.org/man/pwd.1.es`](https://man.archlinux.org/man/pwd.1.es)
 
-## `cd` [`https://man.archlinux.org/man/cd.n`](https://man.archlinux.org/man/cd.n)
+## `mkdir` \emoji{notebook} [`https://man.archlinux.org/man/mkdir.1`](https://man.archlinux.org/man/mkdir.1)
 
-## mkdir [`https://man.archlinux.org/man/mkdir.1`](https://man.archlinux.org/man/mkdir.1)
+## `ls` \emoji{notebook} [`https://man.archlinux.org/man/ls.1.es`](https://man.archlinux.org/man/ls.1.es)
 
-## find [`https://man.archlinux.org/man/find.1`](https://man.archlinux.org/man/find.1)
+## `less` \emoji{notebook} [`https://man.archlinux.org/man/less.1`](https://man.archlinux.org/man/less.1)
 
-## `whoami` [`https://man.archlinux.org/man/whoami.1.es`](https://man.archlinux.org/man/whoami.1.es)
+## `cd` \emoji{notebook} [`https://man.archlinux.org/man/cd.n`](https://man.archlinux.org/man/cd.n)
 
-https://man.archlinux.org/man/tar.1
+## `mkdir` \emoji{notebook} [`https://man.archlinux.org/man/mkdir.1`](https://man.archlinux.org/man/mkdir.1)
 
-https://man.archlinux.org/man/gzip.1
+## `find` \emoji{notebook} [`https://man.archlinux.org/man/find.1`](https://man.archlinux.org/man/find.1)
 
-https://man.archlinux.org/man/chown.1
+## `whoami` \emoji{notebook} [`https://man.archlinux.org/man/whoami.1.es`](https://man.archlinux.org/man/whoami.1.es)
 
-https://man.archlinux.org/man/chmod.1
+## `tar` \emoji{notebook} [`https://man.archlinux.org/man/tar.1`](https://man.archlinux.org/man/tar.1)
 
-## `tldr` [`https://man.archlinux.org/man/tldr.1`](https://man.archlinux.org/man/tldr.1)
+## `gzip` \emoji{notebook} [`https://man.archlinux.org/man/gzip.1`](https://man.archlinux.org/man/gzip.1)
 
-## python [`https://man.archlinux.org/man/python3.10.1.en`](https://man.archlinux.org/man/python3.10.1.en)
+## `chown` \emoji{notebook} [`https://man.archlinux.org/man/chown.1`](https://man.archlinux.org/man/chown.1)
 
-<!--
-$ python -c 'import __hello__'
-$ python -c 'import this'
- -->
+## `chmod` \emoji{notebook} [`https://man.archlinux.org/man/chmod.1`](https://man.archlinux.org/man/chmod.1)
+
+## `tldr` \emoji{notebook} [`https://man.archlinux.org/man/tldr.1`](https://man.archlinux.org/man/tldr.1)
 
 # Comandos requeridos para DUNE
 
-## `cmake` [`https://man.archlinux.org/man/cmake.1`](https://man.archlinux.org/man/cmake.1)
+## `cmake` \emoji{notebook} [`https://man.archlinux.org/man/cmake.1`](https://man.archlinux.org/man/cmake.1)
 
 <!--
 Tutorial https://cmake.org/cmake/help/latest/guide/tutorial/index.html
  -->
 
-## `curl` [`https://man.archlinux.org/man/curl.1`](https://man.archlinux.org/man/curl.1)
+## `curl` \emoji{notebook} [`https://man.archlinux.org/man/curl.1`](https://man.archlinux.org/man/curl.1)
 
 <!--
 $ curl wttr.in
 curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendMessage?chat_id=1234&text=hi
 -->
 
-## `asciinema` [`https://man.archlinux.org/man/asciinema.1`](https://man.archlinux.org/man/asciinema.1)
+## `mpirun` \emoji{notebook} [`https://man.archlinux.org/man/mpirun.1`](https://man.archlinux.org/man/mpirun.1)
 
-## `neofetch` [`https://man.archlinux.org/man/neofetch.1`](https://man.archlinux.org/man/neofetch.1)
+## `neofetch` \emoji{notebook} [`https://man.archlinux.org/man/neofetch.1`](https://man.archlinux.org/man/neofetch.1)
 
-## Git [`https://man.archlinux.org/man/git.1`](https://man.archlinux.org/man/git.1)
+## `git` \emoji{notebook} [`https://man.archlinux.org/man/git.1`](https://man.archlinux.org/man/git.1)
 
 <!--
 https://git-scm.com/docs/gittutorial
@@ -151,70 +162,87 @@ https://git-scm.com/docs/gittutorial
 
 <!-- pacman -S asciiquarium -->
 
-## head
+## `head`
 
-## tail
+## `tail`
 
-https://man.archlinux.org/man/su.1
+## `su` \emoji{notebook} [`https://man.archlinux.org/man/su.1`](https://mahn.archlinux.org/man/su.1)
 
 https://man.archlinux.org/man/doas.1
 
 https://man.archlinux.org/man/sudo.8
+<!-- 
+## `emacs`
 
-## emacs
+## `tmux`
+ -->
+## `top` \emoji{notebook} [`https://man.archlinux.org/man/top.1`](https://man.archlinux.org/man/top.1)
 
-## tmux
+## `du` \emoji{notebook} [`https://man.archlinux.org/man/du.1`](https://man.archlinux.org/man/du.1)
 
-https://man.archlinux.org/man/top.1
+## `free` \emoji{notebook} [`https://man.archlinux.org/man/free.1`](https://man.archlinux.org/man/free.1)
 
-https://man.archlinux.org/man/du.1
+## `ld.so` \emoji{notebook} [`https://man.archlinux.org/man/ld.so.8.es`](https://man.archlinux.org/man/ld.so.8.es)
 
-https://man.archlinux.org/man/free.1
+## `bc` \emoji{notebook} [`https://man.archlinux.org/man/bc.1`](https://man.archlinux.org/man/bc.1)
 
-https://man.archlinux.org/man/mpirun.1
+## `mc` \emoji{notebook} [`https://man.archlinux.org/man/mc.1`](https://man.archlinux.org/man/mc.1)
 
-https://man.archlinux.org/man/julia.1
+## `bat` \emoji{notebook} [`https://man.archlinux.org/man/bat.1`](https://man.archlinux.org/man/bat.1)
 
-https://man.archlinux.org/man/gnuplot.1
+## `echo` \emoji{notebook} [`https://man.archlinux.org/man/echo.1`](https://man.archlinux.org/man/echo.1)
 
-https://man.archlinux.org/man/lua.1
+## `printf` \emoji{notebook} [`https://man.archlinux.org/man/printf.1`](https://man.archlinux.org/man/printf.1)
 
-https://man.archlinux.org/man/core/gcc-fortran/gfortran.1.en
-
-https://man.archlinux.org/man/gcc.1
-
-https://man.archlinux.org/man/g++.1
-
-https://man.archlinux.org/man/ld.so.8.es
-
-https://man.archlinux.org/man/awk.1p
-
-https://man.archlinux.org/man/octave.1
-
-https://man.archlinux.org/man/bc.1
-
-https://man.archlinux.org/man/mc.1
-
-https://man.archlinux.org/man/extra/texlive-bin/luatex.1.en
-
-https://man.archlinux.org/man/cowsay.1
-
-https://man.archlinux.org/man/ponysay.6
-
-https://man.archlinux.org/man/bat.1
-
-https://man.archlinux.org/man/echo.1
-
-https://man.archlinux.org/man/printf.1
-
-https://man.archlinux.org/man/extra/rust/rustc.1.en
-
-https://man.archlinux.org/man/go.1
+## `diff` \emoji{notebook} [`https://man.archlinux.org/man/diff.1.es`](https://man.archlinux.org/man/diff.1.es)
 
 yay -S pokemon-colorscripts-git
-
-https://man.archlinux.org/man/diff.1.es
 
 https://code.visualstudio.com/docs/languages/cpp
 
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+
+## `file` \emoji{notebook} [`https://man.archlinux.org/man/file.1`](https://man.archlinux.org/man/file.1)
+
+## `git-init` \emoji{notebook} [`https://man.archlinux.org/man/git-init.1.en`](https://man.archlinux.org/man/git-init.1.en)
+
+# Compiladores y lenguajes de programación
+
+## `python` \emoji{notebook} [`https://man.archlinux.org/man/python3.10.1.en`](https://man.archlinux.org/man/python3.10.1.en)
+
+<!--
+$ python -c 'import __hello__'
+$ python -c 'import this'
+ -->
+
+## `rustc` \emoji{notebook} [`https://man.archlinux.org/man/extra/rust/rustc.1.en`](https://man.archlinux.org/man/extra/rust/rustc.1.en)
+
+## `go` \emoji{notebook} [`https://man.archlinux.org/man/go.1`](https://man.archlinux.org/man/go.1)
+
+## `octave` \emoji{notebook} [`https://man.archlinux.org/man/octave.1`](https://man.archlinux.org/man/octave.1)
+
+## `luatex` \emoji{notebook} [`https://man.archlinux.org/man/extra/texlive-bin/luatex.1.en`](https://man.archlinux.org/man/extra/texlive-bin/luatex.1.en)
+
+## `awk` \emoji{notebook} [`https://man.archlinux.org/man/awk.1p`](https://man.archlinux.org/man/awk.1p)
+
+## `julia` \emoji{notebook} [`https://man.archlinux.org/man/julia.1`](https://man.archlinux.org/man/julia.1)
+
+## `gnuplot` \emoji{notebook} [`https://man.archlinux.org/man/gnuplot.1`](https://man.archlinux.org/man/gnuplot.1)
+
+## `lua` \emoji{notebook} [`https://man.archlinux.org/man/lua.1`](https://man.archlinux.org/man/lua.1)
+
+## `gfortran` \emoji{notebook} [`https://man.archlinux.org/man/core/gcc-fortran/gfortran.1.en`](https://man.archlinux.org/man/core/gcc-fortran/gfortran.1.en)
+
+## `gcc` \emoji{notebook} [`https://man.archlinux.org/man/gcc.1`](https://man.archlinux.org/man/gcc.1)
+
+## `g++` \emoji{notebook} [`https://man.archlinux.org/man/g++.1`](https://man.archlinux.org/man/g++.1)
+
+# Actividades \emoji{film-frames}
+
+## `asciinema` \emoji{notebook} [`https://man.archlinux.org/man/asciinema.1`](https://man.archlinux.org/man/asciinema.1)
+
+<!--
+## `cowsay` \emoji{notebook} [`https://man.archlinux.org/man/cowsay.1`](https://man.archlinux.org/man/cowsay.1)
+
+## `ponysay` \emoji{notebook} [`https://man.archlinux.org/man/ponysay.6`](https://man.archlinux.org/man/ponysay.6)
+ -->
