@@ -171,11 +171,13 @@ https://git-scm.com/docs/gittutorial
 https://man.archlinux.org/man/doas.1
 
 https://man.archlinux.org/man/sudo.8
-<!-- 
+
+<!--
 ## `emacs`
 
 ## `tmux`
  -->
+
 ## `top` \emoji{notebook} [`https://man.archlinux.org/man/top.1`](https://man.archlinux.org/man/top.1)
 
 ## `du` \emoji{notebook} [`https://man.archlinux.org/man/du.1`](https://man.archlinux.org/man/du.1)
@@ -241,8 +243,21 @@ $ python -c 'import this'
 
 ## `asciinema` \emoji{notebook} [`https://man.archlinux.org/man/asciinema.1`](https://man.archlinux.org/man/asciinema.1)
 
+1. Crearse una cuenta en https://asciinema.org.
+2. Ver la ayuda de asciinema, ver el v'ideo.
+3. Instalar el manual tldr y probar algunas opciones.
+4. Descargar con el repositorio dune-pdelab https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz, inicializar el repositorio, instale bat y vea los archivos de código fuente.
+
+```
+$ curl -O https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz
+```
+
 <!--
 ## `cowsay` \emoji{notebook} [`https://man.archlinux.org/man/cowsay.1`](https://man.archlinux.org/man/cowsay.1)
 
 ## `ponysay` \emoji{notebook} [`https://man.archlinux.org/man/ponysay.6`](https://man.archlinux.org/man/ponysay.6)
  -->
+
+cp
+
+mv
