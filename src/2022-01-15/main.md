@@ -105,7 +105,7 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
   - \emoji{smiling-face-with-sunglasses} [Awesome Scientific Computing](https://github.com/nschloe/awesome-scientific-computing).
 - Principio [KISS](https://en.wikipedia.org/wiki/KISS_principle).
 - 20 años de vida [comunitaria](https://wiki.archlinux.org/title/DeveloperWiki:Governance_And_Decision_Making).
-- I use Arch [btw](https://wiki.archlinux.org/title/arch_is_the_best).
+- I use Arch [btw](https://wiki.archlinux.org/title/Arch_Linux#Principles).
 
 :::
 ::: {.column width="35%" align=center}

@@ -17,7 +17,7 @@
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="70%" align=center}
 
-Para ingresar a Gitpod, pegamos en la pestaña del navegador
+Si tiene una navegador web, puede obtener un entorno de desarrollo completamente preconfigurado en un click:
 
 ```
 https://gitpod.io/#<pega aquí la dirección del repositorio>
@@ -28,6 +28,8 @@ https://gitpod.io/#<pega aquí la dirección del repositorio>
 \includegraphics[width=0.3\paperwidth]{src/2022-01-16/open-in-gitpod.png}
 :::
 ::::::::::::::
+
+\
 
 Esta vez, utilizaremos un repositorio plantilla generada por [GitHub Classroom](https://github.com/cpp-review-dune/comandos), que nos permirá acceder al emulador de terminal de un sistema [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.es.html).
 
@@ -162,15 +164,23 @@ https://git-scm.com/docs/gittutorial
 
 <!-- pacman -S asciiquarium -->
 
-## `head`
+## `head` \emoji{notebook} [`https://man.archlinux.org/man/head.1.es`](https://man.archlinux.org/man/head.1.es)
 
-## `tail`
+## `tail` \emoji{notebook} [`https://man.archlinux.org/man/tail.1.es`](https://man.archlinux.org/man/tail.1.es)
 
 ## `su` \emoji{notebook} [`https://man.archlinux.org/man/su.1`](https://mahn.archlinux.org/man/su.1)
 
-https://man.archlinux.org/man/doas.1
+## `time` \emoji{notebook} [`https://man.archlinux.org/man/time.1.es`](https://man.archlinux.org/man/time.1.es)
 
-https://man.archlinux.org/man/sudo.8
+## `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1)
+
+## `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1)
+
+## `sudo` \emoji{notebook} [`https://man.archlinux.org/man/sudo.8`](https://man.archlinux.org/man/sudo.8)
+
+## `timeout` \emoji{notebook} [`https://man.archlinux.org/man/timeout.1.es`](https://man.archlinux.org/man/timeout.1.es)
+
+## `tee` \emoji{notebook} [`https://man.archlinux.org/man/tee.1.es`](https://man.archlinux.org/man/tee.1.es)
 
 <!--
 ## `emacs`
@@ -248,8 +258,12 @@ $ python -c 'import this'
 3. Instalar el manual tldr y probar algunas opciones.
 4. Descargar con el repositorio dune-pdelab https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz, inicializar el repositorio, instale bat y vea los archivos de código fuente.
 
-```
-$ curl -O https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz
+```console
+$ MODULE=dune-pdelab
+$ BRANCH=master
+$ UPSTREAM_URL=https://gitlab.${MODULE/-*}-project.org/${MODULE:5:8}/$MODULE/-/archive/$BRANCH/$MODULE-$BRANCH.tar.gz
+$ curl -O $UPSTREAM_URL
+$ tar -xvf $MODULE-$BRANCH.tar.gz
 ```
 
 <!--
@@ -258,6 +272,59 @@ $ curl -O https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/du
 ## `ponysay` \emoji{notebook} [`https://man.archlinux.org/man/ponysay.6`](https://man.archlinux.org/man/ponysay.6)
  -->
 
-cp
+## `cp` \emoji{notebook} [`https://man.archlinux.org/man/cp.1.es`](https://man.archlinux.org/man/cp.1.es)
 
-mv
+## `mv` \emoji{notebook} [`https://man.archlinux.org/man/mv.1.es`](https://man.archlinux.org/man/mv.1.es)
+
+## `base64` \emoji{notebook} [`https://man.archlinux.org/man/base64.1.es`](https://man.archlinux.org/man/base64.1.es)
+
+## `cat` \emoji{notebook} [`https://man.archlinux.org/man/cat.1.es`](https://man.archlinux.org/man/cat.1.es)
+
+## `cut` \emoji{notebook} [`https://man.archlinux.org/man/cut.1.es`](https://man.archlinux.org/man/cut.1.es)
+
+## `date` \emoji{notebook} [`https://man.archlinux.org/man/date.1.es`](https://man.archlinux.org/man/date.1.es)
+
+## `date` \emoji{notebook} [`https://man.archlinux.org/man/env.1.es`](https://man.archlinux.org/man/env.1.es)
+
+## `valgrind` \emoji{notebook} [`https://man.archlinux.org/man/valgrind.1`](https://man.archlinux.org/man/valgrind.1)
+
+## `ldd` \emoji{notebook} [`https://man.archlinux.org/man/ldd.1.es`](https://man.archlinux.org/man/ldd.1.es)
+
+## `link` \emoji{notebook} [`https://man.archlinux.org/man/link.1.es`](https://man.archlinux.org/man/link.1.es)
+
+## `ln` \emoji{notebook} [`https://man.archlinux.org/man/ln.1.es`](https://man.archlinux.org/man/ln.1.es)
+
+## `rm` \emoji{notebook} [`https://man.archlinux.org/man/rm.1.es`](https://man.archlinux.org/man/rm.1.es)
+
+## `rmdir` \emoji{notebook} [`https://man.archlinux.org/man/rmdir.1.es`](https://man.archlinux.org/man/rmdir.1.es)
+
+## `seq` \emoji{notebook} [`https://man.archlinux.org/man/seq.1.es`](https://man.archlinux.org/man/seq.1.es)
+
+# `Asciinema`
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="55%" align=center}
+
+Dentro de gitpod
+
+1. Instale [`asciinema`](https://archlinux.org/packages/community/any/asciinema) (`$ sudo pacman -S asciinema --noconfirm`).
+2. Vea la ayuda de las opciones rec, play, upload.
+
+:::
+::: {.column width="45%" align=center}
+\includegraphics[width=0.45\paperwidth]{src/2022-01-16/asciinema.png}
+:::
+::::::::::::::
+
+Esta vez
+wc
+
+yes
+
+difftime
+
+getw
+
+tanh
+
+shells
