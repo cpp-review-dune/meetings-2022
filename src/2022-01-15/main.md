@@ -27,7 +27,7 @@
 - [DUNE for Multi-{Phase, Component, Scale, Physics, …} flow and transport in porous media](https://listserv.uni-stuttgart.de/mailman/listinfo/dumux)
 - [The coupling library for partitioned multi-physics simulations](https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/precice).
 
-# Canales de comunicación asíncronos \emoji{speech-balloon}
+# \emoji{speech-balloon} Canales de comunicación
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="70%" align=center}
@@ -49,7 +49,7 @@ Más información en [`https://telegram.org/blog/group-video-calls`](https://tel
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="70%" align=center}
 
-## \emoji{file-folder} GitHub Discussions
+## \emoji{memo} GitHub Discussions
 
 - Adjuntar imágenes.
 - Soporta resaltado de sintáxis de C++/Python.
@@ -65,7 +65,7 @@ Más información en [`https://telegram.org/blog/group-video-calls`](https://tel
 
 Más información en [`https://docs.github.com/es/discussions`](https://docs.github.com/es/discussions).
 
-# Agenda $2021$
+# \emoji{file-folder} Agenda $2021$
 
 ## Organización del curso virtual [`https://dune-pdelab-course.readthedocs.io`](https://dune-pdelab-course.readthedocs.io) de hace ~1 año.
 
@@ -113,7 +113,7 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 :::
 ::::::::::::::
 
-# Aplicaciones
+# \emoji{rocket} Aplicaciones
 
 - [Extending DUNE: The dune-xt modules](https://arxiv.org/abs/1602.08991).
 - [Strategies for the vectorized Block Conjugate Gradients method](https://arxiv.org/pdf/1912.11930.pdf).
@@ -126,19 +126,20 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 - [Toward transient finite element simulation of thermal deformation of machine tools in real-time](https://arxiv.org/pdf/1707.03581.pdf).
 - y mucho más \ldots
 
-# Objetivos de aprendizaje
+# \emoji{trophy} Objetivos de aprendizaje
 
-- Ser capaces de seguir los ejemplos del curso [`https://dune-pdelab-course.readthedocs.io`](https://dune-pdelab-course.readthedocs.io).
-- Son sesiones introductorias en las que nos centraremos en C++, CMake, Python, Git, Markdown, \LaTeX{} (para usarlo en sus presentaciones), documentación (doxygen, sphinx).
+1. Ser capaces de seguir los ejemplos del curso [`https://dune-pdelab-course.readthedocs.io`](https://dune-pdelab-course.readthedocs.io).
+2. Son sesiones introductorias en las que nos centraremos en C++, CMake, Python, Git, Markdown, \LaTeX{} (para usarlo en sus presentaciones), documentación (doxygen, sphinx).
+3. \ldots
 
-# Demo con Gitpod
+# \emoji{glowing-star} Demostración en Gitpod
 
 1. Cree un repositorio llamado \alert{\texttt{miusuario-gitpod}}.
 2. Ingrese a \alert{\texttt{https://gitpod.io/\#/https://github.com/cpp-review-dune/miusuario-gitpod}}.
 3. Abra la terminal (\keys{\ctrl+j}), cree un archivo (\keys{\ctrl+\Alt+n}) y empuje al servidor remoto con las opciones de `git`: `add`, `commit`, `push` (vea la ayuda).
 4. Actualice el sistema con \alert{\texttt{sudo pacman -Syyu}}, a continuación instale `python` con \alert{\texttt{sudo pacman -S python}}.
 
-# Referencias
+# \emoji{books} Referencias
 
 1. [Scientific Programming with C++ in Summer Term 2021](https://gitlab.math.tu-dresden.de/teaching/scprog/so2021).
 2. [DUNE — The Distributed and Unified Numerics Environment, Oliver Sander](https://link.springer.com/book/10.1007/978-3-030-59702-3).

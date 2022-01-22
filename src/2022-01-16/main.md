@@ -17,7 +17,7 @@
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="70%" align=center}
 
-Si tiene una navegador web, puede obtener un entorno de desarrollo completamente preconfigurado en un click:
+Desde el navegador web, puede obtener un entorno de desarrollo preconfigurado en un click
 
 ```
 https://gitpod.io/#<pega aquí la dirección del repositorio>
@@ -29,21 +29,21 @@ https://gitpod.io/#<pega aquí la dirección del repositorio>
 :::
 ::::::::::::::
 
-\
-
-Esta vez, utilizaremos un repositorio plantilla generada por [GitHub Classroom](https://github.com/cpp-review-dune/comandos), que nos permirá acceder al emulador de terminal de un sistema [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.es.html).
-
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="70%" align=center}
 
-Más información acerca de Gitpod en
+Esta vez, utilizaremos un repositorio plantilla generada por [GitHub Classroom](https://github.com/cpp-review-dune/comandos), que nos permirá acceder al emulador de terminal de un sistema [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.es.html).
+
+\
+
+Más información acerca de Gitpod.
 
 - [`https://www.gitpod.io/docs/getting-started`](https://www.gitpod.io/docs/getting-started)
 - [`https://www.gitpod.io/blog/gitpod-launch`](https://www.gitpod.io/blog/gitpod-launch)
 
 \
 
-Acerca de la jerarquía del sistema de archivos de la Fundación Linux (FHS)
+Acerca de la jerarquía del sistema de archivos de la Fundación Linux (FHS).
 
 - \emoji{notebook} [`https://man.archlinux.org/man/file-hierarchy.7`](https://man.archlinux.org/man/file-hierarchy.7)
 
@@ -103,7 +103,7 @@ Contamos con los repositorios
 
 [![preCICE stats](src/2022-01-16/precice.png)](https://pkgstats.archlinux.de/packages/precice)
 
-# Comandos esenciales
+# Comandos esenciales I
 
 ## `pwd` \emoji{notebook} [`https://man.archlinux.org/man/pwd.1.es`](https://man.archlinux.org/man/pwd.1.es)
 
@@ -131,38 +131,11 @@ Contamos con los repositorios
 
 ## `tldr` \emoji{notebook} [`https://man.archlinux.org/man/tldr.1`](https://man.archlinux.org/man/tldr.1)
 
-# Comandos requeridos para DUNE
-
-## `cmake` \emoji{notebook} [`https://man.archlinux.org/man/cmake.1`](https://man.archlinux.org/man/cmake.1)
-
-<!--
-Tutorial https://cmake.org/cmake/help/latest/guide/tutorial/index.html
- -->
+# Comandos esenciales II
 
 ## `curl` \emoji{notebook} [`https://man.archlinux.org/man/curl.1`](https://man.archlinux.org/man/curl.1)
 
-<!--
-$ curl wttr.in
-curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendMessage?chat_id=1234&text=hi
--->
-
-## `mpirun` \emoji{notebook} [`https://man.archlinux.org/man/mpirun.1`](https://man.archlinux.org/man/mpirun.1)
-
 ## `neofetch` \emoji{notebook} [`https://man.archlinux.org/man/neofetch.1`](https://man.archlinux.org/man/neofetch.1)
-
-## `git` \emoji{notebook} [`https://man.archlinux.org/man/git.1`](https://man.archlinux.org/man/git.1)
-
-<!--
-https://git-scm.com/docs/gittutorial
- -->
-
-## Ver más
-
-- [OpenSSL](https://www.openssl.org)
-- [OpenSSH](https://www.openssh.com)
-- [OpenPGP](https://www.openpgp.org)
-
-<!-- pacman -S asciiquarium -->
 
 ## `head` \emoji{notebook} [`https://man.archlinux.org/man/head.1.es`](https://man.archlinux.org/man/head.1.es)
 
@@ -174,19 +147,7 @@ https://git-scm.com/docs/gittutorial
 
 ## `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1)
 
-## `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1)
-
 ## `sudo` \emoji{notebook} [`https://man.archlinux.org/man/sudo.8`](https://man.archlinux.org/man/sudo.8)
-
-## `timeout` \emoji{notebook} [`https://man.archlinux.org/man/timeout.1.es`](https://man.archlinux.org/man/timeout.1.es)
-
-## `tee` \emoji{notebook} [`https://man.archlinux.org/man/tee.1.es`](https://man.archlinux.org/man/tee.1.es)
-
-<!--
-## `emacs`
-
-## `tmux`
- -->
 
 ## `top` \emoji{notebook} [`https://man.archlinux.org/man/top.1`](https://man.archlinux.org/man/top.1)
 
@@ -206,7 +167,50 @@ https://git-scm.com/docs/gittutorial
 
 ## `printf` \emoji{notebook} [`https://man.archlinux.org/man/printf.1`](https://man.archlinux.org/man/printf.1)
 
+## `link` \emoji{notebook} [`https://man.archlinux.org/man/link.1.es`](https://man.archlinux.org/man/link.1.es)
+
+## `ln` \emoji{notebook} [`https://man.archlinux.org/man/ln.1.es`](https://man.archlinux.org/man/ln.1.es)
+
+## `rm` \emoji{notebook} [`https://man.archlinux.org/man/rm.1.es`](https://man.archlinux.org/man/rm.1.es)
+
+## `rmdir` \emoji{notebook} [`https://man.archlinux.org/man/rmdir.1.es`](https://man.archlinux.org/man/rmdir.1.es)
+
+## `seq` \emoji{notebook} [`https://man.archlinux.org/man/seq.1.es`](https://man.archlinux.org/man/seq.1.es)
+
+# Comandos requeridos para DUNE
+
+## `cmake` \emoji{notebook} [`https://man.archlinux.org/man/cmake.1`](https://man.archlinux.org/man/cmake.1)
+
+<!--
+Tutorial https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+ -->
+
+<!--
+$ curl wttr.in
+curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendMessage?chat_id=1234&text=hi
+-->
+
+## `mpirun` \emoji{notebook} [`https://man.archlinux.org/man/mpirun.1`](https://man.archlinux.org/man/mpirun.1)
+
+## `timeout` \emoji{notebook} [`https://man.archlinux.org/man/timeout.1.es`](https://man.archlinux.org/man/timeout.1.es)
+
+## `tee` \emoji{notebook} [`https://man.archlinux.org/man/tee.1.es`](https://man.archlinux.org/man/tee.1.es)
+
 ## `diff` \emoji{notebook} [`https://man.archlinux.org/man/diff.1.es`](https://man.archlinux.org/man/diff.1.es)
+
+## Ver más
+
+- [OpenSSL](https://www.openssl.org)
+- [OpenSSH](https://www.openssh.com)
+- [OpenPGP](https://www.openpgp.org)
+
+<!-- pacman -S asciiquarium -->
+
+<!--
+## `emacs`
+
+## `tmux`
+ -->
 
 yay -S pokemon-colorscripts-git
 
@@ -215,8 +219,6 @@ https://code.visualstudio.com/docs/languages/cpp
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 
 ## `file` \emoji{notebook} [`https://man.archlinux.org/man/file.1`](https://man.archlinux.org/man/file.1)
-
-## `git-init` \emoji{notebook} [`https://man.archlinux.org/man/git-init.1.en`](https://man.archlinux.org/man/git-init.1.en)
 
 # Compiladores y lenguajes de programación
 
@@ -284,21 +286,11 @@ $ tar -xvf $MODULE-$BRANCH.tar.gz
 
 ## `date` \emoji{notebook} [`https://man.archlinux.org/man/date.1.es`](https://man.archlinux.org/man/date.1.es)
 
-## `date` \emoji{notebook} [`https://man.archlinux.org/man/env.1.es`](https://man.archlinux.org/man/env.1.es)
+## `env` \emoji{notebook} [`https://man.archlinux.org/man/env.1.es`](https://man.archlinux.org/man/env.1.es)
 
 ## `valgrind` \emoji{notebook} [`https://man.archlinux.org/man/valgrind.1`](https://man.archlinux.org/man/valgrind.1)
 
 ## `ldd` \emoji{notebook} [`https://man.archlinux.org/man/ldd.1.es`](https://man.archlinux.org/man/ldd.1.es)
-
-## `link` \emoji{notebook} [`https://man.archlinux.org/man/link.1.es`](https://man.archlinux.org/man/link.1.es)
-
-## `ln` \emoji{notebook} [`https://man.archlinux.org/man/ln.1.es`](https://man.archlinux.org/man/ln.1.es)
-
-## `rm` \emoji{notebook} [`https://man.archlinux.org/man/rm.1.es`](https://man.archlinux.org/man/rm.1.es)
-
-## `rmdir` \emoji{notebook} [`https://man.archlinux.org/man/rmdir.1.es`](https://man.archlinux.org/man/rmdir.1.es)
-
-## `seq` \emoji{notebook} [`https://man.archlinux.org/man/seq.1.es`](https://man.archlinux.org/man/seq.1.es)
 
 # `Asciinema`
 
@@ -316,15 +308,16 @@ Dentro de gitpod
 :::
 ::::::::::::::
 
-Esta vez
-wc
+## `wc` \emoji{notebook} [`https://man.archlinux.org/man/wc.1.es`](https://man.archlinux.org/man/wc.1.es)
 
-yes
+## `yes` \emoji{notebook} [`https://man.archlinux.org/man/yes.1.es`](https://man.archlinux.org/man/yes.1.es)
 
-difftime
+## `difftime` \emoji{notebook} [`https://man.archlinux.org/man/difftime.3.es`](https://man.archlinux.org/man/difftime.3.es)
 
-getw
+## `getw` \emoji{notebook} [`https://man.archlinux.org/man/getw.3.es`](https://man.archlinux.org/man/getw.3.es)
 
-tanh
+## `tanh` \emoji{notebook} [`https://man.archlinux.org/man/tanh.3.es`](https://man.archlinux.org/man/tanh.3.es)
 
-shells
+## `shells` \emoji{notebook} [`https://man.archlinux.org/man/shells.5.es`](https://man.archlinux.org/man/shells.5.es)
+
+## `kill` \emoji{notebook} [`https://man.archlinux.org/man/kill.1`](https://man.archlinux.org/man/kill.1)
