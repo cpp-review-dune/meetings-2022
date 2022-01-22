@@ -71,4 +71,3 @@ $ sudo pacman -S asciinema, suba las soluciones a, por ejemplo
    https://gitlab.math.tu-dresden.de/teaching/scprog/so2021-tutorial/-/blob/master/exercise1/sheet1.md
 
 <!-- gdb y pdb, valgrind -->
-
