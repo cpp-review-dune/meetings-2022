@@ -42,6 +42,7 @@ jobs:
             pandoc src/2022-01-15/*.md -t beamer -V lang=es --pdf-engine=lualatex -o 2022-01-15.pdf
             pandoc src/2022-01-16/*.md -t beamer -V lang=es --pdf-engine=lualatex -o 2022-01-16.pdf
             pandoc src/2022-01-22/*.md -t beamer -V lang=es --pdf-engine=lualatex -o 2022-01-22.pdf
+            pandoc src/2022-01-23/*.md -t beamer -V lang=es --pdf-engine=lualatex -o 2022-01-23.pdf
             mkdir -p public && mv 2022-01-**.pdf public
 
       - name: Deploy

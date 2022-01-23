@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DATE=2022-01-22
+DATE=2022-01-23
 
 pandoc src/$DATE/*.md -t beamer -V lang=es --pdf-engine=lualatex -o $DATE.pdf #--bibliography src/bib.bib --toc --toc-depth=2
 
