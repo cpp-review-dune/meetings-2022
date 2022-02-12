@@ -136,9 +136,9 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 
 1. Cree un repositorio llamado \alert{\texttt{miusuario-gitpod}}.
 2. Ingrese a \alert{\texttt{https://gitpod.io/\#/https://github.com/cpp-review-dune/miusuario-gitpod}}.
-3. Abra la terminal (\keys{\ctrl+j}), cree un archivo (\keys{\ctrl+\Alt+n}) y empuje al servidor remoto con las opciones de `git`: `add`, `commit`, `push` (vea la ayuda).
+3. Abra la terminal, cree un archivo y empuje al servidor remoto con las opciones de `git`: `add`, `commit`, `push` (vea la ayuda).
 4. Actualice el sistema con \alert{\texttt{sudo pacman -Syyu}}, a continuación instale `python` con \alert{\texttt{sudo pacman -S python}}.
-
+<!-- (\keys{\ctrl+j}) (\keys{\ctrl+\Alt+n}) -->
 # \emoji{books} Referencias
 
 1. [Scientific Programming with C++ in Summer Term 2021](https://gitlab.math.tu-dresden.de/teaching/scprog/so2021).
