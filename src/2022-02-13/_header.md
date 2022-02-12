@@ -6,7 +6,7 @@ author:
 institute:
   - \normalsize [`https://cpp-review-dune.github.io/meetings-2022/2022-01-22.pdf`](https://cpp-review-dune.github.io/meetings-2022/2022-01-22.pdf), sesión grabada en [`diode.zone`](https://cpp-review-dune.github.io/introductory-review/videos/zoom/meetings).
 date:
-  - \normalsize 22 de enero del 2022
+  - \normalsize 13 de febrero del 2022
 lang:
   - es
 indent:

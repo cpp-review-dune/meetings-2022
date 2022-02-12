@@ -39,7 +39,8 @@ jobs:
           run: |
             yay -Syyuq $PACKAGES --needed --noconfirm
             sudo chown -R builder:builder /work && cd /work
-            for d in 2022-0[1-2]-[0-3][0-9]; do pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done
+            dates=('2022-01-15' '2022-01-16' '2022-01-22' '2022-01-23' '2022-01-29' '2022-01-30' '2022-02-05' '2022-02-06' '2022-02-12' '2022-02-13')
+            for d in "${dates[@]}"; do pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done
             mkdir -p public && mv 2022-0*-*.pdf public
 
       - name: Deploy
