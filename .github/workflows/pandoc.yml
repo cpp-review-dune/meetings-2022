@@ -21,23 +21,23 @@ jobs:
       - name: Install packages for Arch linux
         run: |
           printf $AUR_PACKAGES >packages.x86_64
-          cat packages.x86_64
-          xargs -I{} curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/{}.tar.gz <packages.x86_64 #>/dev/null 2>&1
+          xargs -I{} curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/{}.tar.gz <packages.x86_64 >/dev/null 2>&1
           for file in *.tar.gz; do
             tar -xvf "${file}"
             rm "${file}"
-          done #>/dev/null 2>&1
+          done >/dev/null 2>&1
           while read -r in; do
-            cd "${in}"
+            pushd "${in}"
             makepkg -sirc --cleanbuild --noconfirm >/dev/null 2>&1
-            cd ..
-          done <packages.x86_64 #>/dev/null 2>&1
+            popd
+          done <packages.x86_64 >/dev/null 2>&1
           pacman -Syyuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
           pushd src
           dates=$(ls -d */ | tr '/' ' ')
           popd
+          pacman -Qi otf-firamath noto-fonts-emoji-apple
           for d in "${dates[@]}"; do echo ${d} ; done
-          # pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf
+          pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf
           # mkdir -p public && mv 2022-0*-*.pdf public
 
       # - name: Deploy
