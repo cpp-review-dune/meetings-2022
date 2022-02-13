@@ -11,7 +11,7 @@ on:
 jobs:
   build_latex:
     runs-on: ubuntu-20.04
-    container: ghcr.io/cpp-review-dune/introductory-review/aur:latest
+    container: archlinux:base-devel
     env:
       PACKAGES: "pandoc texlive-latexextra texlive-pictures otf-firamath ttf-fira-code noto-fonts-emoji-apple"
     steps:
@@ -20,7 +20,9 @@ jobs:
       - name: Test Arch linux
         working-directory: src
         run: |
-          yay --version
+          pacman --version
+          pwd
+          ls -l
 
       # - name: Partial Clone
       #   shell: bash
