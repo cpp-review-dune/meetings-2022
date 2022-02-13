@@ -14,19 +14,18 @@ jobs:
     container: archlinux:base-devel
     env:
       PACKAGES: "pandoc texlive-latexextra texlive-pictures ttf-fira-code"
-      AUR_PACKAGES: "otf-firamath\nnoto-fonts-emoji-apple\n"
+      AUR_PACKAGES: "otf-firamath noto-fonts-emoji-apple"
     steps:
       - uses: actions/checkout@v2
 
       - name: Install packages for Arch linux
         run: |
-          pacman -Syyuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
-          printf $AUR_PACKAGES >packages.x86_64
-          xargs -I{} curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/{}.tar.gz <packages.x86_64 #>/dev/null 2>&1
-          ls
-          for file in *.tar.gz; do
-            tar -xvf "${file}"
-          done >/dev/null 2>&1
+          pacman -Syuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
+          for package in ${AUR_PACKAGES[@]}; do
+            curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/${package}.tar.gz
+            tar -xvf ${package}.tar.gz
+            ls
+          done #>/dev/null 2>&1
           while read -r in; do
             pushd "${in}"
             makepkg -sirc --cleanbuild --noconfirm #>/dev/null 2>&1
