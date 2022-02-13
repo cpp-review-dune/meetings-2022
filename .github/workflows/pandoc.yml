@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-20.04
     container: archlinux:base-devel
     env:
-      PACKAGES: "pandoc texlive-latexextra texlive-pictures otf-firamath ttf-fira-code"
-      AUR_PACKAGES: "noto-fonts-emoji-apple"
+      PACKAGES: "pandoc texlive-latexextra texlive-pictures ttf-fira-code"
+      AUR_PACKAGES: "otf-firamath noto-fonts-emoji-apple"
     steps:
       - uses: actions/checkout@v2
 
