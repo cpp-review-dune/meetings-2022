@@ -20,12 +20,13 @@ jobs:
 
       - name: Test Arch linux
         run: |
-          whoami
           pacman -Syyuq $PACKAGES --needed --noconfirm
-          dates=('2022-01-15' '2022-01-16' '2022-01-22' '2022-01-23' '2022-01-29' '2022-01-30' '2022-02-05' '2022-02-06' '2022-02-12' '2022-02-13')
-          echo $PACKAGES
-      # for d in "${dates[@]}"; do pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done
-      # mkdir -p public && mv 2022-0*-*.pdf public
+          pushd src
+          dates=$(ls -d */ | tr '/' ' ')
+          popd
+          for d in "${dates[@]}"; do echo ${d} ; done
+          # for d in "${dates[@]}"; do pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done
+          # mkdir -p public && mv 2022-0*-*.pdf public
 
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
