@@ -20,7 +20,7 @@ jobs:
 
       - name: Install packages for Arch linux
         run: |
-          echo -e $AUR_PACKAGES >packages.x86_64
+          printf $AUR_PACKAGES >packages.x86_64
           cat packages.x86_64
           xargs -I{} curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/{}.tar.gz <packages.x86_64 #>/dev/null 2>&1
           for file in *.tar.gz; do
