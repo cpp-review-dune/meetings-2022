@@ -14,7 +14,7 @@ jobs:
     container: archlinux:base-devel
     env:
       PACKAGES: "pandoc texlive-latexextra texlive-pictures ttf-fira-code"
-      AUR_PACKAGES: "otf-firamath\nnoto-fonts-emoji-apple"
+      AUR_PACKAGES: "otf-firamath\nnoto-fonts-emoji-apple\n"
     steps:
       - uses: actions/checkout@v2
 
