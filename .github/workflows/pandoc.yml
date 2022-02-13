@@ -20,12 +20,11 @@ jobs:
 
       - name: Install packages for Arch linux
         run: |
-          pacman -Syyuq $PACKAGES --needed --noconfirm #> /dev/null 2>&1
+          pacman -Syyuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
           printf $AUR_PACKAGES >packages.x86_64
-          xargs -I{} curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/{}.tar.gz <packages.x86_64 >/dev/null 2>&1
+          xargs -I{} curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/{}.tar.gz <packages.x86_64 #>/dev/null 2>&1
           for file in *.tar.gz; do
             tar -xvf "${file}"
-            rm "${file}"
           done >/dev/null 2>&1
           while read -r in; do
             pushd "${in}"
