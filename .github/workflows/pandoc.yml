@@ -20,7 +20,9 @@ jobs:
 
       - name: Install packages for Arch linux
         run: |
-          pacman -Syuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
+          useradd -l -md /home/aur -s /bin/bash aur && passwd -d aur && echo 'aur ALL=(ALL) ALL' > /etc/sudoers.d/aur
+          su aur
+          sudo pacman -Syuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
           for package in ${AUR_PACKAGES[@]}; do
             curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/${package}.tar.gz
             tar -xvf ${package}.tar.gz
