@@ -24,13 +24,10 @@ jobs:
           for package in ${AUR_PACKAGES[@]}; do
             curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/${package}.tar.gz
             tar -xvf ${package}.tar.gz
-            ls
-          done #>/dev/null 2>&1
-          while read -r in; do
-            pushd "${in}"
+            pushd ${package}
             makepkg -sirc --cleanbuild --noconfirm #>/dev/null 2>&1
             popd
-          done <packages.x86_64 >/dev/null 2>&1
+          done #>/dev/null 2>&1
           pushd src
           dates=$(ls -d */ | tr '/' ' ')
           popd
