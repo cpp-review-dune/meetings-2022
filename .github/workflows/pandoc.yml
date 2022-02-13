@@ -18,14 +18,25 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Test Arch linux
+      - name: Install packages for Arch linux
         run: |
-          pacman -Syyuq $PACKAGES --needed --noconfirm
+          echo $AUR_PACKAGES >packages.x86_64
+          xargs -I{} curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/{}.tar.gz <packages.x86_64 #>/dev/null 2>&1
+          for file in *.tar.gz; do
+            tar -xvf "${file}"
+            rm "${file}"
+          done #>/dev/null 2>&1
+          while read -r in; do
+            cd "${in}"
+            makepkg -sirc --cleanbuild --noconfirm >/dev/null 2>&1
+            cd ..
+          done <packages.x86_64 #>/dev/null 2>&1
+          pacman -Syyuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
           pushd src
           dates=$(ls -d */ | tr '/' ' ')
           popd
           for d in "${dates[@]}"; do echo ${d} ; done
-          # for d in "${dates[@]}"; do pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done
+          # pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf
           # mkdir -p public && mv 2022-0*-*.pdf public
 
       # - name: Deploy
