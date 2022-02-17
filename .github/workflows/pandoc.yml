@@ -11,7 +11,7 @@ on:
 jobs:
   build_latex:
     runs-on: ubuntu-20.04
-    container: ghcr.io/cpp-review-dune/introductory-review/texlive
+    container: ghcr.io/cpp-review-dune/introductory-review/aur
     env:
       PACKAGES: "pandoc texlive-latexextra texlive-pictures ttf-fira-code"
       AUR_PACKAGES: "otf-firamath noto-fonts-emoji-apple"
