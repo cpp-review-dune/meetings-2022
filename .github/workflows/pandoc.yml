@@ -11,7 +11,7 @@ on:
 jobs:
   build_latex:
     runs-on: ubuntu-20.04
-    container: ghcr.io/cpp-review-dune/introductory-review/aur
+    container: archlinux:base-devel
     env:
       PACKAGES: "pandoc texlive-latexextra texlive-pictures ttf-fira-code"
       AUR_PACKAGES: "otf-firamath noto-fonts-emoji-apple"
@@ -20,11 +20,9 @@ jobs:
 
       - name: Install dependencies
         run: |
+          useradd -l -md /home/aur -s /bin/bash aur && passwd -d aur && echo 'aur ALL=(ALL) ALL' > /etc/sudoers.d/aur
+          su - aur
           whoami
-          yay --version
-          # useradd -l -md /home/aur -s /bin/bash aur && passwd -d aur && echo 'aur ALL=(ALL) ALL' > /etc/sudoers.d/aur
-          # su - aur
-          # whoami
           # sudo pacman -Syuq $PACKAGES --needed --noconfirm #> /dev/null 2>&1
           # cd ~
           # curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/otf-firamath.tar.gz
