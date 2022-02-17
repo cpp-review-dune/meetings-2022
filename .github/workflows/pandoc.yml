@@ -22,11 +22,11 @@ jobs:
         run: |
           useradd -l -md /home/aur -s /bin/bash aur && passwd -d aur && echo 'aur ALL=(ALL) ALL' > /etc/sudoers.d/aur
           su aur
-          sudo pacman -Syuq $PACKAGES --needed --noconfirm > /dev/null 2>&1
-          for package in ${AUR_PACKAGES[@]}; do
-            curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/${package}.tar.gz
-            tar -xvf ${package}.tar.gz
-            pushd ${package}
+          sudo pacman -Syuq $PACKAGES --needed --noconfirm #> /dev/null 2>&1
+          for _package in ${AUR_PACKAGES[@]}; do
+            curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/${_package}.tar.gz
+            tar -xvf ${_package}.tar.gz
+            pushd ${_package}
             makepkg -sirc --cleanbuild --noconfirm #>/dev/null 2>&1
             popd
           done #>/dev/null 2>&1
