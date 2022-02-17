@@ -14,22 +14,25 @@ jobs:
     container: archlinux:base-devel
     env:
       PACKAGES: "pandoc texlive-latexextra texlive-pictures ttf-fira-code"
-      AUR_PACKAGES: "otf-firamath noto-fonts-emoji-apple"
+      AUR_PACKAGES: " noto-fonts-emoji-apple"
     steps:
       - uses: actions/checkout@v2
 
       - name: Install packages for Arch linux
         run: |
+          echo $UID $GID
+          ls -l
+          whoami
+          pwd
           useradd -l -md /home/aur -s /bin/bash aur && passwd -d aur && echo 'aur ALL=(ALL) ALL' > /etc/sudoers.d/aur
           su aur
+          whoami
           sudo pacman -Syuq $PACKAGES --needed --noconfirm #> /dev/null 2>&1
-          for _package in ${AUR_PACKAGES[@]}; do
-            curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/${_package}.tar.gz
-            tar -xvf ${_package}.tar.gz
-            pushd ${_package}
-            makepkg -sirc --cleanbuild --noconfirm #>/dev/null 2>&1
-            popd
-          done #>/dev/null 2>&1
+          cd ~
+          curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/otf-firamath.tar.gz
+          tar -xvf otf-firamath
+          cd otf-firamath
+          makepkg -si --noconfirm
           pushd src
           dates=$(ls -d */ | tr '/' ' ')
           popd
