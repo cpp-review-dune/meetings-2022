@@ -20,9 +20,16 @@ jobs:
 
       - name: Install dependencies
         run: |
+          ln -s /usr/share/zoneinfo/America/Lima /etc/localtime
+          sed -i 's/^#Color/Color/' /etc/pacman.conf
+          sed -i '/#CheckSpace/a ILoveCandy' /etc/pacman.conf
+          sed -i '/ILoveCandy/a ParallelDownloads = 30' /etc/pacman.conf
+          sed -i 's/^#MAKEFLAGS="-j2"/MAKEFLAGS="-j$(nproc)"/' /etc/makepkg.conf
+          echo -e '\n[multilib]\nInclude = /etc/pacman.d/mirrorlist' | tee -a /etc/pacman.conf
           useradd -l -md /home/aur -s /bin/bash aur && passwd -d aur && echo 'aur ALL=(ALL) ALL' > /etc/sudoers.d/aur
           su - aur
           whoami
+          sudo pacman -Syuq --needed --noconfirm --noprogressbar
           # sudo pacman -Syuq $PACKAGES --needed --noconfirm #> /dev/null 2>&1
           # cd ~
           # curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/otf-firamath.tar.gz
