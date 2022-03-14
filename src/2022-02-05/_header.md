@@ -4,7 +4,9 @@ title:
 author:
   - \large Una organización donde compartir notas acerca de C++ con pdfs escritos en \LaTeX.
 institute:
-  - \normalsize [`https://cpp-review-dune.github.io/meetings-2022/2022-01-22.pdf`](https://cpp-review-dune.github.io/meetings-2022/2022-01-22.pdf), sesión grabada en [`diode.zone`](https://cpp-review-dune.github.io/introductory-review/videos/zoom/meetings).
+  - \normalsize [\emoji{page-with-curl} Pad de apuntes](https://yopad.eu/p/2022-02-05-365days)
+  - \normalsize [\emoji{paperclip} Liga del PDF](https://cpp-review-dune.github.io/meetings-2022/2022-02-05.pdf)
+  - \normalsize [\emoji{clapper-board} Sesión grabada en `diode.zone`](https://cpp-review-dune.github.io/videos/zoom/2022)
 date:
   - \normalsize 5 de febrero del 2022
 lang:
@@ -28,7 +30,4 @@ mainfont:
 header-includes:
   - \usepackage{emoji}
   - \hypersetup{colorlinks=true}
-# bibliography: bib.bib
-# csl: format.csl
-# link-citations: true
 ---

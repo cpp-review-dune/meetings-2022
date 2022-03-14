@@ -8,7 +8,6 @@
 
 ## \emoji{linked-paperclips} Enlaces
 
-- \emoji{page-with-curl} Apuntes en las sesiones [`https://yopad.eu/p/2022-01-15-dune-365days`](https://yopad.eu/p/2022-01-15-dune-365days).
 - \emoji{small-airplane} Unirse al grupo en Telegram [`https://t.me/joinchat/OsfYP1xnFlxjN2Ix`](https://t.me/joinchat/OsfYP1xnFlxjN2Ix).
 - Videoconferencia Zoom permanente [`https://zoom.us/j/97964827725`](https://zoom.us/j/97964827725).
 
@@ -67,7 +66,7 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 
 # \emoji{file-folder} Agenda $2021$
 
-## Organización del curso virtual [`https://dune-pdelab-course.readthedocs.io`](https://dune-pdelab-course.readthedocs.io) de hace ~1 año.
+## Organización del curso virtual [`https://dune-pdelab-course.readthedocs.io`](https://dune-pdelab-course.readthedocs.io) de hace ~$1\frac{1}{2}$ años.
 
 \emoji{small-blue-diamond} [`https://cpp-review-dune.github.io/dune-basics/structure.pdf`](https://cpp-review-dune.github.io/dune-basics/structure.pdf).
 
@@ -79,12 +78,13 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 
 # [DUNE Numerics](https://dune-project.org)
 
-- [Inicios de DUNE](https://videocampus.sachsen.de/m/90c229be3db7d9c940737d28c666a403eab8975babb73961d0e4c3c55d2e0ef1c015928e3470ebca64bfbb02f225ab83aed7316910c4cb81c087742d3631d545).
-- Es modular.
-- Es gratuito y desarrollado por la Universidad de Heildeberg y otras.
+- Vea la historia de los [inicios de DUNE](https://videocampus.sachsen.de/m/90c229be3db7d9c940737d28c666a403eab8975babb73961d0e4c3c55d2e0ef1c015928e3470ebca64bfbb02f225ab83aed7316910c4cb81c087742d3631d545).
+- Es modular y extensible.
+- Es de código abierto, bajo la licencia GNU Public License version 2 y desarrollado por la Universidad de Heildeberg y otras.
+- Se puede instalar de manera manual con [`dunecontrol`](https://gitlab.dune-project.org/core/dune-common/-/raw/master/bin/dunecontrol) (`cmake`, `pkg-config`, etc.), pero está bien mantenida en [FreeBSD 13](https://www.freebsd.org/releases/13.0R/relnotes), [Debian 11](https://www.debian.org/News/2021/20210814) y [Arch Linux](https://archlinux.org/download), o sus derivadas.
 - [Solucionadores](https://gitlab.com/amdis/amdis#installation).
-- Lector de mallas generados por terceros, por ejemplo con `pygmsh`.
-- Está desarrollado en C++/Python y permite la creación de nuevos módulos (`pybind11`).
+- Lector de mallas generados por terceros, por ejemplo con [`python-pygmsh`](https://aur.archlinux.org/packages/python-pygmsh).
+- Está desarrollado en C++/Python y permite la creación de nuevos módulos ([`pybind11`](https://archlinux.org/packages/community/any/pybind11)).
 
 # Organización \emoji{books}
 
@@ -134,11 +134,11 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 
 # \emoji{glowing-star} Demostración en Gitpod
 
-1. Cree un repositorio llamado \alert{\texttt{miusuario-gitpod}}.
-2. Ingrese a \alert{\texttt{https://gitpod.io/\#/https://github.com/cpp-review-dune/miusuario-gitpod}}.
-3. Abra la terminal, cree un archivo y empuje al servidor remoto con las opciones de `git`: `add`, `commit`, `push` (vea la ayuda).
-4. Actualice el sistema con \alert{\texttt{sudo pacman -Syyu}}, a continuación instale `python` con \alert{\texttt{sudo pacman -S python}}.
-<!-- (\keys{\ctrl+j}) (\keys{\ctrl+\Alt+n}) -->
+1. Cree un repositorio llamado \alert{\texttt{<usuario>-comandos}} a partir de la [plantilla](https://github.com/cpp-review-dune/comandos/generate).
+2. Ingrese a \alert{\texttt{https://gitpod.io/\#/https://github.com/cpp-review-dune/<usuario>-comandos}}.
+3. Abra la terminal, cree un archivo y empuje al servidor remoto con las opciones de `git`: `add`, `commit`, `push` (vea la [ayuda](https://man.archlinux.org/man/gittutorial.7)).
+4. Actualice el sistema con \alert{\texttt{sudo pacman -Syyu --noconfirm}}, a continuación instale `python` con \alert{\texttt{sudo pacman -S python}}.
+
 # \emoji{books} Referencias
 
 1. [Scientific Programming with C++ in Summer Term 2021](https://gitlab.math.tu-dresden.de/teaching/scprog/so2021).

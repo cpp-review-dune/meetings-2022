@@ -6,12 +6,6 @@
 
 - \texttt{Sun Jan 23 07:00:00 AM -05 2022}.
 
-## \emoji{linked-paperclips} Enlaces
-
-- \emoji{page-with-curl} Apuntes en las sesiones [`https://yopad.eu/p/2022-01-22-dune-365days`](https://yopad.eu/p/2022-01-22-dune-365days).
-- \emoji{small-airplane} Unirse al grupo en Telegram [`https://t.me/joinchat/OsfYP1xnFlxjN2Ix`](https://t.me/joinchat/OsfYP1xnFlxjN2Ix).
-- Videoconferencia Zoom permanente [`https://zoom.us/j/97964827725`](https://zoom.us/j/97964827725).
-
 # Git para el trabajo colaborativo
 
 - `git` \emoji{notebook} [`https://man.archlinux.org/man/git.1`](https://man.archlinux.org/man/git.1)
@@ -36,19 +30,14 @@
 - `git-tag` \emoji{notebook} [`https://man.archlinux.org/man/extra/git/git-tag.1.en`](https://man.archlinux.org/man/extra/git/git-tag.1.en)
 - `git-diff` \emoji{notebook} [`https://man.archlinux.org/man/extra/git/git-diff.1.en`](https://man.archlinux.org/man/extra/git/git-diff.1.en)
 
-<!-- `git-delta`
+<!-- `git-delta` -->
+<!-- `fzf` -->
 
-`fzf` -->
+<!-- # Git en gitpod -->
 
-# Git en gitpod
-
-- [`https://code.visualstudio.com/docs/editor/versioncontrol`](https://code.visualstudio.com/docs/editor/versioncontrol)
-
-<!-- [](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html#build-and-run) -->
-
-<!--
-https://git-scm.com/docs/gittutorial
- -->
+<!-- - [`https://code.visualstudio.com/docs/editor/versioncontrol`](https://code.visualstudio.com/docs/editor/versioncontrol) -->
+<!-- - [](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html#build-and-run) -->
+<!-- - [](https://git-scm.com/docs/gittutorial) -->
 
 # Actividades
 
@@ -67,7 +56,6 @@ $ sudo pacman -S asciinema, suba las soluciones a, por ejemplo
    https://asciinema.org/a/L7v4biUA6A7m3UNsE28UZy8WK
 ```
 
-4. Rehacer los comandos de la sesión pasada: http://0x0.st/o-la.txt
-   https://gitlab.math.tu-dresden.de/teaching/scprog/so2021-tutorial/-/blob/master/exercise1/sheet1.md
+4. [Rehacer los comandos](http://0x0.st/o-la.txt) de la sesión pasada: [`https://gitlab.math.tu-dresden.de/teaching/scprog/so2021-tutorial/-/blob/master/exercise1/sheet1.md`](https://gitlab.math.tu-dresden.de/teaching/scprog/so2021-tutorial/-/blob/master/exercise1/sheet1.md)
 
 <!-- gdb y pdb, valgrind -->

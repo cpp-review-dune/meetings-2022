@@ -34,13 +34,10 @@ jobs:
           run: |
             sudo chown -R 33333:33333 /work
             cd /work
-            pushd src
-            dates=$(ls -d */ | tr '/' ' ')
-            popd
+            # dates=$(ls src -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
-            # for d in "${dates[@]}"; do pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done;
-            pandoc src/2022-01-15/*.md -t beamer -V lang=es --pdf-engine=lualatex -o 2022-01-15.pdf
-            mkdir -p public && mv 2022-0*-*.pdf public
+            for d in src/2022-0^[1-3]; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done;
+            mkdir -p public && mv src/2022-0^[1-3].pdf public
 
       - name: Check pdf files
         run: |

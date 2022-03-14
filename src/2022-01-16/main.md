@@ -6,12 +6,6 @@
 
 - \alert{\texttt{Sun Jan 16 09:00:00 AM -05 2022}}.
 
-## \emoji{linked-paperclips} Enlaces
-
-- \emoji{page-with-curl} Apuntes en las sesiones [`https://yopad.eu/p/2022-01-16-dune-365days`](https://yopad.eu/p/2022-01-16-dune-365days).
-- \emoji{small-airplane} Unirse al grupo en Telegram [`https://t.me/joinchat/OsfYP1xnFlxjN2Ix`](https://t.me/joinchat/OsfYP1xnFlxjN2Ix).
-- Videoconferencia Zoom permanente [`https://zoom.us/j/97964827725`](https://zoom.us/j/97964827725).
-
 # Gitpod
 
 :::::::::::::: {.columns align=center totalwidth=8em}
@@ -141,11 +135,7 @@ Contamos con los repositorios
 
 ## `tail` \emoji{notebook} [`https://man.archlinux.org/man/tail.1.es`](https://man.archlinux.org/man/tail.1.es)
 
-## `su` \emoji{notebook} [`https://man.archlinux.org/man/su.1`](https://mahn.archlinux.org/man/su.1)
-
 ## `time` \emoji{notebook} [`https://man.archlinux.org/man/time.1.es`](https://man.archlinux.org/man/time.1.es)
-
-## `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1)
 
 ## `sudo` \emoji{notebook} [`https://man.archlinux.org/man/sudo.8`](https://man.archlinux.org/man/sudo.8)
 
@@ -157,17 +147,13 @@ Contamos con los repositorios
 
 ## `ld.so` \emoji{notebook} [`https://man.archlinux.org/man/ld.so.8.es`](https://man.archlinux.org/man/ld.so.8.es)
 
-## `bc` \emoji{notebook} [`https://man.archlinux.org/man/bc.1`](https://man.archlinux.org/man/bc.1)
-
-## `mc` \emoji{notebook} [`https://man.archlinux.org/man/mc.1`](https://man.archlinux.org/man/mc.1)
-
-## `bat` \emoji{notebook} [`https://man.archlinux.org/man/bat.1`](https://man.archlinux.org/man/bat.1)
-
 ## `echo` \emoji{notebook} [`https://man.archlinux.org/man/echo.1`](https://man.archlinux.org/man/echo.1)
 
 ## `printf` \emoji{notebook} [`https://man.archlinux.org/man/printf.1`](https://man.archlinux.org/man/printf.1)
 
 ## `link` \emoji{notebook} [`https://man.archlinux.org/man/link.1.es`](https://man.archlinux.org/man/link.1.es)
+
+# Comandos esenciales III
 
 ## `ln` \emoji{notebook} [`https://man.archlinux.org/man/ln.1.es`](https://man.archlinux.org/man/ln.1.es)
 
@@ -175,7 +161,29 @@ Contamos con los repositorios
 
 ## `rmdir` \emoji{notebook} [`https://man.archlinux.org/man/rmdir.1.es`](https://man.archlinux.org/man/rmdir.1.es)
 
-## `seq` \emoji{notebook} [`https://man.archlinux.org/man/seq.1.es`](https://man.archlinux.org/man/seq.1.es)
+## `cp` \emoji{notebook} [`https://man.archlinux.org/man/cp.1.es`](https://man.archlinux.org/man/cp.1.es)
+
+## `mv` \emoji{notebook} [`https://man.archlinux.org/man/mv.1.es`](https://man.archlinux.org/man/mv.1.es)
+
+## `base64` \emoji{notebook} [`https://man.archlinux.org/man/base64.1.es`](https://man.archlinux.org/man/base64.1.es)
+
+## `cat` \emoji{notebook} [`https://man.archlinux.org/man/cat.1.es`](https://man.archlinux.org/man/cat.1.es)
+
+## `cut` \emoji{notebook} [`https://man.archlinux.org/man/cut.1.es`](https://man.archlinux.org/man/cut.1.es)
+
+## `date` \emoji{notebook} [`https://man.archlinux.org/man/date.1.es`](https://man.archlinux.org/man/date.1.es)
+
+<!-- ## `seq` \emoji{notebook} [`https://man.archlinux.org/man/seq.1.es`](https://man.archlinux.org/man/seq.1.es) -->
+
+<!-- ## `bc` \emoji{notebook} [`https://man.archlinux.org/man/bc.1`](https://man.archlinux.org/man/bc.1) -->
+
+<!-- ## `mc` \emoji{notebook} [`https://man.archlinux.org/man/mc.1`](https://man.archlinux.org/man/mc.1) -->
+
+<!-- ## `bat` \emoji{notebook} [`https://man.archlinux.org/man/bat.1`](https://man.archlinux.org/man/bat.1) -->
+
+<!-- ## `su` \emoji{notebook} [`https://man.archlinux.org/man/su.1`](https://mahn.archlinux.org/man/su.1) -->
+
+<!-- ## `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1) -->
 
 # Comandos requeridos para DUNE
 
@@ -198,6 +206,14 @@ curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendM
 
 ## `diff` \emoji{notebook} [`https://man.archlinux.org/man/diff.1.es`](https://man.archlinux.org/man/diff.1.es)
 
+## `env` \emoji{notebook} [`https://man.archlinux.org/man/env.1.es`](https://man.archlinux.org/man/env.1.es)
+
+## `valgrind` \emoji{notebook} [`https://man.archlinux.org/man/valgrind.1`](https://man.archlinux.org/man/valgrind.1)
+
+## `ldd` \emoji{notebook} [`https://man.archlinux.org/man/ldd.1.es`](https://man.archlinux.org/man/ldd.1.es)
+
+## `file` \emoji{notebook} [`https://man.archlinux.org/man/file.1`](https://man.archlinux.org/man/file.1)
+
 ## Ver más
 
 - [OpenSSL](https://www.openssl.org)
@@ -212,13 +228,11 @@ curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendM
 ## `tmux`
  -->
 
-yay -S pokemon-colorscripts-git
+<!-- yay -S pokemon-colorscripts-git -->
 
-https://code.visualstudio.com/docs/languages/cpp
+<!-- https://code.visualstudio.com/docs/languages/cpp -->
 
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
-
-## `file` \emoji{notebook} [`https://man.archlinux.org/man/file.1`](https://man.archlinux.org/man/file.1)
+<!-- https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf -->
 
 # Compiladores y lenguajes de programación
 
@@ -255,10 +269,12 @@ $ python -c 'import this'
 
 ## `asciinema` \emoji{notebook} [`https://man.archlinux.org/man/asciinema.1`](https://man.archlinux.org/man/asciinema.1)
 
-1. Crearse una cuenta en https://asciinema.org.
-2. Ver la ayuda de asciinema, ver el v'ideo.
-3. Instalar el manual tldr y probar algunas opciones.
-4. Descargar con el repositorio dune-pdelab https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz, inicializar el repositorio, instale bat y vea los archivos de código fuente.
+1. Cree una cuenta en https://asciinema.org.
+2. Vea la ayuda de `asciinema` y reproduzca el vídeo.
+3. Instale `tldr` y lea el manual de algunos comandos.
+4. Descargue el tarball [`dune-pdelab-master.tar.gz`](https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz), inicialice el repositorio, instale bat y vea los archivos del código fuente.
+
+\small
 
 ```console
 $ MODULE=dune-pdelab
@@ -268,56 +284,36 @@ $ curl -O $UPSTREAM_URL
 $ tar -xvf $MODULE-$BRANCH.tar.gz
 ```
 
-<!--
-## `cowsay` \emoji{notebook} [`https://man.archlinux.org/man/cowsay.1`](https://man.archlinux.org/man/cowsay.1)
+<!-- ## `cowsay` \emoji{notebook} [`https://man.archlinux.org/man/cowsay.1`](https://man.archlinux.org/man/cowsay.1) -->
 
-## `ponysay` \emoji{notebook} [`https://man.archlinux.org/man/ponysay.6`](https://man.archlinux.org/man/ponysay.6)
- -->
+<!-- ## `ponysay` \emoji{notebook} [`https://man.archlinux.org/man/ponysay.6`](https://man.archlinux.org/man/ponysay.6) -->
 
-## `cp` \emoji{notebook} [`https://man.archlinux.org/man/cp.1.es`](https://man.archlinux.org/man/cp.1.es)
+<!-- ## `wc` \emoji{notebook} [`https://man.archlinux.org/man/wc.1.es`](https://man.archlinux.org/man/wc.1.es) -->
 
-## `mv` \emoji{notebook} [`https://man.archlinux.org/man/mv.1.es`](https://man.archlinux.org/man/mv.1.es)
+<!-- ## `yes` \emoji{notebook} [`https://man.archlinux.org/man/yes.1.es`](https://man.archlinux.org/man/yes.1.es) -->
 
-## `base64` \emoji{notebook} [`https://man.archlinux.org/man/base64.1.es`](https://man.archlinux.org/man/base64.1.es)
+<!-- ## `difftime` \emoji{notebook} [`https://man.archlinux.org/man/difftime.3.es`](https://man.archlinux.org/man/difftime.3.es) -->
 
-## `cat` \emoji{notebook} [`https://man.archlinux.org/man/cat.1.es`](https://man.archlinux.org/man/cat.1.es)
+<!-- ## `getw` \emoji{notebook} [`https://man.archlinux.org/man/getw.3.es`](https://man.archlinux.org/man/getw.3.es) -->
 
-## `cut` \emoji{notebook} [`https://man.archlinux.org/man/cut.1.es`](https://man.archlinux.org/man/cut.1.es)
+<!-- ## `tanh` \emoji{notebook} [`https://man.archlinux.org/man/tanh.3.es`](https://man.archlinux.org/man/tanh.3.es) -->
 
-## `date` \emoji{notebook} [`https://man.archlinux.org/man/date.1.es`](https://man.archlinux.org/man/date.1.es)
+<!-- ## `shells` \emoji{notebook} [`https://man.archlinux.org/man/shells.5.es`](https://man.archlinux.org/man/shells.5.es) -->
 
-## `env` \emoji{notebook} [`https://man.archlinux.org/man/env.1.es`](https://man.archlinux.org/man/env.1.es)
+<!-- ## `kill` \emoji{notebook} [`https://man.archlinux.org/man/kill.1`](https://man.archlinux.org/man/kill.1) -->
 
-## `valgrind` \emoji{notebook} [`https://man.archlinux.org/man/valgrind.1`](https://man.archlinux.org/man/valgrind.1)
-
-## `ldd` \emoji{notebook} [`https://man.archlinux.org/man/ldd.1.es`](https://man.archlinux.org/man/ldd.1.es)
-
-# `Asciinema`
+# `asciinema`
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="55%" align=center}
 
 Dentro de gitpod
 
-1. Instale [`asciinema`](https://archlinux.org/packages/community/any/asciinema) (`$ sudo pacman -S asciinema --noconfirm`).
-2. Vea la ayuda de las opciones rec, play, upload.
+1. Instale [`asciinema`](https://archlinux.org/packages/community/any/asciinema) con \alert{\texttt{sudo pacman -S asciinema}}.
+2. Vea la ayuda de las opciones `rec`, `play`, `upload`.
 
 :::
 ::: {.column width="45%" align=center}
 \includegraphics[width=0.45\paperwidth]{src/2022-01-16/asciinema.png}
 :::
 ::::::::::::::
-
-## `wc` \emoji{notebook} [`https://man.archlinux.org/man/wc.1.es`](https://man.archlinux.org/man/wc.1.es)
-
-## `yes` \emoji{notebook} [`https://man.archlinux.org/man/yes.1.es`](https://man.archlinux.org/man/yes.1.es)
-
-## `difftime` \emoji{notebook} [`https://man.archlinux.org/man/difftime.3.es`](https://man.archlinux.org/man/difftime.3.es)
-
-## `getw` \emoji{notebook} [`https://man.archlinux.org/man/getw.3.es`](https://man.archlinux.org/man/getw.3.es)
-
-## `tanh` \emoji{notebook} [`https://man.archlinux.org/man/tanh.3.es`](https://man.archlinux.org/man/tanh.3.es)
-
-## `shells` \emoji{notebook} [`https://man.archlinux.org/man/shells.5.es`](https://man.archlinux.org/man/shells.5.es)
-
-## `kill` \emoji{notebook} [`https://man.archlinux.org/man/kill.1`](https://man.archlinux.org/man/kill.1)
