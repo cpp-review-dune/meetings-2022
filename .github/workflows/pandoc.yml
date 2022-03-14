@@ -36,7 +36,7 @@ jobs:
             cd /work
             # dates=$(ls src -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
-            for d in src/2022-0* do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done;
+            for d in src/2022-0*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done;
             mkdir -p public && mv src/2022-0*.pdf public
 
       - name: Check pdf files
