@@ -3,8 +3,8 @@ name: Slides overview 2022
 on:
   push:
     branches: [main]
-    # paths:
-    #   - src/**
+    paths:
+      - src/**
   schedule:
     - cron: "0 14 * * 5"
 
@@ -36,8 +36,8 @@ jobs:
             cd /work
             # dates=$(ls src -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
-            for d in src/2022-0^[1-3]; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done;
-            mkdir -p public && mv src/2022-0^[1-3].pdf public
+            for d in src/2022-0* do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf ; done;
+            mkdir -p public && mv src/2022-0*.pdf public
 
       - name: Check pdf files
         run: |
