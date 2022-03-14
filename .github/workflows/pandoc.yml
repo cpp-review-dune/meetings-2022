@@ -11,39 +11,33 @@ on:
 jobs:
   build_latex:
     runs-on: ubuntu-20.04
-    container: archlinux:base-devel
-    env:
-      PACKAGES: "pandoc texlive-latexextra texlive-pictures ttf-fira-code"
-      AUR_PACKAGES: "otf-firamath noto-fonts-emoji-apple"
-    steps:
-      - uses: actions/checkout@v2
 
-      - name: Install dependencies
+    steps:
+      - name: Partial Clone
+        shell: bash
         run: |
-          ln -s /usr/share/zoneinfo/America/Lima /etc/localtime
-          sed -i 's/^#Color/Color/' /etc/pacman.conf
-          sed -i '/#CheckSpace/a ILoveCandy' /etc/pacman.conf
-          sed -i '/ILoveCandy/a ParallelDownloads = 30' /etc/pacman.conf
-          sed -i 's/^#MAKEFLAGS="-j2"/MAKEFLAGS="-j$(nproc)"/' /etc/makepkg.conf
-          echo -e '\n[multilib]\nInclude = /etc/pacman.d/mirrorlist' | tee -a /etc/pacman.conf
-          useradd -l -md /home/aur -s /bin/bash aur && passwd -d aur && echo 'aur ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
-          # echo 'aur ALL=(ALL) ALL' > /etc/sudoers.d/aur
-          cat /etc/passwd
-          sudo su - aur
-          whoami
-          sudo pacman -Syuq --needed --noconfirm --noprogressbar
-          # sudo pacman -Syuq $PACKAGES --needed --noconfirm #> /dev/null 2>&1
-          # cd ~
-          # curl -LO https://aur.archlinux.org/cgit/aur.git/snapshot/otf-firamath.tar.gz
-          # tar -xvf otf-firamath
-          # cd otf-firamath
-          # makepkg -si --noconfirm
-          # pushd src
-          # dates=$(ls -d */ | tr '/' ' ')
-          # popd
-          # pacman -Qi otf-firamath noto-fonts-emoji-apple
-          # for d in "${dates[@]}"; do echo ${d} ; done
-          # pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf
+          REPO="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          git config --global user.email github-actions@github.com
+          git config --global user.name github-actions
+          git clone -q --filter=blob:none --no-checkout --depth=1  --sparse $REPO .
+          git sparse-checkout set src
+          git checkout
+
+      - uses: addnab/docker-run-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          registry: ghcr.io
+          image: ghcr.io/cpp-review-dune/introductory-review/pandoc:latest
+          options: -v ${{github.workspace}}:/work
+          shell: bash
+          run: |
+            sudo chown -R 33333:33333 /work
+            pushd /work/
+            dates=$(ls -d */ | tr '/' ' ')
+            for d in "${dates[@]}"; do echo ${d} ; done
+            # pandoc src/${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex -o ${d}.pdf
+            popd
           # mkdir -p public && mv 2022-0*-*.pdf public
 
       # - name: Deploy
