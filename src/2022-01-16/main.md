@@ -317,3 +317,8 @@ Dentro de gitpod
 \includegraphics[width=0.45\paperwidth]{src/2022-01-16/asciinema.png}
 :::
 ::::::::::::::
+
+# Ejemplos
+
+\footnotesize
+\inputminted{bash}{src/2022-01-16/commands.sh}

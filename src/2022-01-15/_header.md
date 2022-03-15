@@ -36,6 +36,7 @@ header-includes:
   - |
     ```{=latex}
     \usepackage{emoji}
+    \usepackage{minted}
     \usepackage[hyperrefcolorlinks,os=win,mackeys=text]{menukeys}
     \renewmenumacro{\keys}[+]{shadowedroundedkeys}
     \hypersetup{colorlinks=true}

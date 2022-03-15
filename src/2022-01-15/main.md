@@ -147,14 +147,28 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 4. [Object-Oriented Programming for Scientific Computing, Ole Klein](https://conan.iwr.uni-heidelberg.de/data/teaching/oopfsc_ws2020/slides.pdf).
 5. [Taller de contribución a Arch Linux, Jesús Castro, Andrea Gómez, Santiago Torres](https://ccoss.org/sessions/w-archlinux).
 
+# Ejemplos
+
+\footnotesize
+\inputminted{bash}{src/2022-01-15/commands.sh}
+
+# Ejemplos
+
+\inputminted{cpp}{src/2022-01-15/main.cc}
+
+# Ejemplos
+
+\inputminted{python}{src/2022-01-15/main.py}
+
 <!--
 Manuales:
-- https://yopad.eu/p/brainstorm-dune-1day
+
 - https://ctan.dcc.uchile.cl/macros/latex/contrib/beamer/doc/beameruserguide.pdf
 - https://pandoc.org/MANUAL.pdf
 - https://ctan.math.washington.edu/tex-archive/macros/luatex/latex/emoji/emoji-doc.pdf
 
 Enlaces:
+
 - https://github.com/samuelburbulla/dune-mmesh/issues/3
 - https://launchpadlibrarian.net/83776282/fenics-book-2011-10-27-final.pdf
 - https://www.comsol.de
