@@ -321,4 +321,9 @@ Dentro de gitpod
 # Ejemplos
 
 \footnotesize
-\inputminted{bash}{src/2022-01-16/commands.sh}
+\inputminted[firstline=1, lastline=31]{bash}{src/2022-01-16/commands.sh}
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=32, lastline=62]{bash}{src/2022-01-16/commands.sh}

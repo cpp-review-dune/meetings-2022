@@ -38,3 +38,25 @@ pwd
 ls julia
 ls -l julia
 whoami
+cd ~
+pwd
+ls -l
+touch ejemplo
+ls -l
+./ejemplo
+chmod +x ejemplo
+./ejemplo
+ls -l
+pwd
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+pwd
+cd ~
+pwd
+ls
+mkdir python
+ls -l
+mkdir python
