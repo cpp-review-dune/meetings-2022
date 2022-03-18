@@ -26,7 +26,7 @@ https://gitpod.io/#<pega aquí la dirección del repositorio>
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="70%" align=center}
 
-Esta vez, utilizaremos un repositorio plantilla generada por [GitHub Classroom](https://github.com/cpp-review-dune/comandos), que nos permirá acceder al emulador de terminal de un sistema [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.es.html).
+Esta vez, utilizaremos un repositorio plantilla generada por [GitHub Classroom](https://classroom.github.com/a/eFj-8U7H), que nos permirá acceder al emulador de terminal de un sistema [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.es.html) basado en Arch Linux.
 
 \
 
@@ -65,8 +65,8 @@ Acerca de `docker`
 ## `/etc/pacman.conf`
 
 - Archivo perteneciente al usuario `root` ([UID](https://en.wikipedia.org/wiki/User_identifier) 0).
-- Habilitar descargar paralelas.
-- Modificar la lista de repositorios.
+- Habilita las descargas paralelas.
+- Modifica la lista de repositorios.
 - \emoji{notebook} [`https://man.archlinux.org/man/core/pacman/pacman.conf.5`](https://man.archlinux.org/man/core/pacman/pacman.conf.5).
 
 ## [`makepkg`](<https://wiki.archlinux.org/title/Makepkg_(Espa%C3%B1ol)>)
@@ -77,7 +77,7 @@ Acerca de `docker`
 ## `/etc/makepkg.conf`
 
 - Archivo perteneciente al usuario `root` ([UID](https://en.wikipedia.org/wiki/User_identifier) 0).
-- Modificar las opciones de compilación, algoritmos de compresión.
+- Modifica las opciones de compilación, algoritmos de compresión.
 - \emoji{notebook} [`https://man.archlinux.org/man/core/pacman/makepkg.conf.5`](https://man.archlinux.org/man/core/pacman/makepkg.conf.5).
 
 # [Repositorios oficiales](https://wiki.archlinux.org/title/Official_repositories)
@@ -269,10 +269,10 @@ $ python -c 'import this'
 
 ## `asciinema` \emoji{notebook} [`https://man.archlinux.org/man/asciinema.1`](https://man.archlinux.org/man/asciinema.1)
 
-1. Cree una cuenta en https://asciinema.org.
+1. Cree una cuenta en [`https://asciinema.org`](https://asciinema.org).
 2. Vea la ayuda de `asciinema` y reproduzca el vídeo.
 3. Instale `tldr` y lea el manual de algunos comandos.
-4. Descargue el tarball [`dune-pdelab-master.tar.gz`](https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz), inicialice el repositorio, instale bat y vea los archivos del código fuente.
+4. Descomprima el _tarball_ [`dune-pdelab-master.tar.gz`](https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz), inicialice el repositorio, instale `bat` y vea algunos archivos del código fuente.
 
 \small
 
@@ -327,3 +327,18 @@ Dentro de gitpod
 
 \footnotesize
 \inputminted[firstline=32, lastline=62]{bash}{src/2022-01-16/commands.sh}
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=63, lastline=93]{bash}{src/2022-01-16/commands.sh}
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=94, lastline=124]{bash}{src/2022-01-16/commands.sh}
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=125, lastline=154]{bash}{src/2022-01-16/commands.sh}

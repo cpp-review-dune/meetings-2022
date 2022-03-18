@@ -32,30 +32,61 @@
 
 <!-- `git-delta` -->
 <!-- `fzf` -->
-
 <!-- # Git en gitpod -->
-
 <!-- - [`https://code.visualstudio.com/docs/editor/versioncontrol`](https://code.visualstudio.com/docs/editor/versioncontrol) -->
 <!-- - [](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html#build-and-run) -->
 <!-- - [](https://git-scm.com/docs/gittutorial) -->
 
 # Actividades
 
-1. Descargar con el repositorio `dune-pdelab` [`https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz`](https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz)
+1. Descargue el repositorio `dune-pdelab` en [`https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz`](https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz).
 
 ```console
 $ curl -O https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz
 https://man.archlinux.org/man/git-init.1.en
 ```
 
-2. Llevar a cabo el tutorial de `git` [`https://git-scm.com/docs/gittutorial`](https://git-scm.com/docs/gittutorial)
-3. Instale asciinema y regístrese [`https://asciinema.org`](https://asciinema.org)
+2. Realize el tutorial de `git` [`https://git-scm.com/docs/gittutorial`](https://git-scm.com/docs/gittutorial).
+3. Instale asciinema y regístrese [`https://asciinema.org`](https://asciinema.org).
 
 ```
-$ sudo pacman -S asciinema, suba las soluciones a, por ejemplo
-   https://asciinema.org/a/L7v4biUA6A7m3UNsE28UZy8WK
+$ sudo pacman -S asciinema
+# suba las soluciones a, por ejemplo
+# https://asciinema.org/a/L7v4biUA6A7m3UNsE28UZy8WK
 ```
 
 4. [Rehacer los comandos](http://0x0.st/o-la.txt) de la sesión pasada: [`https://gitlab.math.tu-dresden.de/teaching/scprog/so2021-tutorial/-/blob/master/exercise1/sheet1.md`](https://gitlab.math.tu-dresden.de/teaching/scprog/so2021-tutorial/-/blob/master/exercise1/sheet1.md)
 
 <!-- gdb y pdb, valgrind -->
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=1, lastline=31]{bash}{src/2022-01-22/commands.sh}
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=32, lastline=62]{bash}{src/2022-01-22/commands.sh}
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=63, lastline=93]{bash}{src/2022-01-22/commands.sh}
+
+# Ejemplos
+
+\footnotesize
+\inputminted[firstline=94, lastline=100]{bash}{src/2022-01-22/commands.sh}
+
+# Ejemplos
+
+\inputminted{cpp}{src/2022-01-22/main.cc}
+
+# Ejemplos
+
+\inputminted{cpp}{src/2022-01-22/vectores.cc}
+
+# Ejemplos
+
+\inputminted{cpp}{src/2022-01-22/strings.cc}
