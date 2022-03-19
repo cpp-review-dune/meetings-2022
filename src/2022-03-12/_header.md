@@ -29,5 +29,6 @@ mainfont:
   - TeX Gyre Pagella
 header-includes:
   - \usepackage{emoji}
+  - \usepackage{minted}
   - \hypersetup{colorlinks=true}
 ---

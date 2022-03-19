@@ -6,8 +6,11 @@
 
 - \texttt{Sun Jan 30 07:00:00 AM -05 2022}.
 
-# Git para el trabajo colaborativo
+# Ejemplos
 
-## A.
+\footnotesize
+\inputminted[firstline=1, lastline=10]{bash}{src/2022-01-29/commands.sh}
 
-B.
+# Ejemplos
+
+\inputminted{cpp}{src/2022-01-29/cpp/main.cc}
