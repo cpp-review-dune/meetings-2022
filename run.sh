@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# DATE=2022-03-19
-DATE=$(date -u +"%Y-%m-%d")
+DATE=2022-03-20
+# DATE=$(date -u +"%Y-%m-%d")
 
 pandoc src/$DATE/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape -o $DATE.pdf # --bibliography src/bib.bib --toc --toc-depth=2
 

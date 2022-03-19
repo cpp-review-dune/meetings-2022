@@ -2,7 +2,7 @@
 title:
   - \huge [C++ Review DUNE](https://github.com/cpp-review-dune) \emoji{laptop}
 author:
-  - \large Una organización donde compartir notas acerca de C++ con pdfs escritos en \LaTeX.
+  - \large Una organización donde compartir notas acerca de C++ con PDFs escritos en \LaTeX.
 institute:
   - \normalsize [\emoji{page-with-curl} Pad de apuntes](https://yopad.eu/p/2022-01-15-dune-365days)
   - \normalsize [\emoji{paperclip} Liga del PDF](https://cpp-review-dune.github.io/meetings-2022/2022-01-15.pdf)

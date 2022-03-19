@@ -23,10 +23,12 @@ int main(int argc, char **argv)
   using Grid = Dune::YaspGrid<dim>;
 
   Dune::FieldVector<double, dim> len;
+
   for (auto &l : len)
     l = 1.0;
 
   std::array<int, dim> cells;
+
   for (auto &c : cells)
     c = 5;
 
@@ -71,34 +73,56 @@ int main(int argc, char **argv)
 
   // extract the grid view
   auto gv = grid.leafGridView();
+
   for (const auto &e : elements(gv))
-    integral += u(e.geometry().center()) * e.geometry().volume();
-  std::cout << "integral = " << integral << std::endl;
+    integral +=
+        u(e.geometry().center()) *
+        e.geometry().volume();
+
+  std::cout << "integral = "
+            << integral
+            << std::endl;
 
   // [integration with quadrature rule]
   double integral2 = 0.0;
-  using QR = Dune::QuadratureRules<Grid::ctype, dim>;
+  using QR =
+      Dune::QuadratureRules<Grid::ctype, dim>;
+
   for (const auto &e : elements(gv))
   {
     auto geo = e.geometry();
     auto quadrature = QR::rule(geo.type(), 5);
     for (const auto &qp : quadrature)
-      integral2 += u(geo.global(qp.position())) * geo.integrationElement(qp.position()) * qp.weight();
+      integral2 +=
+          u(geo.global(qp.position())) *
+          geo.integrationElement(qp.position()) *
+          qp.weight();
   }
-  std::cout << "integral2 = " << integral2 << std::endl;
+
+  std::cout << "integral2 = "
+            << integral2
+            << std::endl;
 
   // [integrating a flux]
   auto f = [](const auto &x)
   { return x; };
+
   double divergence = 0.0;
+
   for (const auto &i : elements(gv))
   {
     for (const auto &I : intersections(gv, i))
       if (!I.neighbor())
       {
         auto geoI = I.geometry();
-        divergence += f(geoI.center()) * I.centerUnitOuterNormal() * geoI.volume();
+        divergence +=
+            f(geoI.center()) *
+            I.centerUnitOuterNormal() *
+            geoI.volume();
       }
   }
-  std::cout << "divergence = " << divergence << std::endl;
+
+  std::cout << "divergence = "
+            << divergence
+            << std::endl;
 }
