@@ -82,20 +82,5 @@ int main()
   auto E = pow(sin(x), 2) + pow(cos(x), 2);
   std::cout << "sin^2(x) + cos^2(x) = " << E << std::endl;
 
-  /*
-  // En matlab son doble precisión por defecto, en octave será igual?
-  // std::exp es igual que exp?
-  std::cout << E << std::endl;
-  // https://en.cppreference.com/w/cpp/language/operator_alternative
-  if (3 < 5 and 4 < 8)
-  {
-      std::cout << "Verdadero" << std::endl;
-  }
-  // https://stackoverflow.com/q/1727881
-  // La precisión por hardware y software
-  // Los registros de la computadora
-  std::cout << std::fixed << std::setprecision(20);
-  std::cout << std::numbers::pi << std::endl;
-  */
   return 0;
 }

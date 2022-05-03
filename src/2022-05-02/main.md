@@ -53,6 +53,9 @@ Referencias sobre visualización científica:
 - `gnuplot-cpp`
   - [Ejemplos](https://github.com/martinruenz/gnuplot-cpp/blob/master/README.md#example-usage)
   - [Disponible en `[github]`](https://github.com/martinruenz/gnuplot-cpp)
+- `termplotlib`
+  - [Ejemplos](https://github.com/nschloe/termplotlib/blob/main/README.md#line-plots)
+  - [Disponible en `[aur]`](https://aur.archlinux.org/packages/python-termplotlib)
 
 :::
 ::: {.column width="50%" align=center}
@@ -96,7 +99,7 @@ Referencias sobre visualización científica:
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={1,3,8-9}, firstline=1, lastline=10]{cpp}{src/2022-05-02/hello-matplotlib.cc}
+\inputminted[highlightlines={1,3,9-10}, firstline=1, lastline=13]{cpp}{src/2022-05-02/hello-matplotlib.cc}
 :::
 ::::::::::::::
 
@@ -189,11 +192,23 @@ Referencias sobre visualización científica:
 ::: {.column width="50%" align=center}
 
 ## Code snippet
-
-<!-- https://stackoverflow.com/a/4609795 -->
-
+<!-- 
+https://stackoverflow.com/a/4609795
+// En matlab son doble precisión por defecto, en octave será igual?
+// std::exp es igual que exp?
+// https://en.cppreference.com/w/cpp/language/operator_alternative
+if (3 < 5 and 4 < 8)
+{
+  std::cout << "Verdadero" << std::endl;
+}
+// https://stackoverflow.com/q/1727881
+// La precisión por hardware y software
+// Los registros de la computadora
+std::cout << std::fixed << std::setprecision(20);
+std::cout << std::numbers::pi << std::endl;
+ -->
 \footnotesize
-\inputminted[highlightlines={65-66,68-69,71-72,74-77,79-80,82-83}, firstline=64, lastline=83]{cpp}{src/2022-05-02/session1.cc}
+\inputminted[highlightlines={65-66,68-69,71-72,74-77,79-80,82-83}, firstline=64, lastline=86]{cpp}{src/2022-05-02/session1.cc}
 :::
 ::::::::::::::
 
@@ -212,7 +227,7 @@ Referencias sobre visualización científica:
 <!-- https://en.cppreference.com/w/cpp/numeric/complex -->
 
 \footnotesize
-\inputminted[highlightlines={8-9,11-12,14-15,17-19,21-22}, firstline=1, lastline=23]{cpp}{src/2022-05-02/complex.cc}
+\inputminted[highlightlines={3,8-9,11-12,14-15,17-19,21-22}, firstline=1, lastline=25]{cpp}{src/2022-05-02/complex.cc}
 :::
 ::::::::::::::
 
@@ -229,7 +244,7 @@ Referencias sobre visualización científica:
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={2-3,8-11,14-17,20-24}, firstline=1, lastline=27]{cpp}{src/2022-05-02/exercise1.cc}
+\inputminted[highlightlines={3-4,9-12,15-18,21-25}, firstline=1, lastline=28]{cpp}{src/2022-05-02/exercise1.cc}
 :::
 ::::::::::::::
 
