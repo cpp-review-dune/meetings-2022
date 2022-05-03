@@ -1,17 +1,26 @@
-# cmake -S cmake-tutorial -B build
-cmake_minimum_required(VERSION 3.5)
+# Almost working on Focal Fossa
+# https://packages.ubuntu.com/focal/cmake
+cmake_minimum_required(VERSION 3.16)
 
-project(demo LANGUAGES CXX)
+project(session1 LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Python3 COMPONENTS Interpreter Development NumPy REQUIRED)
-find_package(PythonLibs 3.0 REQUIRED)
+find_package(fmt)
 
-add_executable(demo main.cc)
-target_link_libraries(demo
-    PRIVATE
-        ${PYTHON_LIBRARIES}
-        Python3::NumPy
-)
+add_executable(exercise1 exercise1.cc)
+target_link_libraries(exercise1 fmt::fmt)
+
+add_executable(exercise2 exercise2.cc)
+target_link_libraries(exercise2 fmt::fmt)
+
+add_executable(exercise3 exercise3.cc)
+target_link_libraries(exercise3 fmt::fmt)
+
+add_executable(session1 session1.cc)
+add_executable(complex complex.cc)
+
+find_package(Catch2 2 REQUIRED)
+add_executable(test test.cc)
+target_link_libraries(test Catch2::Catch2)

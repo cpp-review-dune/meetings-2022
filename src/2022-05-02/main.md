@@ -60,7 +60,7 @@ Referencias sobre visualización científica:
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={9-10,12-17}, firstline=2, lastline=17]{cmake}{src/2022-05-02/CMakeLists.txt}
+\inputminted[highlightlines={9-10,12-17}, firstline=2, lastline=17]{cmake}{src/2022-05-02/CMakeLists.txt.sample}
 :::
 ::::::::::::::
 
@@ -128,11 +128,145 @@ Referencias sobre visualización científica:
   - [Disponible en `[aur]`](https://aur.archlinux.org/packages/dune-common)
 - y más $\ldots$
 
+<!-- https://github.com/blitzpp/blitz -->
+<!-- https://gmplib.org -->
+
 :::
 ::: {.column width="50%" align=center}
 
 ## [istl Directory Reference](https://dune-project.org/doxygen/2.8.0/dir_076cadbab1aab890d8de2944aa4b23a3.html)
 
 \includegraphics[width=0.35\paperwidth]{src/2022-05-02/dune-istl.png}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+## `<cmath>`
+
+:::
+::: {.column width="50%" align=center}
+
+## Code snippet
+
+<!-- https://stackoverflow.com/a/4609795 -->
+
+\footnotesize
+\inputminted[highlightlines={5-9,15,14-19}, firstline=1, lastline=19]{cpp}{src/2022-05-02/session1.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+## `<cmath>`
+
+:::
+::: {.column width="50%" align=center}
+
+## Code snippet
+
+<!-- https://stackoverflow.com/a/4609795 -->
+
+\footnotesize
+\inputminted[highlightlines={22-23,25-26,28-29,31-32,34-35,37-38}, firstline=21, lastline=38]{cpp}{src/2022-05-02/session1.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+## `<cmath>`
+
+:::
+::: {.column width="50%" align=center}
+
+## Code snippet
+
+<!-- https://stackoverflow.com/a/4609795 -->
+
+\footnotesize
+\inputminted[highlightlines={65-66,68-69,71-72,74-77,79-80,82-83}, firstline=64, lastline=83]{cpp}{src/2022-05-02/session1.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+## `<complex>`
+
+:::
+::: {.column width="50%" align=center}
+
+## Code snippet
+
+<!-- https://en.cppreference.com/w/cpp/numeric/complex -->
+
+\footnotesize
+\inputminted[highlightlines={8-9,11-12,14-15,17-19,21-22}, firstline=1, lastline=23]{cpp}{src/2022-05-02/complex.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+## `<fmt>`
+
+:::
+::: {.column width="50%" align=center}
+
+## Code snippet
+
+\footnotesize
+\inputminted[highlightlines={2-3,8-11,14-17,20-24}, firstline=1, lastline=27]{cpp}{src/2022-05-02/exercise1.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+## `<fmt>`
+
+:::
+::: {.column width="50%" align=center}
+
+## Code snippet
+
+<!-- https://stackoverflow.com/questions/9864125/c11-how-to-alias-a-function -->
+
+\footnotesize
+\inputminted[highlightlines={8,10-13,15-19}, firstline=1, lastline=22]{cpp}{src/2022-05-02/exercise2.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+## `<fmt>`
+
+:::
+::: {.column width="50%" align=center}
+
+## Code snippet
+
+<!-- https://stackoverflow.com/questions/9864125/c11-how-to-alias-a-function -->
+
+\footnotesize
+\inputminted[highlightlines={8-16,18-25}, firstline=1, lastline=28]{cpp}{src/2022-05-02/exercise3.cc}
 :::
 ::::::::::::::
