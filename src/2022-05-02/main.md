@@ -36,23 +36,24 @@ Referencias sobre visualización científica:
 - [](https://jkriege2.github.io/JKQtPlotter/example_tutorial_projects.html)
  -->
 
-## Basados en `gnuplot`
+## Basados en [`gnuplot`](https://archlinux.org/packages/extra/x86_64/gnuplot)
 
-- [`gnuplot`](http://www.gnuplot.info)
-  - [Ejemplos](http://gnuplot.sourceforge.net/demo/simple.html)
-  - [Disponible en `[extra]`](https://archlinux.org/packages/extra/x86_64/gnuplot)
-- `plotcpp`
+- [Ejemplos](http://gnuplot.sourceforge.net/demo_5.4)
+<!-- - `plotcpp`
   - [Ejemplos](https://github.com/Kolkir/plotcpp/blob/master/example.png)
-  - [Disponible en `[github]`](https://github.com/Kolkir/plotcpp)
+  - [Disponible en `[github]`](https://github.com/Kolkir/plotcpp) -->
 - `sciplot`
   - [Ejemplos](https://sciplot.github.io/tutorials)
   - [Disponible en `[aur]`](https://aur.archlinux.org/packages/sciplot)
-- `lyrahgames-gnuplot`
+<!-- - `lyrahgames-gnuplot`
   - [Ejemplos](https://home.lyrahgames.org/gnuplot/examples.html)
-  - [Disponible en `[github]`](https://github.com/lyrahgames/gnuplot)
-- `gnuplot-cpp`
+  - [Disponible en `[github]`](https://github.com/lyrahgames/gnuplot) -->
+<!-- - `gnuplot-cpp`
   - [Ejemplos](https://github.com/martinruenz/gnuplot-cpp/blob/master/README.md#example-usage)
-  - [Disponible en `[github]`](https://github.com/martinruenz/gnuplot-cpp)
+  - [Disponible en `[github]`](https://github.com/martinruenz/gnuplot-cpp) -->
+- `Matplot++`
+  - [Ejemplos](https://alandefreitas.github.io/matplotplusplus/plot-types/line-plots/line-plot)
+  - [Disponible en `[aur]`](https://aur.archlinux.org/packages/matplotplusplus)
 - `termplotlib`
   - [Ejemplos](https://github.com/nschloe/termplotlib/blob/main/README.md#line-plots)
   - [Disponible en `[aur]`](https://aur.archlinux.org/packages/python-termplotlib)
@@ -63,7 +64,7 @@ Referencias sobre visualización científica:
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={9-10,12-17}, firstline=2, lastline=17]{cmake}{src/2022-05-02/CMakeLists.txt.sample}
+\inputminted[highlightlines={9-10,12-17}, firstline=2, lastline=17]{cmake}{src/2022-05-02/plot/CMakeLists.txt}
 :::
 ::::::::::::::
 
@@ -72,17 +73,12 @@ Referencias sobre visualización científica:
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="50%" align=center}
 
-## Basados en `matplotlib`
+## Basados en [`matplotlib`](https://archlinux.org/packages/community/x86_64/python-matplotlib)
 
-- [`matplotlib`](https://matplotlib.org)
-  - [Ejemplos](https://matplotlib.org/stable/gallery/lines_bars_and_markers/lines_with_ticks_demo.html#sphx-glr-gallery-lines-bars-and-markers-lines-with-ticks-demo-py)
-  - [Disponible en `[community]`](https://archlinux.org/packages/community/x86_64/python-matplotlib)
-- `plotty`
+- [Ejemplos](https://matplotlib.org/stable/gallery/lines_bars_and_markers/lines_with_ticks_demo.html#sphx-glr-gallery-lines-bars-and-markers-lines-with-ticks-demo-py)
+<!-- - `plotty`
   - [Ejemplos](https://github.com/ethz-asl/plotty/blob/master/README.md#simple-plot-of-a-vector)
-  - [Disponible en `[github]`](https://github.com/ethz-asl/plotty)
-- `Matplot++`
-  - [Ejemplos](https://alandefreitas.github.io/matplotplusplus/plot-types/line-plots/line-plot)
-  - [Disponible en `[aur]`](https://aur.archlinux.org/packages/matplotplusplus)
+  - [Disponible en `[github]`](https://github.com/ethz-asl/plotty) -->
 - `matplotlib-cpp`
   - [Ejemplos](https://github.com/lava/matplotlib-cpp/blob/master/README.md#usage)
   - [Disponible en `[aur]`](https://aur.archlinux.org/packages/matplotlib-cpp-git)
@@ -99,7 +95,7 @@ Referencias sobre visualización científica:
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={1,3,9-10}, firstline=1, lastline=13]{cpp}{src/2022-05-02/hello-matplotlib.cc}
+\inputminted[highlightlines={1,3,10-16}, firstline=1, lastline=19]{cpp}{src/2022-05-02/plot/hello-matplotlib.cc}
 :::
 ::::::::::::::
 
@@ -158,7 +154,7 @@ Referencias sobre visualización científica:
 <!-- https://stackoverflow.com/a/4609795 -->
 
 \footnotesize
-\inputminted[highlightlines={5-9,15,14-19}, firstline=1, lastline=19]{cpp}{src/2022-05-02/session1.cc}
+\inputminted[highlightlines={5-9,15,14-19}, firstline=1, lastline=19]{cpp}{src/2022-05-02/demo/session1.cc}
 :::
 ::::::::::::::
 
@@ -177,7 +173,7 @@ Referencias sobre visualización científica:
 <!-- https://stackoverflow.com/a/4609795 -->
 
 \footnotesize
-\inputminted[highlightlines={22-23,25-26,28-29,31-32,34-35,37-38}, firstline=21, lastline=38]{cpp}{src/2022-05-02/session1.cc}
+\inputminted[highlightlines={22-23,25-26,28-29,31-32,34-35,37-38}, firstline=21, lastline=38]{cpp}{src/2022-05-02/demo/session1.cc}
 :::
 ::::::::::::::
 
@@ -208,7 +204,7 @@ std::cout << std::fixed << std::setprecision(20);
 std::cout << std::numbers::pi << std::endl;
  -->
 \footnotesize
-\inputminted[highlightlines={65-66,68-69,71-72,74-77,79-80,82-83}, firstline=64, lastline=86]{cpp}{src/2022-05-02/session1.cc}
+\inputminted[highlightlines={65-66,68-69,71-72,74-77,79-80,82-83}, firstline=64, lastline=86]{cpp}{src/2022-05-02/demo/session1.cc}
 :::
 ::::::::::::::
 
@@ -227,61 +223,62 @@ std::cout << std::numbers::pi << std::endl;
 <!-- https://en.cppreference.com/w/cpp/numeric/complex -->
 
 \footnotesize
-\inputminted[highlightlines={3,8-9,11-12,14-15,17-19,21-22}, firstline=1, lastline=25]{cpp}{src/2022-05-02/complex.cc}
+\inputminted[highlightlines={3,8-9,11-12,14-15,18-20,22-23}, firstline=1, lastline=26]{cpp}{src/2022-05-02/demo/complex.cc}
 :::
 ::::::::::::::
 
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={3-4,9-12,15-18,21-25}, firstline=1, lastline=28]{cpp}{src/2022-05-02/exercise1.cc}
+\inputminted[highlightlines={2-3,8-11,14-17,20-24}, firstline=1, lastline=27]{cpp}{src/2022-05-02/demo/exercise1.cc}
 :::
 ::::::::::::::
 
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
+
+## Code snippet
+
+<!-- https://stackoverflow.com/questions/9864125/c11-how-to-alias-a-function -->
+<!-- https://stackoverflow.com/questions/14116003/whats-the-difference-between-constexpr-and-const -->
+
+\footnotesize
+\inputminted[highlightlines={8,10-13,15-19}, firstline=1, lastline=22]{cpp}{src/2022-05-02/demo/exercise2.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="45%" align=center}
+
+## `<fmt>`
+
+:::
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
 <!-- https://stackoverflow.com/questions/9864125/c11-how-to-alias-a-function -->
 
 \footnotesize
-\inputminted[highlightlines={8,10-13,15-19}, firstline=1, lastline=22]{cpp}{src/2022-05-02/exercise2.cc}
-:::
-::::::::::::::
-
-# Standard library header
-
-:::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
-
-## `<fmt>`
-
-:::
-::: {.column width="50%" align=center}
-
-## Code snippet
-
-<!-- https://stackoverflow.com/questions/9864125/c11-how-to-alias-a-function -->
-
-\footnotesize
-\inputminted[highlightlines={8-16,18-25}, firstline=1, lastline=28]{cpp}{src/2022-05-02/exercise3.cc}
+\inputminted[highlightlines={8-16,18-26}, firstline=1, lastline=29]{cpp}{src/2022-05-02/demo/exercise3.cc}
 :::
 ::::::::::::::

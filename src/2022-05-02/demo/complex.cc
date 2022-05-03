@@ -14,6 +14,7 @@ int main()
   std::complex<double> z2 = std::pow(1i, 2);
   std::cout << "pow(i, 2) = " << z2 << '\n';
 
+  // no se modifica PI
   const double PI = std::acos(-1);
   std::complex<double> z3 = std::exp(1i * PI);
   std::cout << "exp(i * pi) = " << z3 << '\n';
