@@ -46,15 +46,15 @@ int main()
             << "log(1000) = " << log10(1000) << std::endl
             << "Gamma(6) = (6 - 1)! = " << tgamma(6) << std::endl
             << "pi = " << acos(-1) << std::endl
-            << "sin(pi/6) = " << sin(acos(-1) / 6) << std::endl
-            << "cos(pi/6) = " << cos(acos(-1) / 6) << std::endl
-            << "tan(pi/6) = " << tan(acos(-1) / 6) << std::endl
-            << "cot(pi/6) = " << 1 / tan(acos(-1) / 6) << std::endl;
+            << "sin(pi / 6) = " << sin(acos(-1) / 6) << std::endl
+            << "cos(pi / 6) = " << cos(acos(-1) / 6) << std::endl
+            << "tan(pi / 6) = " << tan(acos(-1) / 6) << std::endl
+            << "cot(pi / 6) = " << 1 / tan(acos(-1) / 6) << std::endl;
 
-  std::cout << "round(17/5) = " << round(17. / 5) << std::endl
-            << "fix(13/5) = " << trunc(13. / 5) << std::endl
-            << "ceil(11/5) = " << ceil(11. / 5) << std::endl
-            << "floor(-9/4) = " << floor(-9. / 4) << std::endl
+  std::cout << "round(17 / 5) = " << round(17. / 5) << std::endl
+            << "fix(13 / 5) = " << trunc(13. / 5) << std::endl
+            << "ceil(11 / 5) = " << ceil(11. / 5) << std::endl
+            << "floor(-9 / 4) = " << floor(-9. / 4) << std::endl
             << "rem(13, 5) = " << 13 % 5 << std::endl;
 
   std::cout << "sign(5) = "
@@ -69,7 +69,7 @@ int main()
   std::cout << "B = " << B << std::endl;
 
   auto C = (a - B) + 40 - a / B * 10;
-  std::cout << "(a - B) + 40 - a/B*10 = " << C << std::endl;
+  std::cout << "(a - B) + 40 - a / B * 10 = " << C << std::endl;
 
   auto ABB = 72;
   std::cout << "ABB = " << ABB << std::endl;
@@ -80,7 +80,7 @@ int main()
   std::cout << "x = " << x << std::endl;
 
   auto E = pow(sin(x), 2) + pow(cos(x), 2);
-  std::cout << "sin^2(x) + cos^2(x) = " << E << std::endl;
+  std::cout << "sin^2 (x) + cos^2 (x) = " << E << std::endl;
 
   return 0;
 }
