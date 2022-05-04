@@ -12,8 +12,8 @@ int main()
 
   fmt::print("x = {}\n", x);
   fmt::print("Size of x: {}\n", x.size());
-  fmt::print("Euclidian norm of x: {}\n", x.two_norm());
-  fmt::print("Maximum norm of x: {}\n", x.infinity_norm());
+  fmt::print("‖x‖ = {}\n", x.two_norm());
+  fmt::print("Supremum norm of x: {}\n", x.infinity_norm());
   fmt::print("Dimension of x: {}\n", x.dimension);
 
   Dune::Matrix<double> matrix(3, 5);

@@ -188,6 +188,23 @@ Referencias sobre visualización científica:
 ::: {.column width="55%" align=center}
 
 ## Code snippet
+
+\footnotesize
+\inputminted[highlightlines={41-52,54-58,60}, firstline=40, lastline=60]{cpp}{src/2022-05-02/demo/session1.cc}
+:::
+::::::::::::::
+
+# Standard library header
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="45%" align=center}
+
+## `<cmath>`
+
+:::
+::: {.column width="55%" align=center}
+
+## Code snippet
 <!-- 
 https://stackoverflow.com/a/4609795
 // En matlab son doble precisión por defecto, en octave será igual?
@@ -204,7 +221,7 @@ std::cout << std::fixed << std::setprecision(20);
 std::cout << std::numbers::pi << std::endl;
  -->
 \footnotesize
-\inputminted[highlightlines={65-66,68-69,71-72,74-77,79-80,82-83}, firstline=64, lastline=86]{cpp}{src/2022-05-02/demo/session1.cc}
+\inputminted[highlightlines={63-64,66-67,69-70,72-75,77-78,80-81}, firstline=62, lastline=84]{cpp}{src/2022-05-02/demo/session1.cc}
 :::
 ::::::::::::::
 
@@ -230,12 +247,12 @@ std::cout << std::numbers::pi << std::endl;
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="40%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="60%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -247,12 +264,12 @@ std::cout << std::numbers::pi << std::endl;
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="40%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="60%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -267,12 +284,12 @@ std::cout << std::numbers::pi << std::endl;
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="40%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="60%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 

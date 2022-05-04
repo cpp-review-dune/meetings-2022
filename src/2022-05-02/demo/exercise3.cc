@@ -12,7 +12,7 @@ int main()
   };
   double resultado_a = expr1(x, y);
   fmt::print(fmt::emphasis::bold | fg(fmt::color::light_green),
-             "(x ^ 2 + y ^ 2) ^ (2 / 3) + (x * y) / (y - x) = {0:.2f}\n",
+             "(x² + y²) ^ ⅔ + (x * y) / (y - x) = {0:.2f}\n",
              resultado_a);
 
   auto expr2 = [](float x, float y)
@@ -22,7 +22,7 @@ int main()
   };
   double resultado_b = expr2(x, y);
   fmt::print(fmt::emphasis::bold | fg(fmt::color::blue_violet),
-             "sqrt(x + y) / (x - y) ^ 2 + 2 * x ^ 2 - x * y ^ 2 = {0:.2f}\n",
+             "√(x + y) / (x - y)² + 2 * x² - x * y² = {0:.2f}\n",
              resultado_b);
 
   return 0;
