@@ -25,17 +25,19 @@ theme:
   - metropolis
 mathfont:
   - Fira Math
-monofont:
-  - Fira Code
-monofontoptions:
-  - Contextuals=Alternate
-  - Scale=MatchLowercase
+# monofont:
+#   - Fira Code
+# monofontoptions:
+#   - Contextuals=Alternate
+#   - Scale=MatchLowercase
 mainfont:
   - TeX Gyre Pagella
 header-includes:
   - |
     ```{=latex}
     \usepackage{emoji}
+    \usepackage{fontspec}
+    \setmonofont{Fira Code}[Contextuals=Alternate,Scale=MatchLowercase]
     \usepackage{minted}
     \usepackage[hyperrefcolorlinks,os=win,mackeys=text]{menukeys}
     \renewmenumacro{\keys}[+]{shadowedroundedkeys}

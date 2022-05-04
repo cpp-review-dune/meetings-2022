@@ -1,0 +1,12 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: dune-vector-learn
+Version: 1.0
+Maintainer: a@a
+# Required build dependencies
+Depends: dune-pdelab
+# Optional build dependencies
+#Suggests:

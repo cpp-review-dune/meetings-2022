@@ -4,7 +4,7 @@
 
 int main()
 {
-  // Constant en tiempo de compilación
+  // constante en tiempo de compilación
   constexpr double PI = std::numbers::pi;
 
   double resultado_a = sin(0.2 * PI) / cos(PI / 6) + tan(PI / 180 * 72);

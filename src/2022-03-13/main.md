@@ -2,6 +2,6 @@
 
 ## `$ date` (\emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México -1)
 
-- \alert{\texttt{Sat Mar 12 07:00:00 AM -05 2022}}.
+- \texttt{Sat Mar 12 07:00:00 AM -05 2022}.
 
-- \texttt{Sun Mar 13 07:00:00 AM -05 2022}.
+- \alert{\texttt{Sun Mar 13 07:00:00 AM -05 2022}}.

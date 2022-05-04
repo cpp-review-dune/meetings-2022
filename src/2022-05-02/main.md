@@ -16,7 +16,7 @@ Referencias sobre visualización científica:
 - https://www3.cs.stonybrook.edu/~qin/courses/geometry/fundamental-techniques-graphics-visualization.pdf
  -->
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 <!-- 
 ## Basados en `vtk`
 
@@ -59,7 +59,7 @@ Referencias sobre visualización científica:
   - [Disponible en `[aur]`](https://aur.archlinux.org/packages/python-termplotlib)
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -71,7 +71,7 @@ Referencias sobre visualización científica:
 # [Visualización](https://en.wikipedia.org/wiki/Scientific_visualization)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## Basados en [`matplotlib`](https://archlinux.org/packages/community/x86_64/python-matplotlib)
 
@@ -90,7 +90,7 @@ Referencias sobre visualización científica:
 <!-- https://github.com/yokaze/pyscience11 -->
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -102,7 +102,7 @@ Referencias sobre visualización científica:
 # [Bibliotecas de álgebra matricial](https://en.wikipedia.org/wiki/Comparison_of_linear_algebra_libraries)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 - [armadillo](http://arma.sourceforge.net/faq.html)
   - [Ejemplos](http://arma.sourceforge.net/docs.html#example_prog)
@@ -131,23 +131,23 @@ Referencias sobre visualización científica:
 <!-- https://gmplib.org -->
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## [istl Directory Reference](https://dune-project.org/doxygen/2.8.0/dir_076cadbab1aab890d8de2944aa4b23a3.html)
 
-\includegraphics[width=0.35\paperwidth]{src/2022-05-02/dune-istl.png}
+\includegraphics[width=0.36\paperwidth]{src/2022-05-02/dune-istl.png}
 :::
 ::::::::::::::
 
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<cmath>`
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -161,12 +161,12 @@ Referencias sobre visualización científica:
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<cmath>`
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -180,12 +180,12 @@ Referencias sobre visualización científica:
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<cmath>`
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 <!-- 
@@ -211,12 +211,12 @@ std::cout << std::numbers::pi << std::endl;
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## `<complex>`
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -230,12 +230,12 @@ std::cout << std::numbers::pi << std::endl;
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="40%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="60%" align=center}
 
 ## Code snippet
 
@@ -247,12 +247,12 @@ std::cout << std::numbers::pi << std::endl;
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="40%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="60%" align=center}
 
 ## Code snippet
 
@@ -267,12 +267,12 @@ std::cout << std::numbers::pi << std::endl;
 # Standard library header
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="40%" align=center}
 
 ## `<fmt>`
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="60%" align=center}
 
 ## Code snippet
 
@@ -280,5 +280,39 @@ std::cout << std::numbers::pi << std::endl;
 
 \footnotesize
 \inputminted[highlightlines={8-16,18-26}, firstline=1, lastline=29]{cpp}{src/2022-05-02/demo/exercise3.cc}
+:::
+::::::::::::::
+
+# Catch2
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="45%" align=center}
+
+## `<catch>`
+
+:::
+::: {.column width="55%" align=center}
+
+## Code snippet
+
+\footnotesize
+\inputminted[highlightlines={1,3,5,7-12,14-18,20-24}, firstline=1, lastline=24]{cpp}{src/2022-05-02/demo/test.cc}
+:::
+::::::::::::::
+
+# Catch2
+
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="45%" align=center}
+
+## `<catch>`
+
+:::
+::: {.column width="55%" align=center}
+
+## Code snippet
+
+\footnotesize
+\inputminted[highlightlines={1}, firstline=1, lastline=23]{cpp}{src/2022-05-02/demo/student.hh}
 :::
 ::::::::::::::

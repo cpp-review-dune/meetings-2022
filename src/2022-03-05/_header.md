@@ -23,12 +23,17 @@ navigation:
   - frame
 theme:
   - metropolis
-monofont:
-  - Fira Code
+# monofont:
+#   - Fira Code
 mainfont:
   - TeX Gyre Pagella
 header-includes:
-  - \usepackage{emoji}
-  - \usepackage{minted}
-  - \hypersetup{colorlinks=true}
+  - |
+    ```{=latex}
+    \usepackage{emoji}
+    \usepackage{fontspec}
+    \setmonofont{Fira Code}[Contextuals=Alternate,Scale=MatchLowercase]
+    \usepackage{minted}
+    \hypersetup{colorlinks=true}
+    ```
 ---

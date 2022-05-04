@@ -8,12 +8,10 @@
 
 # Grid interface
 
-A.
-
 # [`recipe-integration.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-integration.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="65%" align=center}
+::: {.column width="55%" align=center}
 
 ## [`#include <dune/common/foo.hh>`](https://www.dune-project.org/doxygen/2.8.0/dir_ff772a0290412ea04de4fbde7f3d7cae.html)
 
@@ -31,7 +29,7 @@ A.
 - [`yaspgrid.hh` File Reference](https://www.dune-project.org/doxygen/2.8.0/yaspgrid_8hh.html)
 
 :::
-::: {.column width="35%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
@@ -43,7 +41,7 @@ A.
 # [`recipe-integration.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-integration.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="65%" align=center}
+::: {.column width="55%" align=center}
 
 ## [`Dune::MPIHelper` Class Reference](https://www.dune-project.org/doxygen/2.8.0/classDune_1_1MPIHelper.html)
 
@@ -58,57 +56,57 @@ A.
 - C.
 
 :::
-::: {.column width="35%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
 \small
-\inputminted[highlightlines={18,23,25}, firstline=17, lastline=35]{cpp}{src/2022-03-19/recipe-integration.cc}
+\inputminted[highlightlines={18-19,23,25}, firstline=17, lastline=35]{cpp}{src/2022-03-19/recipe-integration.cc}
 :::
 ::::::::::::::
 
 # [`recipe-integration.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-integration.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="65%" align=center}
+::: {.column width="55%" align=center}
 
 ## [`Dune::MPIHelper` Class Reference](https://www.dune-project.org/doxygen/2.8.0/classDune_1_1MPIHelper.html)
 
 - A.
 
 :::
-::: {.column width="35%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
 \small
-\inputminted[highlightlines={39}, firstline=37, lastline=52]{cpp}{src/2022-03-19/recipe-integration.cc}
+\inputminted[highlightlines={39-40,52}, firstline=37, lastline=52]{cpp}{src/2022-03-19/recipe-integration.cc}
 :::
 ::::::::::::::
 
 # [`recipe-integration.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-integration.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="65%" align=center}
+::: {.column width="55%" align=center}
 
 ## [`Dune::FieldMatrix<K,ROWS,COLS>` Class Template Reference](https://dune-project.org/doxygen/2.8.0/classDune_1_1FieldMatrix.html)
 
 - A.
 
 :::
-::: {.column width="35%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
 \small
-\inputminted[highlightlines={55}, firstline=54, lastline=65]{cpp}{src/2022-03-19/recipe-integration.cc}
+\inputminted[highlightlines={55-59,62,65}, firstline=54, lastline=65]{cpp}{src/2022-03-19/recipe-integration.cc}
 :::
 ::::::::::::::
 
 # [`recipe-integration.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-integration.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="65%" align=center}
+::: {.column width="55%" align=center}
 
 ## [`leafGridView()`](https://dune-project.org/doxygen/2.8.0/classDune_1_1Grid.html#a5683d25186d8ee2f376098ed83f2c185)
 
@@ -131,19 +129,19 @@ A.
 - E.
 
 :::
-::: {.column width="35%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
 \small
-\inputminted[highlightlines={75,77,79-80}, firstline=67, lastline=84]{cpp}{src/2022-03-19/recipe-integration.cc}
+\inputminted[highlightlines={75,77-80}, firstline=67, lastline=84]{cpp}{src/2022-03-19/recipe-integration.cc}
 :::
 ::::::::::::::
 
 # [`recipe-integration.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-integration.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="60%" align=center}
+::: {.column width="55%" align=center}
 
 ## [`Dune::QuadratureRules<ctype,dim>` Class Template Reference](https://dune-project.org/doxygen/2.8.0/classDune_1_1QuadratureRules.html)
 
@@ -170,19 +168,19 @@ A.
 - F.
 
 :::
-::: {.column width="40%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
 \small
-\inputminted[highlightlines={89,94,97-99}, firstline=86, lastline=104]{cpp}{src/2022-03-19/recipe-integration.cc}
+\inputminted[highlightlines={89,94-100}, firstline=86, lastline=104]{cpp}{src/2022-03-19/recipe-integration.cc}
 :::
 ::::::::::::::
 
 # [`recipe-integration.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-integration.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="65%" align=center}
+::: {.column width="55%" align=center}
 
 ## [`intersections()`](https://dune-project.org/doxygen/2.8.0/group__GIIteration.html#ga0927181ebf10ed59531e262a63f92daf)
 
@@ -197,12 +195,12 @@ A.
 - C.
 
 :::
-::: {.column width="35%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
 \small
-\inputminted[highlightlines={114-115,119-121}, firstline=106, lastline=127]{cpp}{src/2022-03-19/recipe-integration.cc}
+\inputminted[highlightlines={114,115-123}, firstline=106, lastline=127]{cpp}{src/2022-03-19/recipe-integration.cc}
 :::
 ::::::::::::::
 

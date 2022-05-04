@@ -99,95 +99,95 @@ Contamos con los repositorios
 
 # Comandos esenciales I
 
-## `pwd` \emoji{notebook} [`https://man.archlinux.org/man/pwd.1.es`](https://man.archlinux.org/man/pwd.1.es)
+#### `pwd` \emoji{notebook} [`https://man.archlinux.org/man/pwd.1.es`](https://man.archlinux.org/man/pwd.1.es)
 
-## `mkdir` \emoji{notebook} [`https://man.archlinux.org/man/mkdir.1`](https://man.archlinux.org/man/mkdir.1)
+#### `mkdir` \emoji{notebook} [`https://man.archlinux.org/man/mkdir.1`](https://man.archlinux.org/man/mkdir.1)
 
-## `ls` \emoji{notebook} [`https://man.archlinux.org/man/ls.1.es`](https://man.archlinux.org/man/ls.1.es)
+#### `ls` \emoji{notebook} [`https://man.archlinux.org/man/ls.1.es`](https://man.archlinux.org/man/ls.1.es)
 
-## `less` \emoji{notebook} [`https://man.archlinux.org/man/less.1`](https://man.archlinux.org/man/less.1)
+#### `less` \emoji{notebook} [`https://man.archlinux.org/man/less.1`](https://man.archlinux.org/man/less.1)
 
-## `cd` \emoji{notebook} [`https://man.archlinux.org/man/cd.n`](https://man.archlinux.org/man/cd.n)
+#### `cd` \emoji{notebook} [`https://man.archlinux.org/man/cd.n`](https://man.archlinux.org/man/cd.n)
 
-## `mkdir` \emoji{notebook} [`https://man.archlinux.org/man/mkdir.1`](https://man.archlinux.org/man/mkdir.1)
+#### `mkdir` \emoji{notebook} [`https://man.archlinux.org/man/mkdir.1`](https://man.archlinux.org/man/mkdir.1)
 
-## `find` \emoji{notebook} [`https://man.archlinux.org/man/find.1`](https://man.archlinux.org/man/find.1)
+#### `find` \emoji{notebook} [`https://man.archlinux.org/man/find.1`](https://man.archlinux.org/man/find.1)
 
-## `whoami` \emoji{notebook} [`https://man.archlinux.org/man/whoami.1.es`](https://man.archlinux.org/man/whoami.1.es)
+#### `whoami` \emoji{notebook} [`https://man.archlinux.org/man/whoami.1.es`](https://man.archlinux.org/man/whoami.1.es)
 
-## `tar` \emoji{notebook} [`https://man.archlinux.org/man/tar.1`](https://man.archlinux.org/man/tar.1)
+#### `tar` \emoji{notebook} [`https://man.archlinux.org/man/tar.1`](https://man.archlinux.org/man/tar.1)
 
-## `gzip` \emoji{notebook} [`https://man.archlinux.org/man/gzip.1`](https://man.archlinux.org/man/gzip.1)
+#### `gzip` \emoji{notebook} [`https://man.archlinux.org/man/gzip.1`](https://man.archlinux.org/man/gzip.1)
 
-## `chown` \emoji{notebook} [`https://man.archlinux.org/man/chown.1`](https://man.archlinux.org/man/chown.1)
+#### `chown` \emoji{notebook} [`https://man.archlinux.org/man/chown.1`](https://man.archlinux.org/man/chown.1)
 
-## `chmod` \emoji{notebook} [`https://man.archlinux.org/man/chmod.1`](https://man.archlinux.org/man/chmod.1)
+#### `chmod` \emoji{notebook} [`https://man.archlinux.org/man/chmod.1`](https://man.archlinux.org/man/chmod.1)
 
-## `tldr` \emoji{notebook} [`https://man.archlinux.org/man/tldr.1`](https://man.archlinux.org/man/tldr.1)
+#### `tldr` \emoji{notebook} [`https://man.archlinux.org/man/tldr.1`](https://man.archlinux.org/man/tldr.1)
 
 # Comandos esenciales II
 
-## `curl` \emoji{notebook} [`https://man.archlinux.org/man/curl.1`](https://man.archlinux.org/man/curl.1)
+#### `curl` \emoji{notebook} [`https://man.archlinux.org/man/curl.1`](https://man.archlinux.org/man/curl.1)
 
-## `neofetch` \emoji{notebook} [`https://man.archlinux.org/man/neofetch.1`](https://man.archlinux.org/man/neofetch.1)
+#### `neofetch` \emoji{notebook} [`https://man.archlinux.org/man/neofetch.1`](https://man.archlinux.org/man/neofetch.1)
 
-## `head` \emoji{notebook} [`https://man.archlinux.org/man/head.1.es`](https://man.archlinux.org/man/head.1.es)
+#### `head` \emoji{notebook} [`https://man.archlinux.org/man/head.1.es`](https://man.archlinux.org/man/head.1.es)
 
-## `tail` \emoji{notebook} [`https://man.archlinux.org/man/tail.1.es`](https://man.archlinux.org/man/tail.1.es)
+#### `tail` \emoji{notebook} [`https://man.archlinux.org/man/tail.1.es`](https://man.archlinux.org/man/tail.1.es)
 
-## `time` \emoji{notebook} [`https://man.archlinux.org/man/time.1.es`](https://man.archlinux.org/man/time.1.es)
+#### `time` \emoji{notebook} [`https://man.archlinux.org/man/time.1.es`](https://man.archlinux.org/man/time.1.es)
 
-## `sudo` \emoji{notebook} [`https://man.archlinux.org/man/sudo.8`](https://man.archlinux.org/man/sudo.8)
+#### `sudo` \emoji{notebook} [`https://man.archlinux.org/man/sudo.8`](https://man.archlinux.org/man/sudo.8)
 
-## `top` \emoji{notebook} [`https://man.archlinux.org/man/top.1`](https://man.archlinux.org/man/top.1)
+#### `top` \emoji{notebook} [`https://man.archlinux.org/man/top.1`](https://man.archlinux.org/man/top.1)
 
-## `du` \emoji{notebook} [`https://man.archlinux.org/man/du.1`](https://man.archlinux.org/man/du.1)
+#### `du` \emoji{notebook} [`https://man.archlinux.org/man/du.1`](https://man.archlinux.org/man/du.1)
 
-## `free` \emoji{notebook} [`https://man.archlinux.org/man/free.1`](https://man.archlinux.org/man/free.1)
+#### `free` \emoji{notebook} [`https://man.archlinux.org/man/free.1`](https://man.archlinux.org/man/free.1)
 
-## `ld.so` \emoji{notebook} [`https://man.archlinux.org/man/ld.so.8.es`](https://man.archlinux.org/man/ld.so.8.es)
+#### `ld.so` \emoji{notebook} [`https://man.archlinux.org/man/ld.so.8.es`](https://man.archlinux.org/man/ld.so.8.es)
 
-## `echo` \emoji{notebook} [`https://man.archlinux.org/man/echo.1`](https://man.archlinux.org/man/echo.1)
+#### `echo` \emoji{notebook} [`https://man.archlinux.org/man/echo.1`](https://man.archlinux.org/man/echo.1)
 
-## `printf` \emoji{notebook} [`https://man.archlinux.org/man/printf.1`](https://man.archlinux.org/man/printf.1)
+#### `printf` \emoji{notebook} [`https://man.archlinux.org/man/printf.1`](https://man.archlinux.org/man/printf.1)
 
-## `link` \emoji{notebook} [`https://man.archlinux.org/man/link.1.es`](https://man.archlinux.org/man/link.1.es)
+#### `link` \emoji{notebook} [`https://man.archlinux.org/man/link.1.es`](https://man.archlinux.org/man/link.1.es)
 
 # Comandos esenciales III
 
-## `ln` \emoji{notebook} [`https://man.archlinux.org/man/ln.1.es`](https://man.archlinux.org/man/ln.1.es)
+#### `ln` \emoji{notebook} [`https://man.archlinux.org/man/ln.1.es`](https://man.archlinux.org/man/ln.1.es)
 
-## `rm` \emoji{notebook} [`https://man.archlinux.org/man/rm.1.es`](https://man.archlinux.org/man/rm.1.es)
+#### `rm` \emoji{notebook} [`https://man.archlinux.org/man/rm.1.es`](https://man.archlinux.org/man/rm.1.es)
 
-## `rmdir` \emoji{notebook} [`https://man.archlinux.org/man/rmdir.1.es`](https://man.archlinux.org/man/rmdir.1.es)
+#### `rmdir` \emoji{notebook} [`https://man.archlinux.org/man/rmdir.1.es`](https://man.archlinux.org/man/rmdir.1.es)
 
-## `cp` \emoji{notebook} [`https://man.archlinux.org/man/cp.1.es`](https://man.archlinux.org/man/cp.1.es)
+#### `cp` \emoji{notebook} [`https://man.archlinux.org/man/cp.1.es`](https://man.archlinux.org/man/cp.1.es)
 
-## `mv` \emoji{notebook} [`https://man.archlinux.org/man/mv.1.es`](https://man.archlinux.org/man/mv.1.es)
+#### `mv` \emoji{notebook} [`https://man.archlinux.org/man/mv.1.es`](https://man.archlinux.org/man/mv.1.es)
 
-## `base64` \emoji{notebook} [`https://man.archlinux.org/man/base64.1.es`](https://man.archlinux.org/man/base64.1.es)
+#### `base64` \emoji{notebook} [`https://man.archlinux.org/man/base64.1.es`](https://man.archlinux.org/man/base64.1.es)
 
-## `cat` \emoji{notebook} [`https://man.archlinux.org/man/cat.1.es`](https://man.archlinux.org/man/cat.1.es)
+#### `cat` \emoji{notebook} [`https://man.archlinux.org/man/cat.1.es`](https://man.archlinux.org/man/cat.1.es)
 
-## `cut` \emoji{notebook} [`https://man.archlinux.org/man/cut.1.es`](https://man.archlinux.org/man/cut.1.es)
+#### `cut` \emoji{notebook} [`https://man.archlinux.org/man/cut.1.es`](https://man.archlinux.org/man/cut.1.es)
 
-## `date` \emoji{notebook} [`https://man.archlinux.org/man/date.1.es`](https://man.archlinux.org/man/date.1.es)
+#### `date` \emoji{notebook} [`https://man.archlinux.org/man/date.1.es`](https://man.archlinux.org/man/date.1.es)
 
-<!-- ## `seq` \emoji{notebook} [`https://man.archlinux.org/man/seq.1.es`](https://man.archlinux.org/man/seq.1.es) -->
+<!-- #### `seq` \emoji{notebook} [`https://man.archlinux.org/man/seq.1.es`](https://man.archlinux.org/man/seq.1.es) -->
 
-<!-- ## `bc` \emoji{notebook} [`https://man.archlinux.org/man/bc.1`](https://man.archlinux.org/man/bc.1) -->
+<!-- #### `bc` \emoji{notebook} [`https://man.archlinux.org/man/bc.1`](https://man.archlinux.org/man/bc.1) -->
 
-<!-- ## `mc` \emoji{notebook} [`https://man.archlinux.org/man/mc.1`](https://man.archlinux.org/man/mc.1) -->
+<!-- #### `mc` \emoji{notebook} [`https://man.archlinux.org/man/mc.1`](https://man.archlinux.org/man/mc.1) -->
 
-<!-- ## `bat` \emoji{notebook} [`https://man.archlinux.org/man/bat.1`](https://man.archlinux.org/man/bat.1) -->
+<!-- #### `bat` \emoji{notebook} [`https://man.archlinux.org/man/bat.1`](https://man.archlinux.org/man/bat.1) -->
 
-<!-- ## `su` \emoji{notebook} [`https://man.archlinux.org/man/su.1`](https://mahn.archlinux.org/man/su.1) -->
+<!-- #### `su` \emoji{notebook} [`https://man.archlinux.org/man/su.1`](https://mahn.archlinux.org/man/su.1) -->
 
-<!-- ## `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1) -->
+<!-- #### `doas` \emoji{notebook} [`https://man.archlinux.org/man/doas.1`](https://man.archlinux.org/man/doas.1) -->
 
 # Comandos requeridos para DUNE
 
-## `cmake` \emoji{notebook} [`https://man.archlinux.org/man/cmake.1`](https://man.archlinux.org/man/cmake.1)
+#### `cmake` \emoji{notebook} [`https://man.archlinux.org/man/cmake.1`](https://man.archlinux.org/man/cmake.1)
 
 <!--
 Tutorial https://cmake.org/cmake/help/latest/guide/tutorial/index.html
@@ -198,21 +198,21 @@ $ curl wttr.in
 curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendMessage?chat_id=1234&text=hi
 -->
 
-## `mpirun` \emoji{notebook} [`https://man.archlinux.org/man/mpirun.1`](https://man.archlinux.org/man/mpirun.1)
+#### `mpirun` \emoji{notebook} [`https://man.archlinux.org/man/mpirun.1`](https://man.archlinux.org/man/mpirun.1)
 
-## `timeout` \emoji{notebook} [`https://man.archlinux.org/man/timeout.1.es`](https://man.archlinux.org/man/timeout.1.es)
+#### `timeout` \emoji{notebook} [`https://man.archlinux.org/man/timeout.1.es`](https://man.archlinux.org/man/timeout.1.es)
 
-## `tee` \emoji{notebook} [`https://man.archlinux.org/man/tee.1.es`](https://man.archlinux.org/man/tee.1.es)
+#### `tee` \emoji{notebook} [`https://man.archlinux.org/man/tee.1.es`](https://man.archlinux.org/man/tee.1.es)
 
-## `diff` \emoji{notebook} [`https://man.archlinux.org/man/diff.1.es`](https://man.archlinux.org/man/diff.1.es)
+#### `diff` \emoji{notebook} [`https://man.archlinux.org/man/diff.1.es`](https://man.archlinux.org/man/diff.1.es)
 
-## `env` \emoji{notebook} [`https://man.archlinux.org/man/env.1.es`](https://man.archlinux.org/man/env.1.es)
+#### `env` \emoji{notebook} [`https://man.archlinux.org/man/env.1.es`](https://man.archlinux.org/man/env.1.es)
 
-## `valgrind` \emoji{notebook} [`https://man.archlinux.org/man/valgrind.1`](https://man.archlinux.org/man/valgrind.1)
+#### `valgrind` \emoji{notebook} [`https://man.archlinux.org/man/valgrind.1`](https://man.archlinux.org/man/valgrind.1)
 
-## `ldd` \emoji{notebook} [`https://man.archlinux.org/man/ldd.1.es`](https://man.archlinux.org/man/ldd.1.es)
+#### `ldd` \emoji{notebook} [`https://man.archlinux.org/man/ldd.1.es`](https://man.archlinux.org/man/ldd.1.es)
 
-## `file` \emoji{notebook} [`https://man.archlinux.org/man/file.1`](https://man.archlinux.org/man/file.1)
+#### `file` \emoji{notebook} [`https://man.archlinux.org/man/file.1`](https://man.archlinux.org/man/file.1)
 
 ## Ver más
 
@@ -223,9 +223,9 @@ curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendM
 <!-- pacman -S asciiquarium -->
 
 <!--
-## `emacs`
+#### `emacs`
 
-## `tmux`
+#### `tmux`
  -->
 
 <!-- yay -S pokemon-colorscripts-git -->
@@ -236,45 +236,45 @@ curl https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/sendM
 
 # Compiladores y lenguajes de programación
 
-## `python` \emoji{notebook} [`https://man.archlinux.org/man/python3.10.1.en`](https://man.archlinux.org/man/python3.10.1.en)
+#### `python` \emoji{notebook} [`https://man.archlinux.org/man/python3.10.1.en`](https://man.archlinux.org/man/python3.10.1.en)
 
 <!--
 $ python -c 'import __hello__'
 $ python -c 'import this'
  -->
 
-## `rustc` \emoji{notebook} [`https://man.archlinux.org/man/extra/rust/rustc.1.en`](https://man.archlinux.org/man/extra/rust/rustc.1.en)
+#### `rustc` \emoji{notebook} [`https://man.archlinux.org/man/extra/rust/rustc.1.en`](https://man.archlinux.org/man/extra/rust/rustc.1.en)
 
-## `go` \emoji{notebook} [`https://man.archlinux.org/man/go.1`](https://man.archlinux.org/man/go.1)
+#### `go` \emoji{notebook} [`https://man.archlinux.org/man/go.1`](https://man.archlinux.org/man/go.1)
 
-## `octave` \emoji{notebook} [`https://man.archlinux.org/man/octave.1`](https://man.archlinux.org/man/octave.1)
+#### `octave` \emoji{notebook} [`https://man.archlinux.org/man/octave.1`](https://man.archlinux.org/man/octave.1)
 
-## `luatex` \emoji{notebook} [`https://man.archlinux.org/man/extra/texlive-bin/luatex.1.en`](https://man.archlinux.org/man/extra/texlive-bin/luatex.1.en)
+#### `luatex` \emoji{notebook} [`https://man.archlinux.org/man/extra/texlive-bin/luatex.1.en`](https://man.archlinux.org/man/extra/texlive-bin/luatex.1.en)
 
-## `awk` \emoji{notebook} [`https://man.archlinux.org/man/awk.1p`](https://man.archlinux.org/man/awk.1p)
+#### `awk` \emoji{notebook} [`https://man.archlinux.org/man/awk.1p`](https://man.archlinux.org/man/awk.1p)
 
-## `julia` \emoji{notebook} [`https://man.archlinux.org/man/julia.1`](https://man.archlinux.org/man/julia.1)
+#### `julia` \emoji{notebook} [`https://man.archlinux.org/man/julia.1`](https://man.archlinux.org/man/julia.1)
 
-## `gnuplot` \emoji{notebook} [`https://man.archlinux.org/man/gnuplot.1`](https://man.archlinux.org/man/gnuplot.1)
+#### `gnuplot` \emoji{notebook} [`https://man.archlinux.org/man/gnuplot.1`](https://man.archlinux.org/man/gnuplot.1)
 
-## `lua` \emoji{notebook} [`https://man.archlinux.org/man/lua.1`](https://man.archlinux.org/man/lua.1)
+#### `lua` \emoji{notebook} [`https://man.archlinux.org/man/lua.1`](https://man.archlinux.org/man/lua.1)
 
-## `gfortran` \emoji{notebook} [`https://man.archlinux.org/man/core/gcc-fortran/gfortran.1.en`](https://man.archlinux.org/man/core/gcc-fortran/gfortran.1.en)
+#### `gfortran` \emoji{notebook} [`https://man.archlinux.org/man/core/gcc-fortran/gfortran.1.en`](https://man.archlinux.org/man/core/gcc-fortran/gfortran.1.en)
 
-## `gcc` \emoji{notebook} [`https://man.archlinux.org/man/gcc.1`](https://man.archlinux.org/man/gcc.1)
+#### `gcc` \emoji{notebook} [`https://man.archlinux.org/man/gcc.1`](https://man.archlinux.org/man/gcc.1)
 
-## `g++` \emoji{notebook} [`https://man.archlinux.org/man/g++.1`](https://man.archlinux.org/man/g++.1)
+#### `g++` \emoji{notebook} [`https://man.archlinux.org/man/g++.1`](https://man.archlinux.org/man/g++.1)
 
 # Actividades \emoji{film-frames}
 
-## `asciinema` \emoji{notebook} [`https://man.archlinux.org/man/asciinema.1`](https://man.archlinux.org/man/asciinema.1)
+#### `asciinema` \emoji{notebook} [`https://man.archlinux.org/man/asciinema.1`](https://man.archlinux.org/man/asciinema.1)
 
 1. Cree una cuenta en [`https://asciinema.org`](https://asciinema.org).
 2. Vea la ayuda de `asciinema` y reproduzca el vídeo.
 3. Instale `tldr` y lea el manual de algunos comandos.
 4. Descomprima el _tarball_ [`dune-pdelab-master.tar.gz`](https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/master/dune-pdelab-master.tar.gz), inicialice el repositorio, instale `bat` y vea algunos archivos del código fuente.
 
-\small
+\footnotesize
 
 ```console
 $ MODULE=dune-pdelab
@@ -284,23 +284,23 @@ $ curl -O $UPSTREAM_URL
 $ tar -xvf $MODULE-$BRANCH.tar.gz
 ```
 
-<!-- ## `cowsay` \emoji{notebook} [`https://man.archlinux.org/man/cowsay.1`](https://man.archlinux.org/man/cowsay.1) -->
+<!-- @### `cowsay` \emoji{notebook} [`https://man.archlinux.org/man/cowsay.1`](https://man.archlinux.org/man/cowsay.1) -->
 
-<!-- ## `ponysay` \emoji{notebook} [`https://man.archlinux.org/man/ponysay.6`](https://man.archlinux.org/man/ponysay.6) -->
+<!-- #### `ponysay` \emoji{notebook} [`https://man.archlinux.org/man/ponysay.6`](https://man.archlinux.org/man/ponysay.6) -->
 
-<!-- ## `wc` \emoji{notebook} [`https://man.archlinux.org/man/wc.1.es`](https://man.archlinux.org/man/wc.1.es) -->
+<!-- #### `wc` \emoji{notebook} [`https://man.archlinux.org/man/wc.1.es`](https://man.archlinux.org/man/wc.1.es) -->
 
-<!-- ## `yes` \emoji{notebook} [`https://man.archlinux.org/man/yes.1.es`](https://man.archlinux.org/man/yes.1.es) -->
+<!-- #### `yes` \emoji{notebook} [`https://man.archlinux.org/man/yes.1.es`](https://man.archlinux.org/man/yes.1.es) -->
 
-<!-- ## `difftime` \emoji{notebook} [`https://man.archlinux.org/man/difftime.3.es`](https://man.archlinux.org/man/difftime.3.es) -->
+<!-- #### `difftime` \emoji{notebook} [`https://man.archlinux.org/man/difftime.3.es`](https://man.archlinux.org/man/difftime.3.es) -->
 
-<!-- ## `getw` \emoji{notebook} [`https://man.archlinux.org/man/getw.3.es`](https://man.archlinux.org/man/getw.3.es) -->
+<!-- #### `getw` \emoji{notebook} [`https://man.archlinux.org/man/getw.3.es`](https://man.archlinux.org/man/getw.3.es) -->
 
-<!-- ## `tanh` \emoji{notebook} [`https://man.archlinux.org/man/tanh.3.es`](https://man.archlinux.org/man/tanh.3.es) -->
+<!-- #### `tanh` \emoji{notebook} [`https://man.archlinux.org/man/tanh.3.es`](https://man.archlinux.org/man/tanh.3.es) -->
 
-<!-- ## `shells` \emoji{notebook} [`https://man.archlinux.org/man/shells.5.es`](https://man.archlinux.org/man/shells.5.es) -->
+<!-- #### `shells` \emoji{notebook} [`https://man.archlinux.org/man/shells.5.es`](https://man.archlinux.org/man/shells.5.es) -->
 
-<!-- ## `kill` \emoji{notebook} [`https://man.archlinux.org/man/kill.1`](https://man.archlinux.org/man/kill.1) -->
+<!-- #### `kill` \emoji{notebook} [`https://man.archlinux.org/man/kill.1`](https://man.archlinux.org/man/kill.1) -->
 
 # `asciinema`
 

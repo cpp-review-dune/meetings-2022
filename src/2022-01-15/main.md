@@ -140,8 +140,8 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 4. Actualice el sistema con \alert{\texttt{sudo pacman -Syyu --noconfirm}}, a continuación instale `python` con \alert{\texttt{sudo pacman -S python}}.
 
 # \emoji{books} Referencias
-
-1. [Scientific Programming with C++ in Summer Term 2021](https://gitlab.math.tu-dresden.de/teaching/scprog/so2021).
+<!-- # https://gitlab.math.tu-dresden.de/teaching/scprog/so2021 -->
+1. [Scientific Programming with C++ in Summer Term 2021](https://gitlab.math.tu-dresden.de/s1140568/wi2019).
 2. [DUNE — The Distributed and Unified Numerics Environment, Oliver Sander](https://link.springer.com/book/10.1007/978-3-030-59702-3).
 3. [Introduction to Programming with C++ for Engineers, Boguslaw Cyganek](https://ieeexplore.ieee.org/book/9289921).
 4. [Object-Oriented Programming for Scientific Computing, Ole Klein](https://conan.iwr.uni-heidelberg.de/data/teaching/oopfsc_ws2020/slides.pdf).

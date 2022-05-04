@@ -1,10 +1,9 @@
 #include <dune/common/fvector.hh>
 #include <fmt/ranges.h>
 #include <iostream>
-// https://stackoverflow.com/questions/58522426/how-to-fix-non-type-template-argument-is-not-a-constant-expression-in-eigen3
+
 int main()
 {
-  // https://en.cppreference.com/w/cpp/language/attributes/maybe_unused
   [[maybe_unused]] int p = 0;
   constexpr int dim = 2;
   Dune::FieldVector<double, dim> x(0);

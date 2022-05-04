@@ -9,7 +9,7 @@
 # [`recipe-iterate-over-grid.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-iterate-over-grid.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## [`entities()`](https://www.dune-project.org/doxygen/2.8.0/group__GIIteration.html#gacc8f311deabddf0c759465f623e87886)
 
@@ -40,7 +40,7 @@
 - G.
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
@@ -52,7 +52,7 @@
 # [`recipe-iterate-over-grid.cc`](https://www.dune-project.org/doxygen/2.8.0/recipe-iterate-over-grid.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="45%" align=center}
 
 ## [`subEntities()`](https://www.dune-project.org/doxygen/2.8.0/group__GIIteration.html#ga88886f3af629c47559a5274da52e5512)
 
@@ -63,7 +63,7 @@
 - B.
 
 :::
-::: {.column width="50%" align=center}
+::: {.column width="55%" align=center}
 
 ## Code snippet
 
