@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#! /usr/bin/env bash
 
 DATE=2022-05-08
 # DATE=$(date -u +"%Y-%m-%d")

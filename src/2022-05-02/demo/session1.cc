@@ -62,24 +62,24 @@ int main()
             << std::endl;
 
   // Tercera parte
-  auto a = 12;
+  std::size_t a = 12;
   std::cout << "a = " << a << std::endl;
 
-  auto B = 4;
+  std::size_t B = 4;
   std::cout << "B = " << B << std::endl;
 
-  auto C = (a - B) + 40 - a / B * 10;
+  std::size_t C = (a - B) + 40 - a / B * 10;
   std::cout << "(a - B) + 40 - a / B * 10 = " << C << std::endl;
 
-  auto ABB = 72;
+  std::size_t ABB = 72;
   std::cout << "ABB = " << ABB << std::endl;
   ABB = 9;
   std::cout << "ABB = " << ABB << std::endl;
 
-  auto x = 0.75;
+  float x = 0.75;
   std::cout << "x = " << x << std::endl;
 
-  auto E = pow(sin(x), 2) + pow(cos(x), 2);
+  double E = pow(sin(x), 2) + pow(cos(x), 2);
   std::cout << "sin^2 (x) + cos^2 (x) = " << E << std::endl;
 
   return 0;

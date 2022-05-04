@@ -15,13 +15,12 @@ std::vector<double> range(double min, double max, std::size_t N)
 
 int main()
 {
-
   using MyDVector = std::vector<double>;
-  // https://stackoverflow.com/questions/50549611/slicing-a-vector-in-c
+
   std::vector<int> v1 = {1, 2, 3, 4};
   fmt::print("{}\n", v1);
-  std::vector<int> v2;
 
+  std::vector<int> v2;
   v2 = std::vector<int>(v1.begin() + 1, v1.end() - 1);
   fmt::print("{}\n", v2);
 

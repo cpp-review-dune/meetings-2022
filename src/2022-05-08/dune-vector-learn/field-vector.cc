@@ -1,18 +1,13 @@
 #include <dune/common/fvector.hh>
-#include <fmt/ranges.h>
+#include <dune/istl/io.hh>
 #include <iostream>
 
 int main()
 {
   [[maybe_unused]] int p = 0;
-  constexpr int dim = 2;
+  constexpr int dim = 3;
   Dune::FieldVector<double, dim> x(0);
-
-  fmt::print("{}\n", x);
-  fmt::print("Size of x: {}\n", x.size());
-  fmt::print("Euclidian norm of x: {}\n", x.two_norm());
-  fmt::print("Maximum norm of x: {}\n", x.infinity_norm());
-  fmt::print("Dimension of x: {}\n", x.dimension);
+  Dune::printvector(std::cout, x, "x", "row");
 
   try
   {
