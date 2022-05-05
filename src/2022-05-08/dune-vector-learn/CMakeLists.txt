@@ -16,5 +16,8 @@ dune_enable_all_packages()
 add_executable("dune-vector-learn" dune-vector-learn.cc)
 target_link_dune_default_libraries("dune-vector-learn")
 
+add_executable("identity" identity.cc)
+target_link_dune_default_libraries("identity")
+
 # finalize the dune project, e.g. generating config.h etc.
 finalize_dune_project(GENERATE_CONFIG_H_CMAKE)

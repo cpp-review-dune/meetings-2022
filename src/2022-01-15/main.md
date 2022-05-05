@@ -154,21 +154,28 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 
 # Ejemplos
 
+:::::::::::::: {.columns align=center totalwidth=8em}
+::: {.column width="50%" align=center}
+
+\footnotesize
 \inputminted{cpp}{src/2022-01-15/main.cc}
 
-# Ejemplos
+:::
+::: {.column width="50%" align=center}
 
+\footnotesize
 \inputminted{python}{src/2022-01-15/main.py}
+
+:::
+::::::::::::::
 
 <!--
 Manuales:
-
 - https://ctan.dcc.uchile.cl/macros/latex/contrib/beamer/doc/beameruserguide.pdf
 - https://pandoc.org/MANUAL.pdf
 - https://ctan.math.washington.edu/tex-archive/macros/luatex/latex/emoji/emoji-doc.pdf
 
 Enlaces:
-
 - https://github.com/samuelburbulla/dune-mmesh/issues/3
 - https://launchpadlibrarian.net/83776282/fenics-book-2011-10-27-final.pdf
 - https://www.comsol.de

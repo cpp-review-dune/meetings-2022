@@ -1,11 +1,11 @@
-// g++ -o main main.cc
+// c++ main.cc -o main
 #include <iostream>
 
 int main(int argc, const char **argv)
 {
 
   std::cout << "Hola mundo"
-            << std::endl;
+            << "\n";
 
   return 0;
 }
