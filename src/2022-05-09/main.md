@@ -111,7 +111,7 @@ $$
 
 ## Matrix of a linear map
 
-Suppose $T\in\mathcal{L}\left(V,W\right)$
+Suppose $T\in\mathcal{L}\left(V,W\right)$.
 
 <!-- https://dune-project.org/pdf/publications/istl_para06.pdf -->
 <!-- https://gitlab.dune-project.org/search?search=Dune%3A%3AMatrix&group_id=64&project_id=137&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar -->
