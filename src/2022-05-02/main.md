@@ -1,6 +1,6 @@
 # \emoji{calendar} Cronograma de esta semana
 
-## `$ date` (\emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México -1)
+## `$ date` (\emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México)
 
 - \alert{\texttt{Mon May  2 07:00:00 AM -05 2022}}.
 
@@ -71,7 +71,7 @@ Referencias sobre visualización científica:
 # [Visualización](https://en.wikipedia.org/wiki/Scientific_visualization)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="66%" align=center}
 
 ## Basados en [`matplotlib`](https://archlinux.org/packages/community/x86_64/python-matplotlib)
 
@@ -89,8 +89,51 @@ Referencias sobre visualización científica:
 <!-- https://github.com/madplotlib/madplotlib -->
 <!-- https://github.com/yokaze/pyscience11 -->
 
+### Side note
+
+If $f\left(x\right)={x}^{\frac{p}{q}}$,
+where $\frac{p}{q}$ is a positive fraction in _lowest terms_,
+then you can plot as follows
+
+- If $p$ is even and $q$ is odd, then graph $g\left(x\right)={\left|x\right|}^{\frac{p}{q}}$ instead of $f\left(x\right)$.
+- If $p$ is odd and $q$ is odd, then graph $g\left(x\right)=\left(\left|x\right|/x\right){\left|x\right|}^{\frac{p}{q}}$ instead of $f\left(x\right)$.
+
+<!--
+Page 30 of Chapter 0 / Before Calculus,
+10th Edition Calculus early transcendentals
+Howard Anton, Irl Bivens, Stephen Davis
+-->
+
+<!-- $$
+\begin{aligned}
+x &=
+\left(
+  1.5, 2.5, 3.5, 4.5
+\right) \\
+y &=
+\left(
+  1, 3, 2, 4
+\right) \\
+\operatorname{graph} &=
+\left\{
+  \left(
+    1.5, 1
+  \right),
+  \left(
+    2.5, 3
+  \right),
+  \left(
+    3.5, 2
+  \right),
+  \left(
+    4.5, 4
+  \right)
+\right\}
+\end{aligned}
+$$ -->
+
 :::
-::: {.column width="55%" align=center}
+::: {.column width="34%" align=center}
 
 ## Code snippet
 
@@ -139,15 +182,28 @@ Referencias sobre visualización científica:
 :::
 ::::::::::::::
 
-# Standard library header
+# [Numerics library](https://en.cppreference.com/w/cpp/numeric)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="50%" align=center}
 
-## `<cmath>`
+## [Standard library header `<cmath>`](https://en.cppreference.com/w/cpp/header/cmath)
+
+### Sign function
+
+The sign function of a real number $x$ is a piecewise function which is defined as follows
+
+$$
+\operatorname{sign} x\coloneqq
+\begin{cases} 
+-1 & \text{if } x < 0, \\
+0 & \text{if } x = 0, \\
+1 & \text{if } x > 0.
+\end{cases}
+$$
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="50%" align=center}
 
 ## Code snippet
 
@@ -158,12 +214,12 @@ Referencias sobre visualización científica:
 :::
 ::::::::::::::
 
-# Standard library header
+# [Input/output library](https://en.cppreference.com/w/cpp/io)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<cmath>`
+## [Standard library header `<iomanip>`](https://en.cppreference.com/w/cpp/header/iomanip)
 
 :::
 ::: {.column width="55%" align=center}
@@ -177,15 +233,31 @@ Referencias sobre visualización científica:
 :::
 ::::::::::::::
 
-# Standard library header
+# [Numerics library](https://en.cppreference.com/w/cpp/numeric)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="50%" align=center}
 
-## `<cmath>`
+## [Standard library header `<cmath>`](https://en.cppreference.com/w/cpp/header/cmath)
+
+### Gamma function and the number $\pi$
+
+- For any positive integer $n$, $\Gamma\left(n\right)=\left(n-1\right)!$.
+
+- For complex numbers with a positive real part, the gamma function is defined via a convergent improper integral:
+
+$$
+\begin{aligned}
+\Gamma\left(z\right)&\coloneqq
+\int\limits_{0}^{\infty}x^{z-1}e^{-x}\,\mathrm{d}x,
+\quad\Re\left(z\right) > 0. \\
+\pi&\coloneqq
+\cos^{-1}\left(-1\right).
+\end{aligned}
+$$
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="50%" align=center}
 
 ## Code snippet
 
@@ -194,12 +266,12 @@ Referencias sobre visualización científica:
 :::
 ::::::::::::::
 
-# Standard library header
+# [Utility library](https://en.cppreference.com/w/cpp/utility)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<cmath>`
+## [`std::size_t`](https://en.cppreference.com/w/cpp/types/size_t)
 
 :::
 ::: {.column width="55%" align=center}
@@ -225,12 +297,12 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# Standard library header
+# [Numerics library](https://en.cppreference.com/w/cpp/numeric)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<complex>`
+## [Standard library header `<complex>`](https://en.cppreference.com/w/cpp/header/complex)
 
 :::
 ::: {.column width="55%" align=center}
@@ -244,12 +316,12 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# Standard library header
+# A modern formatting library
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<fmt>`
+## [`<fmt>`](https://fmt.dev/latest/api.html)
 
 :::
 ::: {.column width="55%" align=center}
@@ -261,12 +333,12 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# Standard library header
+# A modern formatting library
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<fmt>`
+## [`<fmt>`](https://fmt.dev/latest/api.html)
 
 :::
 ::: {.column width="55%" align=center}
@@ -281,12 +353,12 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# Standard library header
+# A modern formatting library
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<fmt>`
+## [`<fmt>`](https://fmt.dev/latest/api.html)
 
 :::
 ::: {.column width="55%" align=center}
@@ -300,12 +372,12 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# Catch2
+# [Unit testing framework for C++](https://github.com/catchorg/Catch2/tree/v2.x)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<catch>`
+## [`<catch2>`](https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#top)
 
 :::
 ::: {.column width="55%" align=center}
@@ -317,12 +389,12 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# Catch2
+# [Unit testing framework for C++](https://github.com/catchorg/Catch2/tree/v2.x)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## `<catch>`
+## [`<catch2>`](https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#top)
 
 :::
 ::: {.column width="55%" align=center}
