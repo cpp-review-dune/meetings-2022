@@ -8,13 +8,19 @@
 
 # `Functions`
 
-\emoji{open-book} [`Dune::Functions`](https://dune-project.org/doxygen/2.8.0/classDune_1_1Function.html)
-Base class template for function classes.
+$$
+Df\colon
+\mathcal{D}\to
+L\left(\mathcal{D}, \mathcal{R}\right)
+$$
+
+\emoji{open-book} [`std::function`](https://en.cppreference.com/w/cpp/utility/functional/function)
+is a general-purpose polymorphic function wrapper.
 
 \footnotesize
 ```cpp
-template <class Domain, class Range>
-class Dune::Function<Domain, Range>
+template <class R, class... Args>
+class function<R(Args...)>
 ```
 
 :::::::::::::: {.columns align=center totalwidth=8em}
@@ -34,3 +40,9 @@ class Dune::Function<Domain, Range>
 \inputminted[highlightlines={1}, firstline=1, lastline=7]{cmake}{src/2022-05-09/function.cc}
 :::
 ::::::::::::::
+
+# Solving $Ax=v$
+
+$$
+x=A^{-1}v.
+$$
