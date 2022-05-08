@@ -53,6 +53,17 @@ endmacro(target_link_dune_default_libraries)
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
+\emoji{open-book} [`Dune::ArrayList`](https://dune-project.org/doxygen/2.8.0/classDune_1_1ArrayList.html)
+A dynamically growing random access list.
+
+\footnotesize
+```cpp
+template <class T,
+          int N = 100,
+          class A = std::allocator<T>>
+class Dune::ArrayList<T, N, A>
+```
+
 <!-- https://stackoverflow.com/questions/58522426/how-to-fix-non-type-template-argument-is-not-a-constant-expression-in-eigen3 -->
 <!-- https://en.cppreference.com/w/cpp/language/attributes/maybe_unused -->
 
@@ -69,12 +80,54 @@ endmacro(target_link_dune_default_libraries)
 # Matrices
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="49%" align=center}
 
-## Basados
+\emoji{open-book} [`[[maybe_unused]]`](https://en.cppreference.com/w/cpp/language/attributes/maybe_unused)
+Suppresses warnings on unused entities.
+
+\emoji{open-book} [`Dune::FieldVector`](https://dune-project.org/doxygen/2.8.0/classDune_1_1FieldVector.html)
+vector space out of a tensor product of fields.
+
+\footnotesize
+```cpp
+template <class K, int SIZE>
+class Dune::FieldVector<K, SIZE>
+```
+
+\normalsize
+
+\emoji{open-book} [`Dune::printvector`](https://dune-project.org/doxygen/2.8.0/group__ISTL__IO.html#ga8674c142d6b29e12bcb94075f952d1e1)
+Print an ISTL vector.
+
+\footnotesize
+```cpp
+void Dune::printvector(std::ostream &s,
+                       const V &v,
+                       std::string title,
+                       std::string rowtext,
+                       int columns = 1,
+                       int width = 10,
+                       int precision = 2)
+```
+
+\normalsize
+
+\emoji{open-book} [`DUNE_THROW`](https://dune-project.org/doxygen/2.8.0/group__Exceptions.html)
+Macro to throw an exception.
+
+\footnotesize
+```cpp
+#define DUNE_THROW (E, m)
+```
+
+\normalsize
+
+
+\emoji{open-book} [`Dune::Exception`](https://dune-project.org/doxygen/2.8.0/classDune_1_1Exception.html)
+Base class for Dune-Exceptions.
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="51%" align=center}
 
 ## Code snippet
 
@@ -86,9 +139,11 @@ endmacro(target_link_dune_default_libraries)
 # Matrices
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="50%" align=center}
 
-## Basados
+$$
+v\in\mathds{Z}^{100}.
+$$
 
 :::
 ::: {.column width="55%" align=center}
@@ -173,3 +228,5 @@ endmacro(target_link_dune_default_libraries)
 \inputminted[highlightlines={18}, firstline=16, lastline=34]{cpp}{src/2022-05-08/dune-vector-learn/vector.cc}
 :::
 ::::::::::::::
+
+[](https://dune-project.org/doxygen/2.8.0/classDune_1_1Functions_1_1Polynomial.html)

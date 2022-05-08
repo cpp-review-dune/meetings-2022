@@ -37,7 +37,11 @@ header-includes:
     ```{=latex}
     \usepackage{emoji}
     \usepackage{fontspec}
-    \setmonofont{Fira Code}[Contextuals=Alternate]
+    \setmonofont{Fira Code}[Contextuals=Alternate,Scale=MatchLowercase]
+    \usepackage{unicode-math}
+    \setmathfont{STIX Two Math}
+    \usepackage{dsfont}
+    \usepackage{mathtools}
     \usepackage{minted}
     \hypersetup{colorlinks=true}
     ```
