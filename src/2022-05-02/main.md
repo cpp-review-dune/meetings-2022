@@ -88,6 +88,12 @@ Referencias sobre visualización científica:
 <!-- https://github.com/TING2938/matplotlibcpp -->
 <!-- https://github.com/madplotlib/madplotlib -->
 <!-- https://github.com/yokaze/pyscience11 -->
+<!-- https://github.com/matlab2tikz/matlab2tikz -->
+<!-- https://github.com/texworld/tikzplotlib -->
+
+\emoji{open-book} [`std::vector`](https://en.cppreference.com/w/cpp/container/vector)
+is a sequence container that encapsulates dynamic size arrays.
+<!-- https://github.com/lava/matplotlib-cpp/blob/master/matplotlibcpp.h#L1875 -->
 
 ### Side note
 
@@ -96,7 +102,7 @@ where $\frac{p}{q}$ is a positive fraction in _lowest terms_,
 then you can plot as follows
 
 - If $p$ is even and $q$ is odd, then graph $g\left(x\right)={\left|x\right|}^{\frac{p}{q}}$ instead of $f\left(x\right)$.
-- If $p$ is odd and $q$ is odd, then graph $g\left(x\right)=\left(\left|x\right|/x\right){\left|x\right|}^{\frac{p}{q}}$ instead of $f\left(x\right)$.
+- If $p$ is odd and $q$ is odd, then graph $g\left(x\right)=\frac{\left|x\right|}{x}{\left|x\right|}^{\frac{p}{q}}$ instead of $f\left(x\right)$.
 
 <!--
 Page 30 of Chapter 0 / Before Calculus,
@@ -145,7 +151,7 @@ $$ -->
 # [Bibliotecas de álgebra matricial](https://en.wikipedia.org/wiki/Comparison_of_linear_algebra_libraries)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="50%" align=center}
 
 - [armadillo](http://arma.sourceforge.net/faq.html)
   - [Ejemplos](http://arma.sourceforge.net/docs.html#example_prog)
@@ -174,7 +180,7 @@ $$ -->
 <!-- https://gmplib.org -->
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="50%" align=center}
 
 ## [istl Directory Reference](https://dune-project.org/doxygen/2.8.0/dir_076cadbab1aab890d8de2944aa4b23a3.html)
 
@@ -185,7 +191,7 @@ $$ -->
 # [Numerics library](https://en.cppreference.com/w/cpp/numeric)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="50%" align=center}
+::: {.column width="62%" align=center}
 
 ## [Standard library header `<cmath>`](https://en.cppreference.com/w/cpp/header/cmath)
 
@@ -202,8 +208,26 @@ $$
 \end{cases}
 $$
 
+\emoji{open-book} [`std::pow`](https://en.cppreference.com/w/cpp/numeric/math/pow)
+raises a number to the given power $\left(x^{y}\right)$.
+
+\emoji{open-book} [`std::sqrt`](https://en.cppreference.com/w/cpp/numeric/math/sqrt)
+computes square root $\left(\sqrt{x}\right)$.
+
+\emoji{open-book} [`std::exp`](https://en.cppreference.com/w/cpp/numeric/math/exp)
+returns $e$ raised to the given power $\left(e^{x}\right)$.
+
+\emoji{open-book} [`std::log`](https://en.cppreference.com/w/cpp/numeric/math/log)
+computes natural (base $e$) logarithm $\left(\ln{x}\right)$.
+
+\emoji{open-book} [`std::abs`](https://en.cppreference.com/w/cpp/numeric/math/abs)
+computes absolute value of an integral value $\left(\left|x\right|\right)$.
+
+\emoji{open-book} [`std::log10`](https://en.cppreference.com/w/cpp/numeric/math/log10)
+computes common (base 10) logarithm $\left(\log_{10}x\right)$.
+
 :::
-::: {.column width="50%" align=center}
+::: {.column width="38%" align=center}
 
 ## Code snippet
 
@@ -217,12 +241,18 @@ $$
 # [Input/output library](https://en.cppreference.com/w/cpp/io)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="55%" align=center}
 
 ## [Standard library header `<iomanip>`](https://en.cppreference.com/w/cpp/header/iomanip)
 
+\emoji{open-book} [`std::setprecision`](https://en.cppreference.com/w/cpp/io/manip/setprecision)
+changes floating-point precision.
+
+\emoji{open-book} [`std::scientific`](https://en.cppreference.com/w/cpp/io/manip/fixed)
+changes formatting used for floating-point I/O.
+
 :::
-::: {.column width="55%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 
@@ -256,6 +286,12 @@ $$
 \end{aligned}
 $$
 
+\emoji{open-book} [`std::tgamma`](https://en.cppreference.com/w/cpp/numeric/math/tgamma)
+gamma function.
+
+\emoji{open-book} [`std::acos`](https://en.cppreference.com/w/cpp/numeric/math/acos)
+computes arc cosine $\left(\arccos x\right)$.
+
 :::
 ::: {.column width="50%" align=center}
 
@@ -269,12 +305,25 @@ $$
 # [Utility library](https://en.cppreference.com/w/cpp/utility)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="55%" align=center}
 
-## [`std::size_t`](https://en.cppreference.com/w/cpp/types/size_t)
+\emoji{open-book} [`std::round`](https://en.cppreference.com/w/c/numeric/math/round)
+rounds to nearest integer, rounding away from zero in halfway cases.
+
+\emoji{open-book} [`std::trunc`](https://en.cppreference.com/w/c/numeric/math/trunc)
+rounds to nearest integer not greater in magnitude than the given value.
+
+\emoji{open-book} [`std::ceil`](https://en.cppreference.com/w/c/numeric/math/ceil)
+computes smallest integer not less than the given value.
+
+\emoji{open-book} [`std::floor`](https://en.cppreference.com/w/c/numeric/math/floor)
+computes largest integer not greater than the given value.
+
+\emoji{open-book} [`std::size_t`](https://en.cppreference.com/w/cpp/types/size_t)
+unsigned integer type returned by the sizeof operator.
 
 :::
-::: {.column width="55%" align=center}
+::: {.column width="45%" align=center}
 
 ## Code snippet
 <!-- 
@@ -319,12 +368,36 @@ std::cout << std::numbers::pi << std::endl;
 # A modern formatting library
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="50%" align=center}
 
 ## [`<fmt>`](https://fmt.dev/latest/api.html)
 
+\emoji{open-book} [`fmt::print`](https://fmt.dev/latest/api.html#_CPPv4IDpEN3fmt5printEv13format_stringIDp1TEDpRR1T)
+
+Formats args according to specifications in fmt and writes the output to stdout.
+
+\footnotesize
+```cpp
+template <typename... T>
+void fmt::print(format_string<T...> fmt, T &&...args)
+```
+
+\normalsize
+
+\emoji{open-book} [`fmt::print`](https://fmt.dev/latest/api.html#_CPPv4I0DpEN3fmt5printEvRK10text_styleRK1SDpRK4Args)
+
+Formats a string and prints it to stdout using ANSI escape sequences to specify text formatting.
+
+\footnotesize
+```cpp
+template <typename S, typename... Args>
+void fmt::print(const text_style &ts,
+                const S &format_str,
+                const Args &...args)
+```
+
 :::
-::: {.column width="55%" align=center}
+::: {.column width="50%" align=center}
 
 ## Code snippet
 
@@ -333,12 +406,12 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# A modern formatting library
+# [Mathematical constants](https://en.cppreference.com/w/cpp/numeric/constants)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## [`<fmt>`](https://fmt.dev/latest/api.html)
+\emoji{open-book} [`std::numbers::pi`](https://en.cppreference.com/w/cpp/symbol_index/numbers)
 
 :::
 ::: {.column width="55%" align=center}
@@ -358,7 +431,18 @@ std::cout << std::numbers::pi << std::endl;
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## [`<fmt>`](https://fmt.dev/latest/api.html)
+$$
+\begin{aligned}
+\operatorname{expr}_{1}
+\left(x,y\right)&=
+{\left(x^{2} + y^{2}\right)}^{\frac{2}{3}} +
+\frac{xy}{y - x} \\
+\operatorname{expr}_{2}
+\left(x,y\right)&=
+\frac{\sqrt{x + y}}{{\left(x - y\right)}^{2}} +
+2x^{2} - xy^{2}
+\end{aligned}
+$$
 
 :::
 ::: {.column width="55%" align=center}
@@ -379,6 +463,26 @@ std::cout << std::numbers::pi << std::endl;
 
 ## [`<catch2>`](https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#top)
 
+\emoji{open-book} [`TEST_CASE`](https://github.com/catchorg/Catch2/blob/v2.x/docs/test-cases-and-sections.md#test-cases-and-sections)
+
+\footnotesize
+```cpp
+TEST_CASE( test name [, tags ] )
+```
+
+\normalsize
+
+\emoji{open-book} [`REQUIRE`](https://github.com/catchorg/Catch2/blob/v2.x/docs/assertions.md#natural-expressions)
+
+\footnotesize
+```cpp
+REQUIRE( expression )
+```
+
+\normalsize
+
+\emoji{open-book} [`Approx`](https://github.com/catchorg/Catch2/blob/v2.x/docs/assertions.md#floating-point-comparisons)
+
 :::
 ::: {.column width="55%" align=center}
 
@@ -389,12 +493,13 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# [Unit testing framework for C++](https://github.com/catchorg/Catch2/tree/v2.x)
+# [GitHub Classroom](https://classroom.github.com)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
-## [`<catch2>`](https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#top)
+Actividad [`cmath-example`](https://classroom.github.com/a/_guedErh)
+en `src/student.hh`.
 
 :::
 ::: {.column width="55%" align=center}
