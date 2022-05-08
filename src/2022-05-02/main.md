@@ -349,12 +349,25 @@ std::cout << std::numbers::pi << std::endl;
 # [Numerics library](https://en.cppreference.com/w/cpp/numeric)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="45%" align=center}
+::: {.column width="50%" align=center}
 
 ## [Standard library header `<complex>`](https://en.cppreference.com/w/cpp/header/complex)
 
+\emoji{open-book} [`std::complex`](https://en.cppreference.com/w/cpp/numeric/complex)
+a complex number type.
+
+\footnotesize
+```cpp
+template <class T>
+class complex
+```
+\normalsize
+
+\emoji{open-book} [`std::literals::complex_literals`](https://en.cppreference.com/w/cpp/numeric/complex/operator%22%22i)
+Forms a `std::complex` literal representing an imaginary number.
+
 :::
-::: {.column width="55%" align=center}
+::: {.column width="50%" align=center}
 
 ## Code snippet
 
@@ -365,12 +378,10 @@ std::cout << std::numbers::pi << std::endl;
 :::
 ::::::::::::::
 
-# A modern formatting library
+# [A modern formatting library `<fmt>`](https://fmt.dev/latest/api.html)
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="50%" align=center}
-
-## [`<fmt>`](https://fmt.dev/latest/api.html)
 
 \emoji{open-book} [`fmt::print`](https://fmt.dev/latest/api.html#_CPPv4IDpEN3fmt5printEv13format_stringIDp1TEDpRR1T)
 
@@ -411,7 +422,25 @@ void fmt::print(const text_style &ts,
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="45%" align=center}
 
+Is mandatory to setup the `CMakeLists.txt` with
+
+\footnotesize
+```cmake
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+```
+
+\normalsize
+
+in order to use the mathematical constants
+
 \emoji{open-book} [`std::numbers::pi`](https://en.cppreference.com/w/cpp/symbol_index/numbers)
+
+\emoji{open-book} [`std::numbers::e`](https://en.cppreference.com/w/cpp/symbol_index/numbers)
+
+\emoji{open-book} [`std::numbers::egamma`](https://en.cppreference.com/w/cpp/symbol_index/numbers)
+
+\emoji{open-book} [`std::numbers::phi`](https://en.cppreference.com/w/cpp/symbol_index/numbers)
 
 :::
 ::: {.column width="55%" align=center}
