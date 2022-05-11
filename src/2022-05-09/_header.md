@@ -46,4 +46,3 @@ header-includes:
     \hypersetup{colorlinks=true}
     ```
 ---
-<!-- https://github.com/matze/mtheme/issues/321#issuecomment-398756706 -->
