@@ -1,10 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <random>
-#include <fmt/ranges.h>
-
-// https://github.com/p-ranav/tabulate
+#include <fmt/core.h>
 
 int main(int argc, const char **argv)
 {
@@ -29,6 +23,7 @@ int main(int argc, const char **argv)
     return 9. / 5 * (temperature_kelvin - 273.15) + 32;
   };
 
+  /*
   std::vector<float> v(20);
   std::default_random_engine gen{std::random_device{}()};
   // https://en.wikipedia.org/wiki/Scale_of_temperature#Conversion_table_between_different_temperature_scales
@@ -36,13 +31,14 @@ int main(int argc, const char **argv)
 
   std::generate(std::begin(v), std::end(v), [&]
                 { return distribution(gen); });
-  fmt::print("°C: {}\n", v);
   // std::for_each(std::begin(v), std::end(v), [](double &a)
   // { a *= 3; });
-
   // std::for_each(std::begin(v), std::end(v), [&]
   //                { return fahrenheit2celsius; });
-  fmt::print("°F: {}\n", v);
+  */
+  float temperature = 100.0;
+  fmt::print("°F: {0:.2f}\n", temperature);
+  fmt::print("°C: {0:.2f}\n", fahrenheit2celsius(temperature));
 
   return 0;
 }

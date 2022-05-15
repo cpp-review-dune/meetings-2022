@@ -6,7 +6,24 @@
 
 - \texttt{Sun May  15 07:00:00 AM -05 2022}.
 
-# `Ejercicios`
+# `Functions`
+
+$$
+Df\colon
+\mathcal{D}\to
+L\left(\mathcal{D}, \mathcal{R}\right)
+$$
+
+\emoji{open-book} [`std::function`](https://en.cppreference.com/w/cpp/utility/functional/function)
+is a general-purpose polymorphic function wrapper.
+
+\footnotesize
+```cpp
+template <class R, class... Args>
+class function<R(Args...)>
+```
+
+# `Functions`
 
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="50%" align=center}
@@ -22,6 +39,12 @@
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={1}, firstline=1, lastline=7]{cpp}{src/2022-05-09/src/exercise1.cc}
+\inputminted[highlightlines={1}, firstline=1, lastline=7]{cpp}{src/2022-05-09/function.cc}
 :::
 ::::::::::::::
+
+# Solving $Ax=v$
+
+$$
+x=A^{-1}v.
+$$
