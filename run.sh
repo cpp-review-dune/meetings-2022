@@ -1,9 +1,10 @@
 #! /usr/bin/env bash
 
-DATE=2022-05-15
+DATE=2022-10-23
+ENGINE=lualatex
 # DATE=$(date -u +"%Y-%m-%d")
 
-pandoc src/$DATE/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape -o $DATE.pdf # --bibliography src/$DATE/bib.bib --toc --toc-depth=2
+pandoc src/$DATE/*.md -t beamer -V lang=es --pdf-engine=$ENGINE --pdf-engine-opt=-shell-escape -o $DATE.pdf # --bibliography src/$DATE/bib.bib --toc --toc-depth=2
 
 if [ -e /etc/debian_version ]; then
   okular $DATE.pdf &
