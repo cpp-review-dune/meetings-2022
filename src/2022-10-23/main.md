@@ -1,11 +1,11 @@
 ## \emoji{snake} Python para computación científica
 
-1. **Objetivos generales**
+1. **Objetivos generales** \emoji{bullseye}
    1. Revisión y profundización del curso en línea de Computación
-   Científica en Python dado por Dayron Chang [\ref{dayron2022}] y la
+   Científica en Python dado por Dayron Chang y la
    Escuela de Primavera sobre Computación Científica organizado por
-   Peruvian Competence Center of Scientific Computing [\ref{unsaac2022}].
-   2. Implementación de un proyecto basado en Python.
+   Peruvian Competence Center of Scientific Computing.
+   1. Implementación de un \alert{proyecto} basado en Python.
 2. **Bibliotecas a tratar**\qquad (\emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México)
    1. NumPy\qquad\alert{\texttt{Domingo, 6 de noviembre 08:00-09:30 a.m.}}
    2. Matplotlib \texttt{Domingo, 13 de noviembre 08:00-09:30 a.m.}
@@ -13,15 +13,14 @@
    4. PyTorch \texttt{Domingo, 27 de noviembre 08:00-09:30 a.m.}
 3. **Entornos de trabajo**
    1. Google Colab [https://colab.research.google.com](https://colab.research.google.com)
-   2. Zoom [https://zoom.us](https://zoom.us)
+   2. Zoom meetings [https://zoom.us](https://zoom.us)
 4. **Inscripciones**
    1. Vía formulario en [https://cpp-review-dune.github.io/tutorial/python](https://cpp-review-dune.github.io/tutorial/python)
    2. La fecha límite es el \alert{1 de noviembre del 2022}.
    3. Los talleres son completamente gratuitos.
-5. **Referencias**
+<!-- 5. **Referencias** [\ref{dayron2022}] [\ref{unsaac2022}]
    [^1]: [https://www.pec3.org/events/python2022/?lang=es \label{dayron2022}](https://www.pec3.org/events/python2022/?lang=es)
-   [^2]: [https://www.pec3.org/events/school2022/materials.php \label{unsaac2022}](https://www.pec3.org/events/school2022/materials.php)
-   [^3]: Numerical Python, A Practical Techniques Approach  
+   [^2]: [https://www.pec3.org/events/school2022/materials.php \label{unsaac2022}](https://www.pec3.org/events/school2022/materials.php) -->
 
 El taller estará a cargo del estudiante Carlos Aznarán.
 
@@ -59,3 +58,24 @@ institución
    5. logo
    6. pedir confirmación de recepción de link
 -->
+
+## Prueba
+
+- @item1 says blah.
+- @item1 [p. 30] says blah.
+- @item1 [p. 30, with suffix] says blah.
+- @item1 [-@item2 p. 30; see also @item3] says blah.
+- In a note.[^1]
+- A citation group [see @item1 p. 34-35; also @item3 chap. 3].
+- Another one [see @item1 p. 34-35].
+- And another one in a note.[^2]
+- Citation with a suffix and locator [@item1 pp. 33, 35-37, and nowhere else].
+- Citation with suffix only [@item1 and nowhere else].
+- Now some modifiers.[^3]
+- With some markup [*see* @item1 p. **32**].
+
+[^1]: A citation without locators [@item3].
+
+[^2]: Some citations [see @item2 chap. 3; @item3; @item1].
+
+[^3]: Like a citation without author: [-@item1], and now Doe with a locator [-@item2 p. 44].
