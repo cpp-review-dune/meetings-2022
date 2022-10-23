@@ -1,26 +1,29 @@
-## \emoji{book} Organización
+## \emoji{snake} Python para computación científica
 
-1. Objetivos generales
-   1. Revisión y profundización del curso en línea de Computación Científica en Python dado por Dayron Chang [\ref{dayron2022}] y la Escuela de Primavera sobre Computación Científica organizado por Peruvian Competence Center of Scientific Computing [\ref{unsaac2022}].
+1. **Objetivos generales**
+   1. Revisión y profundización del curso en línea de Computación
+   Científica en Python dado por Dayron Chang [\ref{dayron2022}] y la
+   Escuela de Primavera sobre Computación Científica organizado por
+   Peruvian Competence Center of Scientific Computing [\ref{unsaac2022}].
    2. Implementación de un proyecto basado en Python.
-2. Bibliotecas a tratar\qquad (\emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México)
+2. **Bibliotecas a tratar**\qquad (\emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México)
    1. NumPy\qquad\alert{\texttt{Domingo, 6 de noviembre 08:00-09:30 a.m.}}
    2. Matplotlib \texttt{Domingo, 13 de noviembre 08:00-09:30 a.m.}
    3. SciPy \texttt{Domingo, 20 de noviembre 08:00-09:30 a.m.}
    4. PyTorch \texttt{Domingo, 27 de noviembre 08:00-09:30 a.m.}
-3. Entornos de trabajo
+3. **Entornos de trabajo**
    1. Google Colab [https://colab.research.google.com](https://colab.research.google.com)
    2. Zoom [https://zoom.us](https://zoom.us)
-4. Inscripciones
+4. **Inscripciones**
    1. Vía formulario en [https://cpp-review-dune.github.io/tutorial/python](https://cpp-review-dune.github.io/tutorial/python)
    2. La fecha límite es el \alert{1 de noviembre del 2022}.
    3. Los talleres son completamente gratuitos.
-5. Referencias
-   1. [https://www.pec3.org/events/python2022/?lang=es \label{dayron2022}](https://www.pec3.org/events/python2022/?lang=es)
-   2. [https://www.pec3.org/events/school2022/materials.php \label{unsaac2022}](https://www.pec3.org/events/school2022/materials.php)
-   3. Numerical Python, A Practical Techniques Approach  
+5. **Referencias**
+   [^1]: [https://www.pec3.org/events/python2022/?lang=es \label{dayron2022}](https://www.pec3.org/events/python2022/?lang=es)
+   [^2]: [https://www.pec3.org/events/school2022/materials.php \label{unsaac2022}](https://www.pec3.org/events/school2022/materials.php)
+   [^3]: Numerical Python, A Practical Techniques Approach  
 
-El profesor del taller es Carlos Aznarán.
+El taller estará a cargo del estudiante Carlos Aznarán.
 
 Organizado por el grupo C++ Review Dune. 
 <!-- Plazos
@@ -43,6 +46,7 @@ Python tutor
 No se ofrece un certificado o constancia porque se trata de un grupo de estudio.
 asistencia libre, clases grabadas.
 enable waiting room, habilitar sonido
+tener un link de meet
 nombre
 correo
 especialidad

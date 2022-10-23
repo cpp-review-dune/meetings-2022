@@ -1,8 +1,10 @@
 ---
 title:
-  - \normalsize Python para computación científica
+  - \emoji{snake} Python para computación científica
 author:
-  - C++ Review Dune
+  - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
+institute: |
+  \includegraphics[width=0.65in]{src/2022-10-23/cppreviewdune.png}
 lang:
   - es
 indent:
@@ -10,7 +12,7 @@ indent:
 fontsize:
   - 8pt
 aspectratio:
-  - 1610
+  - 169
 papersize:
   - a4
 navigation:
