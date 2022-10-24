@@ -34,7 +34,7 @@ jobs:
           run: |
             sudo chown -R 33333:33333 /work
             cd /work
-            # curl -O https://plmlab.math.cnrs.fr/mchupin/mcbeamertheme/-/raw/main/beamerthemeAmurmaple.sty
+            curl -O https://plmlab.math.cnrs.fr/mchupin/mcbeamertheme/-/raw/main/beamerthemeAmurmaple.sty
             # dates=$(ls src -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
             export TERM=xterm
