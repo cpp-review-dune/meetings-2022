@@ -39,7 +39,7 @@ class function<R(Args...)>
 ## Code snippet
 
 \footnotesize
-\inputminted[highlightlines={1}, firstline=1, lastline=7]{cpp}{src/2022-05-09/function.cc}
+\inputminted[highlightlines={1}, firstline=1, lastline=7]{cpp}{src/2022-05-16/function.cc}
 :::
 ::::::::::::::
 
