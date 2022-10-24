@@ -1,6 +1,6 @@
 ---
 title:
-  - \emoji{snake} Python para computación científica
+  - \emoji{snake} Python para la computación científica
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |
@@ -45,5 +45,6 @@ header-includes:
     \usepackage{mathtools}
     \usepackage{minted}
     \hypersetup{colorlinks=true}
+    \newcommand{\MVAt}{{\usefont{U}{mvs}{m}{n}\symbol{`@}}}
     ```
 ---

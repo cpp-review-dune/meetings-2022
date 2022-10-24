@@ -1,47 +1,52 @@
-## \emoji{snake} Python para computación científica
+## \emoji{snake} Python para la computación científica
 
 1. **Objetivos generales** \emoji{bullseye}
-   1. Revisión y profundización del curso en línea de Computación
-   Científica en Python dado por Dayron Chang y la
-   Escuela de Primavera sobre Computación Científica organizado por
-   Peruvian Competence Center of Scientific Computing.
-   1. Implementación de un \alert{proyecto} basado en Python.
-2. **Bibliotecas a tratar**\qquad (\emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México)
-   1. NumPy\qquad\alert{\texttt{Domingo, 6 de noviembre 08:00-09:30 a.m.}}
-   2. Matplotlib \texttt{Domingo, 13 de noviembre 08:00-09:30 a.m.}
-   3. SciPy \texttt{Domingo, 20 de noviembre 08:00-09:30 a.m.}
-   4. PyTorch \texttt{Domingo, 27 de noviembre 08:00-09:30 a.m.}
-3. **Entornos de trabajo**
-   1. Google Colab [https://colab.research.google.com](https://colab.research.google.com)
-   2. Zoom meetings [https://zoom.us](https://zoom.us)
-4. **Inscripciones**
-   1. Vía formulario en [https://cpp-review-dune.github.io/tutorial/python](https://cpp-review-dune.github.io/tutorial/python)
-   2. La fecha límite es el \alert{1 de noviembre del 2022}.
-   3. Los talleres son completamente gratuitos.
-<!-- 5. **Referencias** [\ref{dayron2022}] [\ref{unsaac2022}]
-   [^1]: [https://www.pec3.org/events/python2022/?lang=es \label{dayron2022}](https://www.pec3.org/events/python2022/?lang=es)
-   [^2]: [https://www.pec3.org/events/school2022/materials.php \label{unsaac2022}](https://www.pec3.org/events/school2022/materials.php) -->
+   1. Revisión y profundización de los cursos [@Chang2022; @Wick2022]
+   organizados por el Centro Peruano de Competencia en Computación
+   Científica (PeC$^3$).
+   1. Implementación de un \alert{proyecto} [@Johansson2019] basado
+   en Python.
+2. **Cronograma**[^1] \emoji{spiral-calendar}
+   1. \textcolor{AmurmapleGreen}{\href{https://numpy.org}{NumPy}}
+   \textcolor{AmurmapleRed}{domingo 6 de noviembre de 08:00 - 09:30 a.m.}
+   1. \textcolor{AmurmapleGreen}{\href{https://matplotlib.org}{Matplotlib}}
+   \textcolor{AmurmapleRed}{domingo 13 de noviembre de 08:00 - 09:30 a.m.}
+   1. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{SciPy}}
+   \textcolor{AmurmapleRed}{domingo 20 de noviembre de 08:00 - 09:30 a.m.}
+   1. \textcolor{AmurmapleGreen}{\href{https://pytorch.org}{PyTorch}}
+   \textcolor{AmurmapleRed}{domingo 27 de noviembre de 08:00 - 09:30 a.m.}
+3. **Inscripciones** \emoji{memo}
+   1. Vía formulario en
+   \url{https://cpp-review-dune.github.io/tutorial/python}.
+   1. La fecha límite es el
+   \boxalert{martes 1 de noviembre del 2022}.
+   1. Los talleres son \structure{completamente gratuitos}.
 
-El taller estará a cargo del estudiante Carlos Aznarán.
+El presente taller estará a cargo del estudiante Carlos Aznarán[^2] y
+organizado por el grupo
+[C++ Review DUNE](https://github.com/cpp-review-dune).
 
-Organizado por el grupo C++ Review Dune. 
-<!-- Plazos
-el grupo de telegram se les da después.
+### Referencias
 
-manejo de clases, excepciones, manejo de archivos
-https://pythontutor.com/render.html#mode=display
-cubrir los metodos disponibles de los tipos de datos
-Resolución de.
+[^1]: Hora de \emoji{flag-peru} Lima, \emoji{flag-colombia} Bogotá, \emoji{flag-mexico} Ciudad de México, modalidad virtual por \href{https://zoom.us}{Zoom meetings} y \href{https://colab.research.google.com}{Google Colab}.
+[^2]: Universidad Nacional de Ingeniería,
+\href{mailto:caznaranl@uni.pe}{caznaranl\MVAt uni.pe}
+
+<!--
+Invitación al grupo de telegram en la primera sesión.
+
+Ejemplos de los métodos disponibles, tipos de datos
+Manejo de clases, excepciones, archivos.
+https://pythontutor.com
+Resolución de ecuaciones.
 Probar otros software como dea.II, Dolfinx o Dune en python.
 Python tutor
-1. Linux, Windows, macOS.
-2. GitHub
-3. Programación orientada a objetos [https://docs.python.org/es/3/tutorial/classes.html](https://docs.python.org/es/3/tutorial/classes.html)
-4. Manejo de errores y excepciones [https://docs.python.org/es/3/tutorial/errors.html](https://docs.python.org/es/3/tutorial/errors.html)
-5. Manejo de archivos [https://docs.python.org/es/3/tutorial/inputoutput.html](https://docs.python.org/es/3/tutorial/inputoutput.html)
-6. hacer host a otra persona.
-7. Tipos de datos en Python
-8. Fundamentos de. Estudio de la programación orientada a objetos, manejo de errores y excepciones, archivos.
+1. Programación orientada a objetos [https://docs.python.org/es/3/tutorial/classes.html](https://docs.python.org/es/3/tutorial/classes.html)
+2. Manejo de errores y excepciones [https://docs.python.org/es/3/tutorial/errors.html](https://docs.python.org/es/3/tutorial/errors.html)
+3. Manejo de archivos [https://docs.python.org/es/3/tutorial/inputoutput.html](https://docs.python.org/es/3/tutorial/inputoutput.html)
+4. Tipos de datos en Python
+5. hacer host a otra persona.
+6. Fundamentos de. Estudio de la programación orientada a objetos, manejo de errores y excepciones, archivos.
 No se ofrece un certificado o constancia porque se trata de un grupo de estudio.
 asistencia libre, clases grabadas.
 enable waiting room, habilitar sonido
@@ -58,24 +63,3 @@ institución
    5. logo
    6. pedir confirmación de recepción de link
 -->
-
-## Prueba
-
-- @item1 says blah.
-- @item1 [p. 30] says blah.
-- @item1 [p. 30, with suffix] says blah.
-- @item1 [-@item2 p. 30; see also @item3] says blah.
-- In a note.[^1]
-- A citation group [see @item1 p. 34-35; also @item3 chap. 3].
-- Another one [see @item1 p. 34-35].
-- And another one in a note.[^2]
-- Citation with a suffix and locator [@item1 pp. 33, 35-37, and nowhere else].
-- Citation with suffix only [@item1 and nowhere else].
-- Now some modifiers.[^3]
-- With some markup [*see* @item1 p. **32**].
-
-[^1]: A citation without locators [@item3].
-
-[^2]: Some citations [see @item2 chap. 3; @item3; @item1].
-
-[^3]: Like a citation without author: [-@item1], and now Doe with a locator [-@item2 p. 44].
